@@ -13,6 +13,7 @@ from config import (
     OPEN_METEO_FORECAST_URL,
     RAW_DIR,
     parse_monsoon_start,
+    today_ist,
 )
 
 TIMEOUT_SECONDS = 30
@@ -37,7 +38,7 @@ def collect_archive(today: date | None = None) -> list[dict[str, Any]]:
     If the archive API has not yet materialised very recent days, the caller can
     still use collect_forecast() for today and coming days.
     """
-    today = today or date.today()
+    today = today or today_ist()
     start = parse_monsoon_start()
     end = max(start, today - timedelta(days=1))
     results: list[dict[str, Any]] = []
@@ -75,7 +76,7 @@ def collect_forecast() -> list[dict[str, Any]]:
         params = {
             "latitude": station.latitude,
             "longitude": station.longitude,
-            "hourly": "precipitation,rain,weather_code,wind_speed_10m",
+            "hourly": "precipitation,rain,showers,weather_code,wind_speed_10m",
             "daily": "precipitation_sum,precipitation_probability_max,weather_code,wind_speed_10m_max",
             "current": "precipitation,rain,weather_code,wind_speed_10m",
             "timezone": "Asia/Kolkata",
