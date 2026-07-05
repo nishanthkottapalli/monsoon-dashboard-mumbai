@@ -166,19 +166,36 @@ function renderAreas(data) {
   const root = document.getElementById('areas');
   root.innerHTML = '';
 
-  (data.current.areas || []).slice(0, 10).forEach(area => {
+  const areas = [...(data.current.areas || [])].sort((a, b) => {
+    const scoreDiff = Number(b.impact_score || 0) - Number(a.impact_score || 0);
+    if (scoreDiff !== 0) return scoreDiff;
+
+    const susceptibilityDiff = Number(b.susceptibility || 0) - Number(a.susceptibility || 0);
+    if (susceptibilityDiff !== 0) return susceptibilityDiff;
+
+    return String(a.name || '').localeCompare(String(b.name || ''));
+  });
+
+  for (const area of areas) {
     const colour = RISK_COLOURS[area.risk_level] || RISK_COLOURS.normal;
     const node = document.createElement('div');
     node.className = 'area';
 
     node.innerHTML = `
-      <strong>${area.name}<span style="color:${colour}">${area.impact_score}</span></strong>
-      <small class="muted">${area.zone} · ${area.risk_level.toUpperCase()} · ${area.signals.join(', ')}</small>
+      <strong>
+        ${area.name}
+        <span style="color:${colour}">${area.impact_score}</span>
+      </strong>
+      <small class="muted">
+        ${area.zone} · ${area.risk_level.toUpperCase()} ·
+        susceptibility ${fmtNumber(area.susceptibility, 2)} ·
+        ${area.signals.join(', ')}
+      </small>
       <p>${area.summary}</p>
     `;
 
     root.appendChild(node);
-  });
+  }
 }
 
 function renderSources(data) {
