@@ -675,7 +675,7 @@
             "name": "Colaba",
             "zone": "South Mumbai"
           },
-          "observed_at": "2026-07-05T11:00",
+          "observed_at": "2026-07-05T11:15",
           "severity": "normal",
           "source": "open_meteo_forecast",
           "type": "current_weather",
@@ -683,7 +683,7 @@
             "precipitation_mm": 1.6,
             "rain_mm": 0.6,
             "weather_code": 95,
-            "wind_speed_10m_kmh": 42.0
+            "wind_speed_10m_kmh": 41.7
           }
         },
         {
@@ -694,7 +694,7 @@
             "name": "Santacruz",
             "zone": "Western Suburbs"
           },
-          "observed_at": "2026-07-05T11:00",
+          "observed_at": "2026-07-05T11:15",
           "severity": "normal",
           "source": "open_meteo_forecast",
           "type": "current_weather",
@@ -702,7 +702,7 @@
             "precipitation_mm": 0.7,
             "rain_mm": 0.3,
             "weather_code": 95,
-            "wind_speed_10m_kmh": 25.9
+            "wind_speed_10m_kmh": 25.7
           }
         },
         {
@@ -713,7 +713,7 @@
             "name": "Powai",
             "zone": "Eastern Suburbs"
           },
-          "observed_at": "2026-07-05T11:00",
+          "observed_at": "2026-07-05T11:15",
           "severity": "normal",
           "source": "open_meteo_forecast",
           "type": "current_weather",
@@ -721,7 +721,7 @@
             "precipitation_mm": 1.0,
             "rain_mm": 0.6,
             "weather_code": 95,
-            "wind_speed_10m_kmh": 19.2
+            "wind_speed_10m_kmh": 18.5
           }
         }
       ],
@@ -12915,7 +12915,7 @@
             "name": "Colaba",
             "zone": "South Mumbai"
           },
-          "observed_at": "2026-07-05T11:00",
+          "observed_at": "2026-07-05T11:15",
           "severity": "severe",
           "source": "open_meteo_forecast_hourly",
           "type": "rain_nowcast",
@@ -12926,7 +12926,7 @@
             "recent_3h_mm": 19.7,
             "recent_6h_mm": 54.4,
             "weather_code": 95,
-            "wind_speed_10m_kmh": 42.0
+            "wind_speed_10m_kmh": 41.7
           }
         },
         {
@@ -12937,7 +12937,7 @@
             "name": "Santacruz",
             "zone": "Western Suburbs"
           },
-          "observed_at": "2026-07-05T11:00",
+          "observed_at": "2026-07-05T11:15",
           "severity": "severe",
           "source": "open_meteo_forecast_hourly",
           "type": "rain_nowcast",
@@ -12948,7 +12948,7 @@
             "recent_3h_mm": 16.3,
             "recent_6h_mm": 43.7,
             "weather_code": 95,
-            "wind_speed_10m_kmh": 25.9
+            "wind_speed_10m_kmh": 25.7
           }
         },
         {
@@ -12959,7 +12959,7 @@
             "name": "Powai",
             "zone": "Eastern Suburbs"
           },
-          "observed_at": "2026-07-05T11:00",
+          "observed_at": "2026-07-05T11:15",
           "severity": "high",
           "source": "open_meteo_forecast_hourly",
           "type": "rain_nowcast",
@@ -12970,7 +12970,7 @@
             "recent_3h_mm": 12.8,
             "recent_6h_mm": 33.2,
             "weather_code": 95,
-            "wind_speed_10m_kmh": 19.2
+            "wind_speed_10m_kmh": 18.5
           }
         }
       ]
@@ -12989,7 +12989,7 @@
     "tide": {
       "confidence": "low",
       "disclaimer": "Approximate non-official tide signal. Use official BMC/Mumbai Port tide tables for safety-critical decisions.",
-      "generated_at": "2026-07-05T11:14:30.341903+05:30",
+      "generated_at": "2026-07-05T11:15:45.343042+05:30",
       "high_tide_windows": [
         {
           "confidence": "low",
@@ -13018,8 +13018,8 @@
     }
   },
   "disclaimer": "Experimental public-information dashboard. Not an official emergency, disaster-management, weather, traffic, railway or airport system.",
-  "generated_at": "2026-07-05T11:14:30.367418+05:30",
-  "monsoon_start_date": "2026-06-02",
+  "generated_at": "2026-07-05T11:15:45.452547+05:30",
+  "monsoon_start_date": "2026-06-23",
   "project": "mumbai-monsoon-dashboard",
   "schema_version": "1.0.0",
   "sources": [
