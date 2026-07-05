@@ -70,6 +70,26 @@ MONSOON_START_DATE=2026-06-01 python scripts/seed_chronology.py
 
 The generated `chronology[]` array is always written in ascending chronological order from `MONSOON_START_DATE` through the current date.
 
+
+## Current-rain nowcast fix
+
+The dashboard no longer waits only for the daily archive row to materialise. The update pipeline now uses three rainfall layers:
+
+1. Historical daily archive values for completed days.
+2. Today's daily forecast value.
+3. Current/hourly rainfall nowcast values from the forecast endpoint.
+
+For the current date only, `chronology[]` may contain a provisional row when active rainfall or the daily forecast is stronger than the archived daily value. This is marked with:
+
+```json
+{
+  "provisional": true,
+  "basis": "nowcast_intensity_equivalent_mm"
+}
+```
+
+This keeps the timeline chronological while allowing the public dashboard to react during heavy rain before final daily rainfall data is available.
+
 ## What it shows
 
 - Mumbai city impact score
