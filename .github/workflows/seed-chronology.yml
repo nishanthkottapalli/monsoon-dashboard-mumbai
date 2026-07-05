@@ -6,7 +6,7 @@ on:
       monsoon_start_date:
         description: "Optional override for monsoon start date, YYYY-MM-DD"
         required: false
-        default: "2026-06-23"
+        default: "2026-06-02"
 
 permissions:
   contents: write
@@ -15,7 +15,7 @@ jobs:
   seed-chronology:
     runs-on: ubuntu-latest
     env:
-      MONSOON_START_DATE: ${{ github.event.inputs.monsoon_start_date || '2026-06-23' }}
+      MONSOON_START_DATE: ${{ github.event.inputs.monsoon_start_date || '2026-06-02' }}
     steps:
       - name: Checkout
         uses: actions/checkout@v4
