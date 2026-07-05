@@ -1,0 +1,43 @@
+name: Seed Monsoon Chronology
+
+on:
+  workflow_dispatch:
+    inputs:
+      monsoon_start_date:
+        description: "Optional override for monsoon start date, YYYY-MM-DD"
+        required: false
+        default: "2026-06-23"
+
+permissions:
+  contents: write
+
+jobs:
+  seed-chronology:
+    runs-on: ubuntu-latest
+    env:
+      MONSOON_START_DATE: ${{ github.event.inputs.monsoon_start_date || '2026-06-23' }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Seed canonical chronology
+        run: python scripts/seed_chronology.py
+
+      - name: Build GitHub Pages bundle
+        run: python scripts/build_public_data.py
+
+      - name: Commit seeded chronology
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+          git add data/raw data/normalized data/public/chronology.json data/public/areas.geojson docs
+          git commit -m "Seed Mumbai monsoon chronology" || echo "No changes to commit"
+          git push

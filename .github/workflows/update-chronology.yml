@@ -1,0 +1,62 @@
+name: Update Monsoon Chronology
+
+on:
+  schedule:
+    - cron: "*/30 * * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  preflight:
+    runs-on: ubuntu-latest
+    outputs:
+      chronology_exists: ${{ steps.chronology.outputs.exists }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Check seeded chronology exists
+        id: chronology
+        run: |
+          if [ -f data/public/chronology.json ]; then
+            echo "exists=true" >> "$GITHUB_OUTPUT"
+            echo "chronology.json exists; scheduled update can run."
+          else
+            echo "exists=false" >> "$GITHUB_OUTPUT"
+            echo "chronology.json is missing; skipping update. Run the Seed Monsoon Chronology workflow first."
+          fi
+
+  update-chronology:
+    needs: preflight
+    if: needs.preflight.outputs.chronology_exists == 'true'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Collect public data
+        run: python scripts/run_collectors.py
+
+      - name: Update canonical chronology
+        run: python scripts/run_analyzer.py
+
+      - name: Build GitHub Pages bundle
+        run: python scripts/build_public_data.py
+
+      - name: Commit generated chronology data
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+          git add data/raw data/normalized data/public/chronology.json data/public/areas.geojson docs
+          git commit -m "Update Mumbai monsoon chronology" || echo "No changes to commit"
+          git push
