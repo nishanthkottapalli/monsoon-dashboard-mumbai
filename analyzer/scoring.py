@@ -162,7 +162,7 @@ def build_area_scores(max_rain_mm: float, city_score: int) -> list[dict[str, Any
     return areas
 
 
-def build_briefing(city: dict[str, Any], max_rain_mm: float) -> dict[str, Any]:
+def build_briefing(city: dict[str, Any], max_rain_mm: float, rainfall_signal: dict[str, Any] | None = None) -> dict[str, Any]:
     level = city["risk_level"]
     if level == "severe":
         headline = "Mumbai is facing severe monsoon disruption risk."
@@ -183,9 +183,18 @@ def build_briefing(city: dict[str, Any], max_rain_mm: float) -> dict[str, Any]:
     if max_rain_mm >= 60:
         advisory.insert(1, "Expect localised waterlogging and slower transport movement in susceptible areas.")
 
+    rainfall_signal = rainfall_signal or {}
+    basis = rainfall_signal.get("basis", "observed_or_forecast")
+    nowcast = rainfall_signal.get("nowcast", {})
+    basis_note = ""
+    if basis == "nowcast_intensity_equivalent_mm":
+        basis_note = f" Current-hour rain signal is {nowcast.get('current_hour_mm', 0)} mm, with {nowcast.get('recent_3h_mm', 0)} mm in the recent 3h window."
+    elif basis == "today_forecast_mm":
+        basis_note = " Today's forecast rainfall is currently stronger than the archive signal."
+
     return {
         "headline": headline,
-        "overview": f"The current explainable model is driven primarily by a maximum observed/forecast rainfall signal of {round(max_rain_mm, 1)} mm.",
+        "overview": f"The current explainable model is driven primarily by a rainfall/nowcast disruption signal of {round(max_rain_mm, 1)} mm. Basis: {basis}.{basis_note}",
         "public_advisory": advisory,
         "method_note": "Impact is computed from public rainfall data plus transparent derived signals for waterlogging, traffic, rail and tide risk. This is not an official alerting system.",
     }
