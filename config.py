@@ -1,18 +1,21 @@
 """Project configuration for Monsoon Dashboard - Mumbai.
 
-The default monsoon start date is set to 2026-06-23 because IMD's 23 June 2026
-monsoon advancement note says the Southwest Monsoon advanced into parts of
-Maharashtra including Mumbai on that date. Override MONSOON_START_DATE in the
-GitHub Actions environment if you want to use a different season anchor.
+The configured Mumbai monsoon start date is 2026-06-02.
+
+This date is intentionally treated as the canonical local project anchor for the
+current monsoon chronology. Override MONSOON_START_DATE in the GitHub Actions
+environment only if you intentionally want to rebuild the season timeline from
+a different date.
 """
 from __future__ import annotations
 
 import os
 from dataclasses import dataclass
-from datetime import date, datetime
+from datetime import date
 from zoneinfo import ZoneInfo
 
 IST = ZoneInfo("Asia/Kolkata")
+
 
 @dataclass(frozen=True)
 class Station:
@@ -21,13 +24,14 @@ class Station:
     longitude: float
     zone: str
 
+
 MUMBAI_STATIONS = [
     Station("Colaba", 18.9067, 72.8147, "South Mumbai"),
     Station("Santacruz", 19.0896, 72.8656, "Western Suburbs"),
     Station("Powai", 19.1176, 72.9060, "Eastern Suburbs"),
 ]
 
-MONSOON_START_DATE = os.getenv("MONSOON_START_DATE", "2026-06-23")
+MONSOON_START_DATE = os.getenv("MONSOON_START_DATE", "2026-06-02")
 PROJECT_NAME = "mumbai-monsoon-dashboard"
 CITY_NAME = "Mumbai"
 
@@ -65,10 +69,6 @@ AREAS = [
     {"name": "Mulund", "zone": "Eastern Suburbs", "lat": 19.1726, "lon": 72.9425, "susceptibility": 0.45},
 ]
 
+
 def parse_monsoon_start() -> date:
     return date.fromisoformat(MONSOON_START_DATE)
-
-
-def today_ist() -> date:
-    """Return today in Mumbai time, not the GitHub runner's UTC date."""
-    return datetime.now(IST).date()
