@@ -2093,10 +2093,10 @@
     "type": "daily_rainfall",
     "value": {
       "precipitation_hours": 24.0,
-      "precipitation_sum_mm": 206.5,
-      "temperature_2m_max_c": 28.1,
+      "precipitation_sum_mm": 218.9,
+      "temperature_2m_max_c": 28.0,
       "temperature_2m_min_c": 26.9,
-      "wind_speed_10m_max_kmh": 43.8
+      "wind_speed_10m_max_kmh": 42.5
     }
   },
   {
@@ -2109,15 +2109,15 @@
       "zone": "Eastern Suburbs"
     },
     "observed_date": "2026-07-05",
-    "severity": "moderate",
+    "severity": "high",
     "source": "open_meteo_archive",
     "type": "daily_rainfall",
     "value": {
       "precipitation_hours": 24.0,
-      "precipitation_sum_mm": 98.8,
+      "precipitation_sum_mm": 108.3,
       "temperature_2m_max_c": 26.5,
       "temperature_2m_min_c": 25.2,
-      "wind_speed_10m_max_kmh": 23.3
+      "wind_speed_10m_max_kmh": 20.5
     }
   },
   {
@@ -2135,10 +2135,10 @@
     "type": "daily_rainfall",
     "value": {
       "precipitation_hours": 24.0,
-      "precipitation_sum_mm": 124.1,
-      "temperature_2m_max_c": 27.1,
+      "precipitation_sum_mm": 136.9,
+      "temperature_2m_max_c": 27.0,
       "temperature_2m_min_c": 25.9,
-      "wind_speed_10m_max_kmh": 34.2
+      "wind_speed_10m_max_kmh": 30.3
     }
   }
 ]
