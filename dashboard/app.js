@@ -34,6 +34,11 @@ function renderHeader(data) {
   document.getElementById('risk-level').textContent = data.current.city.risk_level;
   document.getElementById('briefing-headline').textContent = data.current.briefing.headline;
   document.getElementById('briefing-overview').textContent = data.current.briefing.overview;
+  const signal = data.current.rainfall_signal || {};
+  const nowcast = signal.nowcast || {};
+  const signalText = `Rainfall signal: ${data.current.rainfall_signal_mm || 0} mm · ${titleCase(signal.basis || 'unknown')} · current hour ${nowcast.current_hour_mm || 0} mm · recent 3h ${nowcast.recent_3h_mm || 0} mm`;
+  const signalNode = document.getElementById('rainfall-signal');
+  if (signalNode) signalNode.textContent = signalText;
   document.getElementById('generated-at').textContent = `Last updated: ${fmtDateTime(data.generated_at)}`;
   document.getElementById('monsoon-start').textContent = `Chronological data starts: ${data.monsoon_start_date}`;
   document.getElementById('disclaimer').textContent = data.disclaimer;
@@ -141,7 +146,7 @@ function renderHistory(data) {
   ctx.clearRect(0, 0, width, height);
   ctx.font = '14px system-ui';
   ctx.fillStyle = '#9fb0bd';
-  ctx.fillText('Rainfall max mm and impact score from monsoon start', 24, 28);
+  ctx.fillText('Daily rainfall / today nowcast signal and impact score from monsoon start', 24, 28);
   if (!history.length) {
     ctx.fillText('No history available yet.', 24, 70);
     return;
@@ -179,7 +184,7 @@ function renderHistory(data) {
   });
   ctx.stroke();
 
-  ctx.fillStyle = '#67e8f9'; ctx.fillText('Rainfall max', pad.left, height - 16);
+  ctx.fillStyle = '#67e8f9'; ctx.fillText('Rain/nowcast signal', pad.left, height - 16);
   ctx.fillStyle = '#f9c74f'; ctx.fillText('Impact score', pad.left + 130, height - 16);
   ctx.fillStyle = '#9fb0bd';
   ctx.fillText(history[0].date, pad.left, height - 32);
