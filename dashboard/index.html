@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Mumbai Monsoon Dashboard</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://unpkg.com" />
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" crossorigin="" />
+  </head>
+  <body>
+    <header class="hero">
+      <div>
+        <p class="eyebrow">mumbai-monsoon-dashboard</p>
+        <h1>Mumbai Monsoon Impact Dashboard</h1>
+        <p class="subtitle">Public, static, explainable monsoon disruption signals for Mumbai.</p>
+      </div>
+      <div class="score-card" id="score-card">
+        <span class="score-label">Impact Score</span>
+        <strong id="impact-score">--</strong>
+        <span id="risk-level">Loading</span>
+      </div>
+    </header>
+
+    <main>
+      <section class="grid two">
+        <article class="panel">
+          <h2>Current briefing</h2>
+          <h3 id="briefing-headline">Loading latest briefing…</h3>
+          <p id="briefing-overview"></p>
+          <ul id="public-advisory"></ul>
+          <p class="muted" id="generated-at"></p>
+          <p class="muted" id="monsoon-start"></p>
+        </article>
+        <article class="panel">
+          <h2>Risk drivers</h2>
+          <div id="drivers" class="driver-list"></div>
+        </article>
+      </section>
+
+      <section class="panel map-panel">
+        <div class="section-heading">
+          <h2>Area-wise disruption map</h2>
+          <p>Markers are ranked by explainable public risk signals, not official flood forecasts.</p>
+        </div>
+        <div id="map"></div>
+      </section>
+
+      <section class="grid two">
+        <article class="panel">
+          <h2>Highest-risk areas</h2>
+          <div id="areas" class="area-list"></div>
+        </article>
+        <article class="panel">
+          <h2>Chronological monsoon history</h2>
+          <canvas id="history-chart" width="900" height="420" aria-label="Monsoon history chart"></canvas>
+          <p class="muted">History is generated in date order from the configured monsoon start date.</p>
+        </article>
+      </section>
+
+      <section class="panel">
+        <h2>Sources and confidence</h2>
+        <div id="sources" class="sources"></div>
+        <h2 style="margin-top:1.25rem">Collector runtime status</h2>
+        <div id="collector-statuses" class="sources"></div>
+        <p class="disclaimer" id="disclaimer"></p>
+      </section>
+    </main>
+
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" crossorigin=""></script>
+    <script src="app.js"></script>
+  </body>
+</html>
