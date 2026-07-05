@@ -2,10 +2,10 @@ from __future__ import annotations
 
 import json
 import pathlib
-from datetime import date, datetime
+from datetime import datetime
 from typing import Any
 
-from config import NORMALIZED_DIR, PUBLIC_DIR, IST, parse_monsoon_start
+from config import NORMALIZED_DIR, PUBLIC_DIR, IST, parse_monsoon_start, today_ist
 from analyzer.scoring import build_area_scores, build_briefing, city_impact_score, risk_level
 
 CHRONOLOGY_FILENAME = "chronology.json"
@@ -26,23 +26,72 @@ def _write_json(path: str, payload: Any) -> None:
         json.dump(payload, f, ensure_ascii=False, indent=2, sort_keys=True)
 
 
-def latest_rainfall_signal(daily_series: list[dict[str, Any]], forecast: dict[str, Any]) -> float:
-    """Pick the best current rainfall signal available.
-
-    Prefer today's archive/forecast values. If the API has not published today's
-    archive yet, fall back to the last chronological history row.
-    """
-    today = date.today().isoformat()
-    values: list[float] = []
-    for row in daily_series:
-        if row["date"] >= today:
-            values.append(float(row.get("rainfall_mm_max") or 0))
-    for row in forecast.get("daily", []):
-        if row.get("forecast_date") == today:
-            values.append(float(row.get("value", {}).get("precipitation_sum_mm") or 0))
-    if not values and daily_series:
-        values.append(float(daily_series[-1].get("rainfall_mm_max") or 0))
+def _today_forecast_mm(forecast: dict[str, Any]) -> float:
+    today = today_ist().isoformat()
+    values = [
+        float(row.get("value", {}).get("precipitation_sum_mm") or 0)
+        for row in forecast.get("daily", [])
+        if row.get("forecast_date") == today
+    ]
     return max(values) if values else 0.0
+
+
+def _nowcast_signal(forecast: dict[str, Any]) -> dict[str, Any]:
+    nowcasts = forecast.get("nowcast", []) or []
+    values = [
+        float(row.get("value", {}).get("intensity_equivalent_mm") or 0)
+        for row in nowcasts
+    ]
+    current_hour_values = [
+        float(row.get("value", {}).get("current_hour_mm") or 0)
+        for row in nowcasts
+    ]
+    recent_3h_values = [
+        float(row.get("value", {}).get("recent_3h_mm") or 0)
+        for row in nowcasts
+    ]
+    return {
+        "intensity_equivalent_mm": max(values) if values else 0.0,
+        "current_hour_mm": max(current_hour_values) if current_hour_values else 0.0,
+        "recent_3h_mm": max(recent_3h_values) if recent_3h_values else 0.0,
+        "stations": nowcasts,
+    }
+
+
+def latest_rainfall_signal(daily_series: list[dict[str, Any]], forecast: dict[str, Any]) -> dict[str, Any]:
+    """Pick the best current rainfall/disruption signal available.
+
+    The daily archive usually lags for the current day. During active rain, use
+    Open-Meteo hourly/current values as a nowcast intensity proxy so the dashboard
+    responds before the 24h archive is published. The returned value is a signal,
+    not a claim that the full daily rainfall has already occurred.
+    """
+    today = today_ist().isoformat()
+    today_daily_values: list[float] = []
+    for row in daily_series:
+        if row["date"] == today:
+            today_daily_values.append(float(row.get("rainfall_mm_max") or 0))
+
+    today_forecast = _today_forecast_mm(forecast)
+    nowcast = _nowcast_signal(forecast)
+    last_historical = float(daily_series[-1].get("rainfall_mm_max") or 0) if daily_series else 0.0
+    candidates = {
+        "today_archive_or_series_mm": max(today_daily_values) if today_daily_values else 0.0,
+        "today_forecast_mm": today_forecast,
+        "nowcast_intensity_equivalent_mm": nowcast["intensity_equivalent_mm"],
+        "fallback_last_historical_mm": last_historical if not today_daily_values and not today_forecast and not nowcast["intensity_equivalent_mm"] else 0.0,
+    }
+    basis, value = max(candidates.items(), key=lambda item: item[1])
+    return {
+        "value_mm": round(float(value), 2),
+        "basis": basis,
+        "today_forecast_mm": round(today_forecast, 2),
+        "nowcast": {
+            "current_hour_mm": round(nowcast["current_hour_mm"], 2),
+            "recent_3h_mm": round(nowcast["recent_3h_mm"], 2),
+            "intensity_equivalent_mm": round(nowcast["intensity_equivalent_mm"], 2),
+        },
+    }
 
 
 def enrich_chronology_rows(daily_series: list[dict[str, Any]], tide_signal: dict[str, Any]) -> list[dict[str, Any]]:
@@ -65,6 +114,51 @@ def enrich_chronology_rows(daily_series: list[dict[str, Any]], tide_signal: dict
             "severity": row.get("severity"),
         })
     return chronological
+
+
+def apply_today_nowcast_to_chronology(
+    chronology: list[dict[str, Any]],
+    rainfall_signal: dict[str, Any],
+    tide_signal: dict[str, Any] | None = None,
+) -> list[dict[str, Any]]:
+    """Make the current-day row react to active rainfall before archive catch-up.
+
+    Earlier rows remain measured daily history. Today's row may be provisional
+    when it is driven by forecast/current-hour nowcast rather than final archive.
+    """
+    today = today_ist().isoformat()
+    tide_signal = tide_signal or {"high_tide_windows": []}
+    signal_mm = float(rainfall_signal.get("value_mm") or 0)
+    updated = []
+    found_today = False
+    for row in chronology:
+        if row.get("date") == today:
+            found_today = True
+            mm = max(float(row.get("rainfall_mm_max") or 0), signal_mm)
+            city = city_impact_score(mm, tide_signal)
+            row = {
+                **row,
+                "rainfall_mm_max": round(mm, 2),
+                "impact_score": city["impact_score"],
+                "risk_level": city["risk_level"],
+                "severity": risk_level(city["driver_scores"]["rainfall"]),
+                "provisional": rainfall_signal.get("basis") != "today_archive_or_series_mm",
+                "basis": rainfall_signal.get("basis"),
+            }
+        updated.append(row)
+    if not found_today:
+        city = city_impact_score(signal_mm, tide_signal)
+        updated.append({
+            "date": today,
+            "rainfall_mm_max": round(signal_mm, 2),
+            "rainfall_mm_avg": round(signal_mm, 2),
+            "impact_score": city["impact_score"],
+            "risk_level": city["risk_level"],
+            "severity": risk_level(city["driver_scores"]["rainfall"]),
+            "provisional": True,
+            "basis": rainfall_signal.get("basis"),
+        })
+    return [row for row in sorted(updated, key=lambda item: item["date"])]
 
 
 def merge_chronology(existing: list[dict[str, Any]], incoming: list[dict[str, Any]]) -> list[dict[str, Any]]:
@@ -113,13 +207,14 @@ def _existing_chronology_rows() -> list[dict[str, Any]]:
 
 def _compose_chronology_payload(
     chronology_rows: list[dict[str, Any]],
-    max_rain_mm: float,
+    rainfall_signal: dict[str, Any],
     tide_signal: dict[str, Any],
     forecast: dict[str, Any],
 ) -> dict[str, Any]:
+    max_rain_mm = float(rainfall_signal.get("value_mm") or 0)
     city = city_impact_score(max_rain_mm, tide_signal)
     areas = build_area_scores(max_rain_mm, city["impact_score"])
-    briefing = build_briefing(city, max_rain_mm)
+    briefing = build_briefing(city, max_rain_mm, rainfall_signal)
     return {
         "project": "mumbai-monsoon-dashboard",
         "schema_version": "1.0.0",
@@ -140,6 +235,7 @@ def _compose_chronology_payload(
                 for name, score in city["driver_scores"].items()
             },
             "rainfall_signal_mm": round(max_rain_mm, 2),
+            "rainfall_signal": rainfall_signal,
             "areas": areas,
             "briefing": briefing,
             "tide": tide_signal,
@@ -183,8 +279,9 @@ def seed_chronology_payload(
     tide_signal = tide_signal if tide_signal is not None else _read_json(f"{NORMALIZED_DIR}/tide_signal.json", {"high_tide_windows": []})
     forecast = _read_json(f"{NORMALIZED_DIR}/weather_forecast.json", {"daily": [], "current": []})
     chronology = enrich_chronology_rows(daily_series, tide_signal)
-    max_rain_mm = latest_rainfall_signal(daily_series, forecast)
-    payload = _compose_chronology_payload(chronology, max_rain_mm, tide_signal, forecast)
+    signal = latest_rainfall_signal(daily_series, forecast)
+    chronology = apply_today_nowcast_to_chronology(chronology, signal, tide_signal)
+    payload = _compose_chronology_payload(chronology, signal, tide_signal, forecast)
     _write_json(CHRONOLOGY_PATH, payload)
     return payload
 
@@ -207,8 +304,9 @@ def update_chronology_payload(require_chronology: bool = True) -> dict[str, Any]
     tide_signal = _read_json(f"{NORMALIZED_DIR}/tide_signal.json", {"high_tide_windows": []})
     incoming_rows = enrich_chronology_rows(daily_series, tide_signal)
     chronology = merge_chronology(existing_rows, incoming_rows)
-    max_rain_mm = latest_rainfall_signal(daily_series, forecast)
-    payload = _compose_chronology_payload(chronology, max_rain_mm, tide_signal, forecast)
+    signal = latest_rainfall_signal(daily_series, forecast)
+    chronology = apply_today_nowcast_to_chronology(chronology, signal, tide_signal)
+    payload = _compose_chronology_payload(chronology, signal, tide_signal, forecast)
     _write_json(CHRONOLOGY_PATH, payload)
     return payload
 
