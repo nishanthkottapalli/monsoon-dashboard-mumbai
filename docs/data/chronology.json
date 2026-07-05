@@ -673,15 +673,15 @@
             "name": "Colaba",
             "zone": "South Mumbai"
           },
-          "observed_at": "2026-07-05T08:00",
-          "severity": "watch",
+          "observed_at": "2026-07-05T10:15",
+          "severity": "normal",
           "source": "open_meteo_forecast",
           "type": "current_weather",
           "value": {
-            "precipitation_mm": 3.6,
-            "rain_mm": 1.7,
+            "precipitation_mm": 1.4,
+            "rain_mm": 0.6,
             "weather_code": 95,
-            "wind_speed_10m_kmh": 43.1
+            "wind_speed_10m_kmh": 42.7
           }
         },
         {
@@ -692,13 +692,13 @@
             "name": "Santacruz",
             "zone": "Western Suburbs"
           },
-          "observed_at": "2026-07-05T08:00",
-          "severity": "watch",
+          "observed_at": "2026-07-05T10:15",
+          "severity": "normal",
           "source": "open_meteo_forecast",
           "type": "current_weather",
           "value": {
-            "precipitation_mm": 1.9,
-            "rain_mm": 0.9,
+            "precipitation_mm": 1.7,
+            "rain_mm": 0.8,
             "weather_code": 95,
             "wind_speed_10m_kmh": 28.5
           }
@@ -711,15 +711,15 @@
             "name": "Powai",
             "zone": "Eastern Suburbs"
           },
-          "observed_at": "2026-07-05T08:00",
-          "severity": "normal",
+          "observed_at": "2026-07-05T10:15",
+          "severity": "watch",
           "source": "open_meteo_forecast",
           "type": "current_weather",
           "value": {
-            "precipitation_mm": 1.4,
-            "rain_mm": 0.6,
+            "precipitation_mm": 1.1,
+            "rain_mm": 0.9,
             "weather_code": 81,
-            "wind_speed_10m_kmh": 19.2
+            "wind_speed_10m_kmh": 21.1
           }
         }
       ],
@@ -1243,15 +1243,8 @@
     "tide": {
       "confidence": "low",
       "disclaimer": "Approximate non-official tide signal. Use official BMC/Mumbai Port tide tables for safety-critical decisions.",
-      "generated_at": "2026-07-05T08:12:41.172708+05:30",
+      "generated_at": "2026-07-05T10:22:18.179162+05:30",
       "high_tide_windows": [
-        {
-          "confidence": "low",
-          "risk_window_end": "2026-07-05T03:20:00+05:30",
-          "risk_window_start": "2026-07-04T23:20:00+05:30",
-          "source_type": "computed_estimate",
-          "time": "2026-07-05T01:20:00+05:30"
-        },
         {
           "confidence": "low",
           "risk_window_end": "2026-07-05T15:45:00+05:30",
@@ -1279,7 +1272,7 @@
     }
   },
   "disclaimer": "Experimental public-information dashboard. Not an official emergency, disaster-management, weather, traffic, railway or airport system.",
-  "generated_at": "2026-07-05T08:12:41.266342+05:30",
+  "generated_at": "2026-07-05T10:22:18.265231+05:30",
   "monsoon_start_date": "2026-06-23",
   "project": "mumbai-monsoon-dashboard",
   "schema_version": "1.0.0",

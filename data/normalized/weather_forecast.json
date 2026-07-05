@@ -8,15 +8,15 @@
         "name": "Colaba",
         "zone": "South Mumbai"
       },
-      "observed_at": "2026-07-05T08:00",
-      "severity": "watch",
+      "observed_at": "2026-07-05T10:15",
+      "severity": "normal",
       "source": "open_meteo_forecast",
       "type": "current_weather",
       "value": {
-        "precipitation_mm": 3.6,
-        "rain_mm": 1.7,
+        "precipitation_mm": 1.4,
+        "rain_mm": 0.6,
         "weather_code": 95,
-        "wind_speed_10m_kmh": 43.1
+        "wind_speed_10m_kmh": 42.7
       }
     },
     {
@@ -27,13 +27,13 @@
         "name": "Santacruz",
         "zone": "Western Suburbs"
       },
-      "observed_at": "2026-07-05T08:00",
-      "severity": "watch",
+      "observed_at": "2026-07-05T10:15",
+      "severity": "normal",
       "source": "open_meteo_forecast",
       "type": "current_weather",
       "value": {
-        "precipitation_mm": 1.9,
-        "rain_mm": 0.9,
+        "precipitation_mm": 1.7,
+        "rain_mm": 0.8,
         "weather_code": 95,
         "wind_speed_10m_kmh": 28.5
       }
@@ -46,15 +46,15 @@
         "name": "Powai",
         "zone": "Eastern Suburbs"
       },
-      "observed_at": "2026-07-05T08:00",
-      "severity": "normal",
+      "observed_at": "2026-07-05T10:15",
+      "severity": "watch",
       "source": "open_meteo_forecast",
       "type": "current_weather",
       "value": {
-        "precipitation_mm": 1.4,
-        "rain_mm": 0.6,
+        "precipitation_mm": 1.1,
+        "rain_mm": 0.9,
         "weather_code": 81,
-        "wind_speed_10m_kmh": 19.2
+        "wind_speed_10m_kmh": 21.1
       }
     }
   ],
