@@ -13582,7 +13582,7 @@
     "tide": {
       "confidence": "low",
       "disclaimer": "Approximate non-official tide signal. Use official BMC/Mumbai Port tide tables for safety-critical decisions.",
-      "generated_at": "2026-07-05T12:08:34.956931+05:30",
+      "generated_at": "2026-07-05T12:09:53.379069+05:30",
       "high_tide_windows": [
         {
           "confidence": "low",
@@ -13611,7 +13611,7 @@
     }
   },
   "disclaimer": "Experimental public-information dashboard. Not an official emergency, disaster-management, weather, traffic, railway or airport system.",
-  "generated_at": "2026-07-05T12:08:34.982886+05:30",
+  "generated_at": "2026-07-05T12:09:53.404574+05:30",
   "monsoon_start_date": "2026-06-02",
   "project": "mumbai-monsoon-dashboard",
   "schema_version": "1.0.0",
