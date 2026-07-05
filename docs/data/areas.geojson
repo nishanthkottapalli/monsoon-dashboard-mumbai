@@ -18,6 +18,51 @@
     {
       "geometry": {
         "coordinates": [
+          72.8242,
+          18.9256
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Nariman Point",
+        "susceptibility": 0.35,
+        "zone": "South Mumbai"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          72.8264,
+          18.9322
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Churchgate",
+        "susceptibility": 0.4,
+        "zone": "South Mumbai"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          72.8236,
+          18.944
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Marine Lines",
+        "susceptibility": 0.45,
+        "zone": "South Mumbai"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
           72.8355,
           18.9398
         ],
@@ -26,6 +71,36 @@
       "properties": {
         "name": "CST / Fort",
         "susceptibility": 0.45,
+        "zone": "South Mumbai"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          72.838,
+          18.9518
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Masjid Bunder",
+        "susceptibility": 0.55,
+        "zone": "South Mumbai"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          72.8205,
+          18.969
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Mumbai Central",
+        "susceptibility": 0.55,
         "zone": "South Mumbai"
       },
       "type": "Feature"
@@ -48,14 +123,44 @@
     {
       "geometry": {
         "coordinates": [
-          72.8426,
-          19.0206
+          72.8162,
+          19.0176
         ],
         "type": "Point"
       },
       "properties": {
-        "name": "Dadar / Hindmata",
-        "susceptibility": 0.95,
+        "name": "Worli",
+        "susceptibility": 0.55,
+        "zone": "Central Mumbai"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          72.83,
+          18.998
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Lower Parel",
+        "susceptibility": 0.65,
+        "zone": "Central Mumbai"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          72.8295,
+          19.0166
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Prabhadevi",
+        "susceptibility": 0.6,
         "zone": "Central Mumbai"
       },
       "type": "Feature"
@@ -71,6 +176,36 @@
       "properties": {
         "name": "Parel",
         "susceptibility": 0.75,
+        "zone": "Central Mumbai"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          72.8426,
+          19.0206
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Dadar / Hindmata",
+        "susceptibility": 0.95,
+        "zone": "Central Mumbai"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          72.8377,
+          19.028
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Shivaji Park",
+        "susceptibility": 0.55,
         "zone": "Central Mumbai"
       },
       "type": "Feature"
@@ -108,6 +243,81 @@
     {
       "geometry": {
         "coordinates": [
+          72.8426,
+          19.0358
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Mahim",
+        "susceptibility": 0.7,
+        "zone": "Central Mumbai"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          72.8538,
+          19.038
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Dharavi",
+        "susceptibility": 0.8,
+        "zone": "Central Mumbai"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          72.8562,
+          19.0178
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Wadala",
+        "susceptibility": 0.7,
+        "zone": "Harbour / Eastern Corridor"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          72.8548,
+          18.9986
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Sewri",
+        "susceptibility": 0.65,
+        "zone": "Harbour / Eastern Corridor"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          72.8696,
+          19.0522
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Chunabhatti",
+        "susceptibility": 0.75,
+        "zone": "Harbour / Eastern Corridor"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
           72.8845,
           19.0726
         ],
@@ -123,6 +333,21 @@
     {
       "geometry": {
         "coordinates": [
+          72.8976,
+          19.067
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Tilak Nagar",
+        "susceptibility": 0.7,
+        "zone": "Harbour / Eastern Corridor"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
           72.9005,
           19.0522
         ],
@@ -132,6 +357,51 @@
         "name": "Chembur",
         "susceptibility": 0.7,
         "zone": "Eastern Suburbs"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          72.9156,
+          19.0556
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Govandi",
+        "susceptibility": 0.7,
+        "zone": "Harbour / Eastern Corridor"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          72.9322,
+          19.0485
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Mankhurd",
+        "susceptibility": 0.7,
+        "zone": "Harbour / Eastern Corridor"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          72.9129,
+          19.0476
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Deonar",
+        "susceptibility": 0.65,
+        "zone": "Harbour / Eastern Corridor"
       },
       "type": "Feature"
     },
@@ -168,6 +438,81 @@
     {
       "geometry": {
         "coordinates": [
+          72.84,
+          19.07
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Khar",
+        "susceptibility": 0.55,
+        "zone": "Western Suburbs"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          72.8656,
+          19.0896
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Santacruz",
+        "susceptibility": 0.65,
+        "zone": "Western Suburbs"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          72.8438,
+          19.1006
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Vile Parle",
+        "susceptibility": 0.6,
+        "zone": "Western Suburbs"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          72.8263,
+          19.1075
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Juhu",
+        "susceptibility": 0.55,
+        "zone": "Western Suburbs"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          72.8296,
+          19.1364
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Andheri West",
+        "susceptibility": 0.65,
+        "zone": "Western Suburbs"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
           72.8464,
           19.1197
         ],
@@ -175,6 +520,36 @@
       },
       "properties": {
         "name": "Andheri",
+        "susceptibility": 0.65,
+        "zone": "Western Suburbs"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          72.8148,
+          19.1312
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Versova",
+        "susceptibility": 0.6,
+        "zone": "Western Suburbs"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          72.8244,
+          19.1433
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Lokhandwala / Oshiwara",
         "susceptibility": 0.65,
         "zone": "Western Suburbs"
       },
@@ -228,6 +603,21 @@
     {
       "geometry": {
         "coordinates": [
+          72.8518,
+          19.2045
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Kandivali",
+        "susceptibility": 0.55,
+        "zone": "Western Suburbs"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
           72.8567,
           19.2307
         ],
@@ -243,6 +633,111 @@
     {
       "geometry": {
         "coordinates": [
+          72.8596,
+          19.25
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Dahisar",
+        "susceptibility": 0.45,
+        "zone": "Western Suburbs"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          72.8656,
+          19.0896
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Mumbai Airport / Sahar",
+        "susceptibility": 0.65,
+        "zone": "Airport / MIDC Corridor"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          72.8828,
+          19.1191
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Marol",
+        "susceptibility": 0.65,
+        "zone": "Airport / MIDC Corridor"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          72.8888,
+          19.103
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Saki Naka",
+        "susceptibility": 0.75,
+        "zone": "Airport / MIDC Corridor"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          72.8718,
+          19.119
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "MIDC Andheri",
+        "susceptibility": 0.65,
+        "zone": "Airport / MIDC Corridor"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          72.8746,
+          19.1268
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "SEEPZ",
+        "susceptibility": 0.6,
+        "zone": "Airport / MIDC Corridor"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          72.9003,
+          19.1097
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Chandivali",
+        "susceptibility": 0.65,
+        "zone": "Airport / MIDC Corridor"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
           72.906,
           19.1176
         ],
@@ -251,6 +746,21 @@
       "properties": {
         "name": "Powai",
         "susceptibility": 0.6,
+        "zone": "Eastern Suburbs"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          72.897,
+          19.079
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Vidyavihar",
+        "susceptibility": 0.65,
         "zone": "Eastern Suburbs"
       },
       "type": "Feature"
@@ -288,6 +798,36 @@
     {
       "geometry": {
         "coordinates": [
+          72.933,
+          19.1293
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Kanjurmarg",
+        "susceptibility": 0.55,
+        "zone": "Eastern Suburbs"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          72.9372,
+          19.1511
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Bhandup",
+        "susceptibility": 0.55,
+        "zone": "Eastern Suburbs"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
           72.9425,
           19.1726
         ],
@@ -297,6 +837,36 @@
         "name": "Mulund",
         "susceptibility": 0.45,
         "zone": "Eastern Suburbs"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          72.883,
+          19.16
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Aarey",
+        "susceptibility": 0.45,
+        "zone": "Western / Green Zone"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          72.9106,
+          19.2147
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Sanjay Gandhi National Park Edge",
+        "susceptibility": 0.4,
+        "zone": "North Mumbai / Green Zone"
       },
       "type": "Feature"
     }

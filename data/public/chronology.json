@@ -360,6 +360,38 @@
       },
       {
         "impact_score": 89,
+        "lat": 19.0522,
+        "lon": 72.8696,
+        "name": "Chunabhatti",
+        "risk_level": "severe",
+        "signals": [
+          "rainfall",
+          "traffic",
+          "waterlogging",
+          "rail"
+        ],
+        "summary": "Elevated monsoon disruption risk in Chunabhatti due to rainfall intensity and known local susceptibility. Check official advisories before travel.",
+        "susceptibility": 0.75,
+        "zone": "Harbour / Eastern Corridor"
+      },
+      {
+        "impact_score": 89,
+        "lat": 19.038,
+        "lon": 72.8538,
+        "name": "Dharavi",
+        "risk_level": "severe",
+        "signals": [
+          "rainfall",
+          "traffic",
+          "waterlogging",
+          "rail"
+        ],
+        "summary": "Elevated monsoon disruption risk in Dharavi due to rainfall intensity and known local susceptibility. Check official advisories before travel.",
+        "susceptibility": 0.8,
+        "zone": "Central Mumbai"
+      },
+      {
+        "impact_score": 89,
         "lat": 18.993,
         "lon": 72.8374,
         "name": "Parel",
@@ -375,6 +407,22 @@
         "zone": "Central Mumbai"
       },
       {
+        "impact_score": 89,
+        "lat": 19.103,
+        "lon": 72.8888,
+        "name": "Saki Naka",
+        "risk_level": "severe",
+        "signals": [
+          "rainfall",
+          "traffic",
+          "waterlogging",
+          "rail"
+        ],
+        "summary": "Elevated monsoon disruption risk in Saki Naka due to rainfall intensity and known local susceptibility. Check official advisories before travel.",
+        "susceptibility": 0.75,
+        "zone": "Airport / MIDC Corridor"
+      },
+      {
         "impact_score": 88,
         "lat": 19.1197,
         "lon": 72.8464,
@@ -387,6 +435,22 @@
           "rail"
         ],
         "summary": "Elevated monsoon disruption risk in Andheri due to rainfall intensity and known local susceptibility. Check official advisories before travel.",
+        "susceptibility": 0.65,
+        "zone": "Western Suburbs"
+      },
+      {
+        "impact_score": 88,
+        "lat": 19.1364,
+        "lon": 72.8296,
+        "name": "Andheri West",
+        "risk_level": "severe",
+        "signals": [
+          "rainfall",
+          "traffic",
+          "waterlogging",
+          "rail"
+        ],
+        "summary": "Elevated monsoon disruption risk in Andheri West due to rainfall intensity and known local susceptibility. Check official advisories before travel.",
         "susceptibility": 0.65,
         "zone": "Western Suburbs"
       },
@@ -408,6 +472,22 @@
       },
       {
         "impact_score": 88,
+        "lat": 19.1097,
+        "lon": 72.9003,
+        "name": "Chandivali",
+        "risk_level": "severe",
+        "signals": [
+          "rainfall",
+          "traffic",
+          "waterlogging",
+          "rail"
+        ],
+        "summary": "Elevated monsoon disruption risk in Chandivali due to rainfall intensity and known local susceptibility. Check official advisories before travel.",
+        "susceptibility": 0.65,
+        "zone": "Airport / MIDC Corridor"
+      },
+      {
+        "impact_score": 88,
         "lat": 19.0522,
         "lon": 72.9005,
         "name": "Chembur",
@@ -421,6 +501,22 @@
         "summary": "Elevated monsoon disruption risk in Chembur due to rainfall intensity and known local susceptibility. Check official advisories before travel.",
         "susceptibility": 0.7,
         "zone": "Eastern Suburbs"
+      },
+      {
+        "impact_score": 88,
+        "lat": 19.0476,
+        "lon": 72.9129,
+        "name": "Deonar",
+        "risk_level": "severe",
+        "signals": [
+          "rainfall",
+          "traffic",
+          "waterlogging",
+          "rail"
+        ],
+        "summary": "Elevated monsoon disruption risk in Deonar due to rainfall intensity and known local susceptibility. Check official advisories before travel.",
+        "susceptibility": 0.65,
+        "zone": "Harbour / Eastern Corridor"
       },
       {
         "impact_score": 88,
@@ -440,6 +536,22 @@
       },
       {
         "impact_score": 88,
+        "lat": 19.0556,
+        "lon": 72.9156,
+        "name": "Govandi",
+        "risk_level": "severe",
+        "signals": [
+          "rainfall",
+          "traffic",
+          "waterlogging",
+          "rail"
+        ],
+        "summary": "Elevated monsoon disruption risk in Govandi due to rainfall intensity and known local susceptibility. Check official advisories before travel.",
+        "susceptibility": 0.7,
+        "zone": "Harbour / Eastern Corridor"
+      },
+      {
+        "impact_score": 88,
         "lat": 19.1363,
         "lon": 72.8487,
         "name": "Jogeshwari",
@@ -455,6 +567,198 @@
         "zone": "Western Suburbs"
       },
       {
+        "impact_score": 88,
+        "lat": 19.1433,
+        "lon": 72.8244,
+        "name": "Lokhandwala / Oshiwara",
+        "risk_level": "severe",
+        "signals": [
+          "rainfall",
+          "traffic",
+          "waterlogging",
+          "rail"
+        ],
+        "summary": "Elevated monsoon disruption risk in Lokhandwala / Oshiwara due to rainfall intensity and known local susceptibility. Check official advisories before travel.",
+        "susceptibility": 0.65,
+        "zone": "Western Suburbs"
+      },
+      {
+        "impact_score": 88,
+        "lat": 18.998,
+        "lon": 72.83,
+        "name": "Lower Parel",
+        "risk_level": "severe",
+        "signals": [
+          "rainfall",
+          "traffic",
+          "waterlogging",
+          "rail"
+        ],
+        "summary": "Elevated monsoon disruption risk in Lower Parel due to rainfall intensity and known local susceptibility. Check official advisories before travel.",
+        "susceptibility": 0.65,
+        "zone": "Central Mumbai"
+      },
+      {
+        "impact_score": 88,
+        "lat": 19.119,
+        "lon": 72.8718,
+        "name": "MIDC Andheri",
+        "risk_level": "severe",
+        "signals": [
+          "rainfall",
+          "traffic",
+          "waterlogging",
+          "rail"
+        ],
+        "summary": "Elevated monsoon disruption risk in MIDC Andheri due to rainfall intensity and known local susceptibility. Check official advisories before travel.",
+        "susceptibility": 0.65,
+        "zone": "Airport / MIDC Corridor"
+      },
+      {
+        "impact_score": 88,
+        "lat": 19.0358,
+        "lon": 72.8426,
+        "name": "Mahim",
+        "risk_level": "severe",
+        "signals": [
+          "rainfall",
+          "traffic",
+          "waterlogging",
+          "rail"
+        ],
+        "summary": "Elevated monsoon disruption risk in Mahim due to rainfall intensity and known local susceptibility. Check official advisories before travel.",
+        "susceptibility": 0.7,
+        "zone": "Central Mumbai"
+      },
+      {
+        "impact_score": 88,
+        "lat": 19.0485,
+        "lon": 72.9322,
+        "name": "Mankhurd",
+        "risk_level": "severe",
+        "signals": [
+          "rainfall",
+          "traffic",
+          "waterlogging",
+          "rail"
+        ],
+        "summary": "Elevated monsoon disruption risk in Mankhurd due to rainfall intensity and known local susceptibility. Check official advisories before travel.",
+        "susceptibility": 0.7,
+        "zone": "Harbour / Eastern Corridor"
+      },
+      {
+        "impact_score": 88,
+        "lat": 19.1191,
+        "lon": 72.8828,
+        "name": "Marol",
+        "risk_level": "severe",
+        "signals": [
+          "rainfall",
+          "traffic",
+          "waterlogging",
+          "rail"
+        ],
+        "summary": "Elevated monsoon disruption risk in Marol due to rainfall intensity and known local susceptibility. Check official advisories before travel.",
+        "susceptibility": 0.65,
+        "zone": "Airport / MIDC Corridor"
+      },
+      {
+        "impact_score": 88,
+        "lat": 19.0896,
+        "lon": 72.8656,
+        "name": "Mumbai Airport / Sahar",
+        "risk_level": "severe",
+        "signals": [
+          "rainfall",
+          "traffic",
+          "waterlogging",
+          "rail"
+        ],
+        "summary": "Elevated monsoon disruption risk in Mumbai Airport / Sahar due to rainfall intensity and known local susceptibility. Check official advisories before travel.",
+        "susceptibility": 0.65,
+        "zone": "Airport / MIDC Corridor"
+      },
+      {
+        "impact_score": 88,
+        "lat": 19.0896,
+        "lon": 72.8656,
+        "name": "Santacruz",
+        "risk_level": "severe",
+        "signals": [
+          "rainfall",
+          "traffic",
+          "waterlogging",
+          "rail"
+        ],
+        "summary": "Elevated monsoon disruption risk in Santacruz due to rainfall intensity and known local susceptibility. Check official advisories before travel.",
+        "susceptibility": 0.65,
+        "zone": "Western Suburbs"
+      },
+      {
+        "impact_score": 88,
+        "lat": 18.9986,
+        "lon": 72.8548,
+        "name": "Sewri",
+        "risk_level": "severe",
+        "signals": [
+          "rainfall",
+          "traffic",
+          "waterlogging",
+          "rail"
+        ],
+        "summary": "Elevated monsoon disruption risk in Sewri due to rainfall intensity and known local susceptibility. Check official advisories before travel.",
+        "susceptibility": 0.65,
+        "zone": "Harbour / Eastern Corridor"
+      },
+      {
+        "impact_score": 88,
+        "lat": 19.067,
+        "lon": 72.8976,
+        "name": "Tilak Nagar",
+        "risk_level": "severe",
+        "signals": [
+          "rainfall",
+          "traffic",
+          "waterlogging",
+          "rail"
+        ],
+        "summary": "Elevated monsoon disruption risk in Tilak Nagar due to rainfall intensity and known local susceptibility. Check official advisories before travel.",
+        "susceptibility": 0.7,
+        "zone": "Harbour / Eastern Corridor"
+      },
+      {
+        "impact_score": 88,
+        "lat": 19.079,
+        "lon": 72.897,
+        "name": "Vidyavihar",
+        "risk_level": "severe",
+        "signals": [
+          "rainfall",
+          "traffic",
+          "waterlogging",
+          "rail"
+        ],
+        "summary": "Elevated monsoon disruption risk in Vidyavihar due to rainfall intensity and known local susceptibility. Check official advisories before travel.",
+        "susceptibility": 0.65,
+        "zone": "Eastern Suburbs"
+      },
+      {
+        "impact_score": 88,
+        "lat": 19.0178,
+        "lon": 72.8562,
+        "name": "Wadala",
+        "risk_level": "severe",
+        "signals": [
+          "rainfall",
+          "traffic",
+          "waterlogging",
+          "rail"
+        ],
+        "summary": "Elevated monsoon disruption risk in Wadala due to rainfall intensity and known local susceptibility. Check official advisories before travel.",
+        "susceptibility": 0.7,
+        "zone": "Harbour / Eastern Corridor"
+      },
+      {
         "impact_score": 87,
         "lat": 19.0607,
         "lon": 72.8362,
@@ -468,6 +772,21 @@
         "summary": "Elevated monsoon disruption risk in Bandra due to rainfall intensity and known local susceptibility. Check official advisories before travel.",
         "susceptibility": 0.55,
         "zone": "Western Suburbs"
+      },
+      {
+        "impact_score": 87,
+        "lat": 19.1511,
+        "lon": 72.9372,
+        "name": "Bhandup",
+        "risk_level": "severe",
+        "signals": [
+          "rainfall",
+          "traffic",
+          "rail"
+        ],
+        "summary": "Elevated monsoon disruption risk in Bhandup due to rainfall intensity and known local susceptibility. Check official advisories before travel.",
+        "susceptibility": 0.55,
+        "zone": "Eastern Suburbs"
       },
       {
         "impact_score": 87,
@@ -502,6 +821,66 @@
       },
       {
         "impact_score": 87,
+        "lat": 19.1075,
+        "lon": 72.8263,
+        "name": "Juhu",
+        "risk_level": "severe",
+        "signals": [
+          "rainfall",
+          "traffic",
+          "rail"
+        ],
+        "summary": "Elevated monsoon disruption risk in Juhu due to rainfall intensity and known local susceptibility. Check official advisories before travel.",
+        "susceptibility": 0.55,
+        "zone": "Western Suburbs"
+      },
+      {
+        "impact_score": 87,
+        "lat": 19.2045,
+        "lon": 72.8518,
+        "name": "Kandivali",
+        "risk_level": "severe",
+        "signals": [
+          "rainfall",
+          "traffic",
+          "rail"
+        ],
+        "summary": "Elevated monsoon disruption risk in Kandivali due to rainfall intensity and known local susceptibility. Check official advisories before travel.",
+        "susceptibility": 0.55,
+        "zone": "Western Suburbs"
+      },
+      {
+        "impact_score": 87,
+        "lat": 19.1293,
+        "lon": 72.933,
+        "name": "Kanjurmarg",
+        "risk_level": "severe",
+        "signals": [
+          "rainfall",
+          "traffic",
+          "rail"
+        ],
+        "summary": "Elevated monsoon disruption risk in Kanjurmarg due to rainfall intensity and known local susceptibility. Check official advisories before travel.",
+        "susceptibility": 0.55,
+        "zone": "Eastern Suburbs"
+      },
+      {
+        "impact_score": 87,
+        "lat": 19.07,
+        "lon": 72.84,
+        "name": "Khar",
+        "risk_level": "severe",
+        "signals": [
+          "rainfall",
+          "traffic",
+          "rail"
+        ],
+        "summary": "Elevated monsoon disruption risk in Khar due to rainfall intensity and known local susceptibility. Check official advisories before travel.",
+        "susceptibility": 0.55,
+        "zone": "Western Suburbs"
+      },
+      {
+        "impact_score": 87,
         "lat": 19.186,
         "lon": 72.8485,
         "name": "Malad",
@@ -515,6 +894,36 @@
         "summary": "Elevated monsoon disruption risk in Malad due to rainfall intensity and known local susceptibility. Check official advisories before travel.",
         "susceptibility": 0.6,
         "zone": "Western Suburbs"
+      },
+      {
+        "impact_score": 87,
+        "lat": 18.9518,
+        "lon": 72.838,
+        "name": "Masjid Bunder",
+        "risk_level": "severe",
+        "signals": [
+          "rainfall",
+          "traffic",
+          "rail"
+        ],
+        "summary": "Elevated monsoon disruption risk in Masjid Bunder due to rainfall intensity and known local susceptibility. Check official advisories before travel.",
+        "susceptibility": 0.55,
+        "zone": "South Mumbai"
+      },
+      {
+        "impact_score": 87,
+        "lat": 18.969,
+        "lon": 72.8205,
+        "name": "Mumbai Central",
+        "risk_level": "severe",
+        "signals": [
+          "rainfall",
+          "traffic",
+          "rail"
+        ],
+        "summary": "Elevated monsoon disruption risk in Mumbai Central due to rainfall intensity and known local susceptibility. Check official advisories before travel.",
+        "susceptibility": 0.55,
+        "zone": "South Mumbai"
       },
       {
         "impact_score": 87,
@@ -534,6 +943,69 @@
       },
       {
         "impact_score": 87,
+        "lat": 19.0166,
+        "lon": 72.8295,
+        "name": "Prabhadevi",
+        "risk_level": "severe",
+        "signals": [
+          "rainfall",
+          "traffic",
+          "waterlogging",
+          "rail"
+        ],
+        "summary": "Elevated monsoon disruption risk in Prabhadevi due to rainfall intensity and known local susceptibility. Check official advisories before travel.",
+        "susceptibility": 0.6,
+        "zone": "Central Mumbai"
+      },
+      {
+        "impact_score": 87,
+        "lat": 19.1268,
+        "lon": 72.8746,
+        "name": "SEEPZ",
+        "risk_level": "severe",
+        "signals": [
+          "rainfall",
+          "traffic",
+          "waterlogging",
+          "rail"
+        ],
+        "summary": "Elevated monsoon disruption risk in SEEPZ due to rainfall intensity and known local susceptibility. Check official advisories before travel.",
+        "susceptibility": 0.6,
+        "zone": "Airport / MIDC Corridor"
+      },
+      {
+        "impact_score": 87,
+        "lat": 19.028,
+        "lon": 72.8377,
+        "name": "Shivaji Park",
+        "risk_level": "severe",
+        "signals": [
+          "rainfall",
+          "traffic",
+          "rail"
+        ],
+        "summary": "Elevated monsoon disruption risk in Shivaji Park due to rainfall intensity and known local susceptibility. Check official advisories before travel.",
+        "susceptibility": 0.55,
+        "zone": "Central Mumbai"
+      },
+      {
+        "impact_score": 87,
+        "lat": 19.1312,
+        "lon": 72.8148,
+        "name": "Versova",
+        "risk_level": "severe",
+        "signals": [
+          "rainfall",
+          "traffic",
+          "waterlogging",
+          "rail"
+        ],
+        "summary": "Elevated monsoon disruption risk in Versova due to rainfall intensity and known local susceptibility. Check official advisories before travel.",
+        "susceptibility": 0.6,
+        "zone": "Western Suburbs"
+      },
+      {
+        "impact_score": 87,
         "lat": 19.111,
         "lon": 72.928,
         "name": "Vikhroli",
@@ -546,6 +1018,52 @@
         "summary": "Elevated monsoon disruption risk in Vikhroli due to rainfall intensity and known local susceptibility. Check official advisories before travel.",
         "susceptibility": 0.55,
         "zone": "Eastern Suburbs"
+      },
+      {
+        "impact_score": 87,
+        "lat": 19.1006,
+        "lon": 72.8438,
+        "name": "Vile Parle",
+        "risk_level": "severe",
+        "signals": [
+          "rainfall",
+          "traffic",
+          "waterlogging",
+          "rail"
+        ],
+        "summary": "Elevated monsoon disruption risk in Vile Parle due to rainfall intensity and known local susceptibility. Check official advisories before travel.",
+        "susceptibility": 0.6,
+        "zone": "Western Suburbs"
+      },
+      {
+        "impact_score": 87,
+        "lat": 19.0176,
+        "lon": 72.8162,
+        "name": "Worli",
+        "risk_level": "severe",
+        "signals": [
+          "rainfall",
+          "traffic",
+          "rail"
+        ],
+        "summary": "Elevated monsoon disruption risk in Worli due to rainfall intensity and known local susceptibility. Check official advisories before travel.",
+        "susceptibility": 0.55,
+        "zone": "Central Mumbai"
+      },
+      {
+        "impact_score": 86,
+        "lat": 19.16,
+        "lon": 72.883,
+        "name": "Aarey",
+        "risk_level": "severe",
+        "signals": [
+          "rainfall",
+          "traffic",
+          "rail"
+        ],
+        "summary": "Elevated monsoon disruption risk in Aarey due to rainfall intensity and known local susceptibility. Check official advisories before travel.",
+        "susceptibility": 0.45,
+        "zone": "Western / Green Zone"
       },
       {
         "impact_score": 86,
@@ -579,6 +1097,36 @@
       },
       {
         "impact_score": 86,
+        "lat": 19.25,
+        "lon": 72.8596,
+        "name": "Dahisar",
+        "risk_level": "severe",
+        "signals": [
+          "rainfall",
+          "traffic",
+          "rail"
+        ],
+        "summary": "Elevated monsoon disruption risk in Dahisar due to rainfall intensity and known local susceptibility. Check official advisories before travel.",
+        "susceptibility": 0.45,
+        "zone": "Western Suburbs"
+      },
+      {
+        "impact_score": 86,
+        "lat": 18.944,
+        "lon": 72.8236,
+        "name": "Marine Lines",
+        "risk_level": "severe",
+        "signals": [
+          "rainfall",
+          "traffic",
+          "rail"
+        ],
+        "summary": "Elevated monsoon disruption risk in Marine Lines due to rainfall intensity and known local susceptibility. Check official advisories before travel.",
+        "susceptibility": 0.45,
+        "zone": "South Mumbai"
+      },
+      {
+        "impact_score": 86,
         "lat": 19.1726,
         "lon": 72.9425,
         "name": "Mulund",
@@ -594,6 +1142,21 @@
       },
       {
         "impact_score": 85,
+        "lat": 18.9322,
+        "lon": 72.8264,
+        "name": "Churchgate",
+        "risk_level": "severe",
+        "signals": [
+          "rainfall",
+          "traffic",
+          "rail"
+        ],
+        "summary": "Elevated monsoon disruption risk in Churchgate due to rainfall intensity and known local susceptibility. Check official advisories before travel.",
+        "susceptibility": 0.4,
+        "zone": "South Mumbai"
+      },
+      {
+        "impact_score": 85,
         "lat": 18.9067,
         "lon": 72.8147,
         "name": "Colaba",
@@ -606,6 +1169,36 @@
         "summary": "Elevated monsoon disruption risk in Colaba due to rainfall intensity and known local susceptibility. Check official advisories before travel.",
         "susceptibility": 0.35,
         "zone": "South Mumbai"
+      },
+      {
+        "impact_score": 85,
+        "lat": 18.9256,
+        "lon": 72.8242,
+        "name": "Nariman Point",
+        "risk_level": "severe",
+        "signals": [
+          "rainfall",
+          "traffic",
+          "rail"
+        ],
+        "summary": "Elevated monsoon disruption risk in Nariman Point due to rainfall intensity and known local susceptibility. Check official advisories before travel.",
+        "susceptibility": 0.35,
+        "zone": "South Mumbai"
+      },
+      {
+        "impact_score": 85,
+        "lat": 19.2147,
+        "lon": 72.9106,
+        "name": "Sanjay Gandhi National Park Edge",
+        "risk_level": "severe",
+        "signals": [
+          "rainfall",
+          "traffic",
+          "rail"
+        ],
+        "summary": "Elevated monsoon disruption risk in Sanjay Gandhi National Park Edge due to rainfall intensity and known local susceptibility. Check official advisories before travel.",
+        "susceptibility": 0.4,
+        "zone": "North Mumbai / Green Zone"
       }
     ],
     "briefing": {
@@ -675,15 +1268,15 @@
             "name": "Colaba",
             "zone": "South Mumbai"
           },
-          "observed_at": "2026-07-05T11:15",
+          "observed_at": "2026-07-05T11:45",
           "severity": "normal",
           "source": "open_meteo_forecast",
           "type": "current_weather",
           "value": {
-            "precipitation_mm": 1.6,
+            "precipitation_mm": 1.4,
             "rain_mm": 0.6,
             "weather_code": 95,
-            "wind_speed_10m_kmh": 41.7
+            "wind_speed_10m_kmh": 40.9
           }
         },
         {
@@ -694,15 +1287,15 @@
             "name": "Santacruz",
             "zone": "Western Suburbs"
           },
-          "observed_at": "2026-07-05T11:15",
+          "observed_at": "2026-07-05T11:45",
           "severity": "normal",
           "source": "open_meteo_forecast",
           "type": "current_weather",
           "value": {
-            "precipitation_mm": 0.7,
-            "rain_mm": 0.3,
+            "precipitation_mm": 1.3,
+            "rain_mm": 0.6,
             "weather_code": 95,
-            "wind_speed_10m_kmh": 25.7
+            "wind_speed_10m_kmh": 26.3
           }
         },
         {
@@ -713,15 +1306,15 @@
             "name": "Powai",
             "zone": "Eastern Suburbs"
           },
-          "observed_at": "2026-07-05T11:15",
+          "observed_at": "2026-07-05T11:45",
           "severity": "normal",
           "source": "open_meteo_forecast",
           "type": "current_weather",
           "value": {
-            "precipitation_mm": 1.0,
-            "rain_mm": 0.6,
+            "precipitation_mm": 1.1,
+            "rain_mm": 0.7,
             "weather_code": 95,
-            "wind_speed_10m_kmh": 18.5
+            "wind_speed_10m_kmh": 19.2
           }
         }
       ],
@@ -12915,7 +13508,7 @@
             "name": "Colaba",
             "zone": "South Mumbai"
           },
-          "observed_at": "2026-07-05T11:15",
+          "observed_at": "2026-07-05T11:45",
           "severity": "severe",
           "source": "open_meteo_forecast_hourly",
           "type": "rain_nowcast",
@@ -12926,7 +13519,7 @@
             "recent_3h_mm": 19.7,
             "recent_6h_mm": 54.4,
             "weather_code": 95,
-            "wind_speed_10m_kmh": 41.7
+            "wind_speed_10m_kmh": 40.9
           }
         },
         {
@@ -12937,7 +13530,7 @@
             "name": "Santacruz",
             "zone": "Western Suburbs"
           },
-          "observed_at": "2026-07-05T11:15",
+          "observed_at": "2026-07-05T11:45",
           "severity": "severe",
           "source": "open_meteo_forecast_hourly",
           "type": "rain_nowcast",
@@ -12948,7 +13541,7 @@
             "recent_3h_mm": 16.3,
             "recent_6h_mm": 43.7,
             "weather_code": 95,
-            "wind_speed_10m_kmh": 25.7
+            "wind_speed_10m_kmh": 26.3
           }
         },
         {
@@ -12959,7 +13552,7 @@
             "name": "Powai",
             "zone": "Eastern Suburbs"
           },
-          "observed_at": "2026-07-05T11:15",
+          "observed_at": "2026-07-05T11:45",
           "severity": "high",
           "source": "open_meteo_forecast_hourly",
           "type": "rain_nowcast",
@@ -12970,7 +13563,7 @@
             "recent_3h_mm": 12.8,
             "recent_6h_mm": 33.2,
             "weather_code": 95,
-            "wind_speed_10m_kmh": 18.5
+            "wind_speed_10m_kmh": 19.2
           }
         }
       ]
@@ -12989,7 +13582,7 @@
     "tide": {
       "confidence": "low",
       "disclaimer": "Approximate non-official tide signal. Use official BMC/Mumbai Port tide tables for safety-critical decisions.",
-      "generated_at": "2026-07-05T11:15:45.343042+05:30",
+      "generated_at": "2026-07-05T11:47:44.668488+05:30",
       "high_tide_windows": [
         {
           "confidence": "low",
@@ -13018,8 +13611,8 @@
     }
   },
   "disclaimer": "Experimental public-information dashboard. Not an official emergency, disaster-management, weather, traffic, railway or airport system.",
-  "generated_at": "2026-07-05T11:15:45.452547+05:30",
-  "monsoon_start_date": "2026-06-23",
+  "generated_at": "2026-07-05T11:47:44.693850+05:30",
+  "monsoon_start_date": "2026-06-02",
   "project": "mumbai-monsoon-dashboard",
   "schema_version": "1.0.0",
   "sources": [
