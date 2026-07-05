@@ -11,7 +11,7 @@ from __future__ import annotations
 
 import os
 from dataclasses import dataclass
-from datetime import date
+from datetime import date, datetime
 from zoneinfo import ZoneInfo
 
 IST = ZoneInfo("Asia/Kolkata")
@@ -132,3 +132,12 @@ AREAS = [
 
 def parse_monsoon_start() -> date:
     return date.fromisoformat(MONSOON_START_DATE)
+
+
+def today_ist() -> date:
+    """Return today's date in Mumbai/IST.
+
+    GitHub Actions runners use UTC by default. The dashboard chronology should
+    use Mumbai local dates, especially during monsoon updates around midnight.
+    """
+    return datetime.now(IST).date()
