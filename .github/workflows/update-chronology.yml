@@ -2,7 +2,7 @@ name: Update Monsoon Chronology
 
 on:
   schedule:
-    - cron: "*/30 * * * *"
+  - cron: "15 0,4,8,12,16,20 * * *"
   workflow_dispatch:
 
 permissions:
