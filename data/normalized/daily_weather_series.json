@@ -2364,7 +2364,7 @@
         "value": {
           "precipitation_hours": 24.0,
           "precipitation_sum_mm": 218.9,
-          "temperature_2m_max_c": 28.0,
+          "temperature_2m_max_c": 28.2,
           "temperature_2m_min_c": 26.9,
           "wind_speed_10m_max_kmh": 42.5
         }

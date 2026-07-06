@@ -108,7 +108,7 @@
         28.3,
         28.0,
         28.2,
-        28.0
+        28.2
       ],
       "temperature_2m_min": [
         28.1,
@@ -228,7 +228,7 @@
       "wind_speed_10m_max": "km/h"
     },
     "elevation": 12.0,
-    "generationtime_ms": 31.70764446258545,
+    "generationtime_ms": 8.963346481323242,
     "latitude": 18.80492,
     "longitude": 72.92036,
     "station": {
@@ -470,7 +470,7 @@
       "wind_speed_10m_max": "km/h"
     },
     "elevation": 6.0,
-    "generationtime_ms": 7.3212385177612305,
+    "generationtime_ms": 9.709000587463379,
     "latitude": 19.086115,
     "longitude": 72.85291,
     "station": {
@@ -712,7 +712,7 @@
       "wind_speed_10m_max": "km/h"
     },
     "elevation": 43.0,
-    "generationtime_ms": 7.726907730102539,
+    "generationtime_ms": 1554.7966957092285,
     "latitude": 19.156414,
     "longitude": 72.9249,
     "station": {
