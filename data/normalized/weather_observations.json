@@ -2221,8 +2221,8 @@
       "precipitation_hours": 24.0,
       "precipitation_sum_mm": 51.7,
       "temperature_2m_max_c": 28.9,
-      "temperature_2m_min_c": 26.9,
-      "wind_speed_10m_max_kmh": 35.8
+      "temperature_2m_min_c": 27.2,
+      "wind_speed_10m_max_kmh": 45.4
     }
   },
   {
@@ -2242,7 +2242,7 @@
       "precipitation_hours": 24.0,
       "precipitation_sum_mm": 51.0,
       "temperature_2m_max_c": 27.9,
-      "temperature_2m_min_c": 25.2,
+      "temperature_2m_min_c": 25.3,
       "wind_speed_10m_max_kmh": 21.2
     }
   },
