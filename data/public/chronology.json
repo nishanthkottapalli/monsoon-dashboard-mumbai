@@ -299,12 +299,12 @@
     {
       "basis": "nowcast_intensity_equivalent_mm",
       "date": "2026-07-09",
-      "impact_score": 14,
+      "impact_score": 10,
       "provisional": true,
       "rainfall_mm_avg": 0.0,
-      "rainfall_mm_max": 11.4,
+      "rainfall_mm_max": 8.8,
       "risk_level": "normal",
-      "severity": "watch"
+      "severity": "normal"
     }
   ],
   "collector_statuses": [
@@ -327,7 +327,7 @@
   "current": {
     "areas": [
       {
-        "impact_score": 24,
+        "impact_score": 18,
         "lat": 19.0206,
         "lon": 72.8426,
         "name": "Dadar / Hindmata",
@@ -340,7 +340,7 @@
         "zone": "Central Mumbai"
       },
       {
-        "impact_score": 24,
+        "impact_score": 18,
         "lat": 19.0726,
         "lon": 72.8845,
         "name": "Kurla",
@@ -353,7 +353,7 @@
         "zone": "Central Suburbs"
       },
       {
-        "impact_score": 24,
+        "impact_score": 18,
         "lat": 19.027,
         "lon": 72.855,
         "name": "Matunga / King's Circle",
@@ -366,20 +366,7 @@
         "zone": "Central Mumbai"
       },
       {
-        "impact_score": 23,
-        "lat": 19.038,
-        "lon": 72.8538,
-        "name": "Dharavi",
-        "risk_level": "normal",
-        "signals": [
-          "rainfall"
-        ],
-        "summary": "Normal to low disruption signal for Dharavi based on the current public data model.",
-        "susceptibility": 0.8,
-        "zone": "Central Mumbai"
-      },
-      {
-        "impact_score": 23,
+        "impact_score": 18,
         "lat": 19.0434,
         "lon": 72.8633,
         "name": "Sion",
@@ -392,150 +379,20 @@
         "zone": "Central Mumbai"
       },
       {
-        "impact_score": 22,
-        "lat": 19.0522,
-        "lon": 72.9005,
-        "name": "Chembur",
+        "impact_score": 17,
+        "lat": 19.038,
+        "lon": 72.8538,
+        "name": "Dharavi",
         "risk_level": "normal",
         "signals": [
           "rainfall"
         ],
-        "summary": "Normal to low disruption signal for Chembur based on the current public data model.",
-        "susceptibility": 0.7,
-        "zone": "Eastern Suburbs"
-      },
-      {
-        "impact_score": 22,
-        "lat": 19.0522,
-        "lon": 72.8696,
-        "name": "Chunabhatti",
-        "risk_level": "normal",
-        "signals": [
-          "rainfall"
-        ],
-        "summary": "Normal to low disruption signal for Chunabhatti based on the current public data model.",
-        "susceptibility": 0.75,
-        "zone": "Harbour / Eastern Corridor"
-      },
-      {
-        "impact_score": 22,
-        "lat": 19.0856,
-        "lon": 72.908,
-        "name": "Ghatkopar",
-        "risk_level": "normal",
-        "signals": [
-          "rainfall"
-        ],
-        "summary": "Normal to low disruption signal for Ghatkopar based on the current public data model.",
-        "susceptibility": 0.7,
-        "zone": "Eastern Suburbs"
-      },
-      {
-        "impact_score": 22,
-        "lat": 19.0556,
-        "lon": 72.9156,
-        "name": "Govandi",
-        "risk_level": "normal",
-        "signals": [
-          "rainfall"
-        ],
-        "summary": "Normal to low disruption signal for Govandi based on the current public data model.",
-        "susceptibility": 0.7,
-        "zone": "Harbour / Eastern Corridor"
-      },
-      {
-        "impact_score": 22,
-        "lat": 19.1363,
-        "lon": 72.8487,
-        "name": "Jogeshwari",
-        "risk_level": "normal",
-        "signals": [
-          "rainfall"
-        ],
-        "summary": "Normal to low disruption signal for Jogeshwari based on the current public data model.",
-        "susceptibility": 0.7,
-        "zone": "Western Suburbs"
-      },
-      {
-        "impact_score": 22,
-        "lat": 19.0358,
-        "lon": 72.8426,
-        "name": "Mahim",
-        "risk_level": "normal",
-        "signals": [
-          "rainfall"
-        ],
-        "summary": "Normal to low disruption signal for Mahim based on the current public data model.",
-        "susceptibility": 0.7,
+        "summary": "Normal to low disruption signal for Dharavi based on the current public data model.",
+        "susceptibility": 0.8,
         "zone": "Central Mumbai"
       },
       {
-        "impact_score": 22,
-        "lat": 19.0485,
-        "lon": 72.9322,
-        "name": "Mankhurd",
-        "risk_level": "normal",
-        "signals": [
-          "rainfall"
-        ],
-        "summary": "Normal to low disruption signal for Mankhurd based on the current public data model.",
-        "susceptibility": 0.7,
-        "zone": "Harbour / Eastern Corridor"
-      },
-      {
-        "impact_score": 22,
-        "lat": 18.993,
-        "lon": 72.8374,
-        "name": "Parel",
-        "risk_level": "normal",
-        "signals": [
-          "rainfall"
-        ],
-        "summary": "Normal to low disruption signal for Parel based on the current public data model.",
-        "susceptibility": 0.75,
-        "zone": "Central Mumbai"
-      },
-      {
-        "impact_score": 22,
-        "lat": 19.103,
-        "lon": 72.8888,
-        "name": "Saki Naka",
-        "risk_level": "normal",
-        "signals": [
-          "rainfall"
-        ],
-        "summary": "Normal to low disruption signal for Saki Naka based on the current public data model.",
-        "susceptibility": 0.75,
-        "zone": "Airport / MIDC Corridor"
-      },
-      {
-        "impact_score": 22,
-        "lat": 19.067,
-        "lon": 72.8976,
-        "name": "Tilak Nagar",
-        "risk_level": "normal",
-        "signals": [
-          "rainfall"
-        ],
-        "summary": "Normal to low disruption signal for Tilak Nagar based on the current public data model.",
-        "susceptibility": 0.7,
-        "zone": "Harbour / Eastern Corridor"
-      },
-      {
-        "impact_score": 22,
-        "lat": 19.0178,
-        "lon": 72.8562,
-        "name": "Wadala",
-        "risk_level": "normal",
-        "signals": [
-          "rainfall"
-        ],
-        "summary": "Normal to low disruption signal for Wadala based on the current public data model.",
-        "susceptibility": 0.7,
-        "zone": "Harbour / Eastern Corridor"
-      },
-      {
-        "impact_score": 21,
+        "impact_score": 16,
         "lat": 19.1197,
         "lon": 72.8464,
         "name": "Andheri",
@@ -548,7 +405,7 @@
         "zone": "Western Suburbs"
       },
       {
-        "impact_score": 21,
+        "impact_score": 16,
         "lat": 19.1364,
         "lon": 72.8296,
         "name": "Andheri West",
@@ -561,7 +418,7 @@
         "zone": "Western Suburbs"
       },
       {
-        "impact_score": 21,
+        "impact_score": 16,
         "lat": 19.0667,
         "lon": 72.8679,
         "name": "BKC",
@@ -574,20 +431,7 @@
         "zone": "Western Suburbs"
       },
       {
-        "impact_score": 21,
-        "lat": 18.975,
-        "lon": 72.8333,
-        "name": "Byculla",
-        "risk_level": "normal",
-        "signals": [
-          "rainfall"
-        ],
-        "summary": "Normal to low disruption signal for Byculla based on the current public data model.",
-        "susceptibility": 0.6,
-        "zone": "Central Mumbai"
-      },
-      {
-        "impact_score": 21,
+        "impact_score": 16,
         "lat": 19.1097,
         "lon": 72.9003,
         "name": "Chandivali",
@@ -600,7 +444,33 @@
         "zone": "Airport / MIDC Corridor"
       },
       {
-        "impact_score": 21,
+        "impact_score": 16,
+        "lat": 19.0522,
+        "lon": 72.9005,
+        "name": "Chembur",
+        "risk_level": "normal",
+        "signals": [
+          "rainfall"
+        ],
+        "summary": "Normal to low disruption signal for Chembur based on the current public data model.",
+        "susceptibility": 0.7,
+        "zone": "Eastern Suburbs"
+      },
+      {
+        "impact_score": 16,
+        "lat": 19.0522,
+        "lon": 72.8696,
+        "name": "Chunabhatti",
+        "risk_level": "normal",
+        "signals": [
+          "rainfall"
+        ],
+        "summary": "Normal to low disruption signal for Chunabhatti based on the current public data model.",
+        "susceptibility": 0.75,
+        "zone": "Harbour / Eastern Corridor"
+      },
+      {
+        "impact_score": 16,
         "lat": 19.0476,
         "lon": 72.9129,
         "name": "Deonar",
@@ -613,7 +483,46 @@
         "zone": "Harbour / Eastern Corridor"
       },
       {
-        "impact_score": 21,
+        "impact_score": 16,
+        "lat": 19.0856,
+        "lon": 72.908,
+        "name": "Ghatkopar",
+        "risk_level": "normal",
+        "signals": [
+          "rainfall"
+        ],
+        "summary": "Normal to low disruption signal for Ghatkopar based on the current public data model.",
+        "susceptibility": 0.7,
+        "zone": "Eastern Suburbs"
+      },
+      {
+        "impact_score": 16,
+        "lat": 19.0556,
+        "lon": 72.9156,
+        "name": "Govandi",
+        "risk_level": "normal",
+        "signals": [
+          "rainfall"
+        ],
+        "summary": "Normal to low disruption signal for Govandi based on the current public data model.",
+        "susceptibility": 0.7,
+        "zone": "Harbour / Eastern Corridor"
+      },
+      {
+        "impact_score": 16,
+        "lat": 19.1363,
+        "lon": 72.8487,
+        "name": "Jogeshwari",
+        "risk_level": "normal",
+        "signals": [
+          "rainfall"
+        ],
+        "summary": "Normal to low disruption signal for Jogeshwari based on the current public data model.",
+        "susceptibility": 0.7,
+        "zone": "Western Suburbs"
+      },
+      {
+        "impact_score": 16,
         "lat": 19.1433,
         "lon": 72.8244,
         "name": "Lokhandwala / Oshiwara",
@@ -626,7 +535,7 @@
         "zone": "Western Suburbs"
       },
       {
-        "impact_score": 21,
+        "impact_score": 16,
         "lat": 18.998,
         "lon": 72.83,
         "name": "Lower Parel",
@@ -639,7 +548,7 @@
         "zone": "Central Mumbai"
       },
       {
-        "impact_score": 21,
+        "impact_score": 16,
         "lat": 19.119,
         "lon": 72.8718,
         "name": "MIDC Andheri",
@@ -652,20 +561,33 @@
         "zone": "Airport / MIDC Corridor"
       },
       {
-        "impact_score": 21,
-        "lat": 19.186,
-        "lon": 72.8485,
-        "name": "Malad",
+        "impact_score": 16,
+        "lat": 19.0358,
+        "lon": 72.8426,
+        "name": "Mahim",
         "risk_level": "normal",
         "signals": [
           "rainfall"
         ],
-        "summary": "Normal to low disruption signal for Malad based on the current public data model.",
-        "susceptibility": 0.6,
-        "zone": "Western Suburbs"
+        "summary": "Normal to low disruption signal for Mahim based on the current public data model.",
+        "susceptibility": 0.7,
+        "zone": "Central Mumbai"
       },
       {
-        "impact_score": 21,
+        "impact_score": 16,
+        "lat": 19.0485,
+        "lon": 72.9322,
+        "name": "Mankhurd",
+        "risk_level": "normal",
+        "signals": [
+          "rainfall"
+        ],
+        "summary": "Normal to low disruption signal for Mankhurd based on the current public data model.",
+        "susceptibility": 0.7,
+        "zone": "Harbour / Eastern Corridor"
+      },
+      {
+        "impact_score": 16,
         "lat": 19.1191,
         "lon": 72.8828,
         "name": "Marol",
@@ -678,7 +600,7 @@
         "zone": "Airport / MIDC Corridor"
       },
       {
-        "impact_score": 21,
+        "impact_score": 16,
         "lat": 19.0896,
         "lon": 72.8656,
         "name": "Mumbai Airport / Sahar",
@@ -691,46 +613,33 @@
         "zone": "Airport / MIDC Corridor"
       },
       {
-        "impact_score": 21,
-        "lat": 19.1176,
-        "lon": 72.906,
-        "name": "Powai",
+        "impact_score": 16,
+        "lat": 18.993,
+        "lon": 72.8374,
+        "name": "Parel",
         "risk_level": "normal",
         "signals": [
           "rainfall"
         ],
-        "summary": "Normal to low disruption signal for Powai based on the current public data model.",
-        "susceptibility": 0.6,
-        "zone": "Eastern Suburbs"
-      },
-      {
-        "impact_score": 21,
-        "lat": 19.0166,
-        "lon": 72.8295,
-        "name": "Prabhadevi",
-        "risk_level": "normal",
-        "signals": [
-          "rainfall"
-        ],
-        "summary": "Normal to low disruption signal for Prabhadevi based on the current public data model.",
-        "susceptibility": 0.6,
+        "summary": "Normal to low disruption signal for Parel based on the current public data model.",
+        "susceptibility": 0.75,
         "zone": "Central Mumbai"
       },
       {
-        "impact_score": 21,
-        "lat": 19.1268,
-        "lon": 72.8746,
-        "name": "SEEPZ",
+        "impact_score": 16,
+        "lat": 19.103,
+        "lon": 72.8888,
+        "name": "Saki Naka",
         "risk_level": "normal",
         "signals": [
           "rainfall"
         ],
-        "summary": "Normal to low disruption signal for SEEPZ based on the current public data model.",
-        "susceptibility": 0.6,
+        "summary": "Normal to low disruption signal for Saki Naka based on the current public data model.",
+        "susceptibility": 0.75,
         "zone": "Airport / MIDC Corridor"
       },
       {
-        "impact_score": 21,
+        "impact_score": 16,
         "lat": 19.0896,
         "lon": 72.8656,
         "name": "Santacruz",
@@ -743,7 +652,7 @@
         "zone": "Western Suburbs"
       },
       {
-        "impact_score": 21,
+        "impact_score": 16,
         "lat": 18.9986,
         "lon": 72.8548,
         "name": "Sewri",
@@ -756,20 +665,20 @@
         "zone": "Harbour / Eastern Corridor"
       },
       {
-        "impact_score": 21,
-        "lat": 19.1312,
-        "lon": 72.8148,
-        "name": "Versova",
+        "impact_score": 16,
+        "lat": 19.067,
+        "lon": 72.8976,
+        "name": "Tilak Nagar",
         "risk_level": "normal",
         "signals": [
           "rainfall"
         ],
-        "summary": "Normal to low disruption signal for Versova based on the current public data model.",
-        "susceptibility": 0.6,
-        "zone": "Western Suburbs"
+        "summary": "Normal to low disruption signal for Tilak Nagar based on the current public data model.",
+        "susceptibility": 0.7,
+        "zone": "Harbour / Eastern Corridor"
       },
       {
-        "impact_score": 21,
+        "impact_score": 16,
         "lat": 19.079,
         "lon": 72.897,
         "name": "Vidyavihar",
@@ -782,7 +691,98 @@
         "zone": "Eastern Suburbs"
       },
       {
-        "impact_score": 21,
+        "impact_score": 16,
+        "lat": 19.0178,
+        "lon": 72.8562,
+        "name": "Wadala",
+        "risk_level": "normal",
+        "signals": [
+          "rainfall"
+        ],
+        "summary": "Normal to low disruption signal for Wadala based on the current public data model.",
+        "susceptibility": 0.7,
+        "zone": "Harbour / Eastern Corridor"
+      },
+      {
+        "impact_score": 15,
+        "lat": 18.975,
+        "lon": 72.8333,
+        "name": "Byculla",
+        "risk_level": "normal",
+        "signals": [
+          "rainfall"
+        ],
+        "summary": "Normal to low disruption signal for Byculla based on the current public data model.",
+        "susceptibility": 0.6,
+        "zone": "Central Mumbai"
+      },
+      {
+        "impact_score": 15,
+        "lat": 19.186,
+        "lon": 72.8485,
+        "name": "Malad",
+        "risk_level": "normal",
+        "signals": [
+          "rainfall"
+        ],
+        "summary": "Normal to low disruption signal for Malad based on the current public data model.",
+        "susceptibility": 0.6,
+        "zone": "Western Suburbs"
+      },
+      {
+        "impact_score": 15,
+        "lat": 19.1176,
+        "lon": 72.906,
+        "name": "Powai",
+        "risk_level": "normal",
+        "signals": [
+          "rainfall"
+        ],
+        "summary": "Normal to low disruption signal for Powai based on the current public data model.",
+        "susceptibility": 0.6,
+        "zone": "Eastern Suburbs"
+      },
+      {
+        "impact_score": 15,
+        "lat": 19.0166,
+        "lon": 72.8295,
+        "name": "Prabhadevi",
+        "risk_level": "normal",
+        "signals": [
+          "rainfall"
+        ],
+        "summary": "Normal to low disruption signal for Prabhadevi based on the current public data model.",
+        "susceptibility": 0.6,
+        "zone": "Central Mumbai"
+      },
+      {
+        "impact_score": 15,
+        "lat": 19.1268,
+        "lon": 72.8746,
+        "name": "SEEPZ",
+        "risk_level": "normal",
+        "signals": [
+          "rainfall"
+        ],
+        "summary": "Normal to low disruption signal for SEEPZ based on the current public data model.",
+        "susceptibility": 0.6,
+        "zone": "Airport / MIDC Corridor"
+      },
+      {
+        "impact_score": 15,
+        "lat": 19.1312,
+        "lon": 72.8148,
+        "name": "Versova",
+        "risk_level": "normal",
+        "signals": [
+          "rainfall"
+        ],
+        "summary": "Normal to low disruption signal for Versova based on the current public data model.",
+        "susceptibility": 0.6,
+        "zone": "Western Suburbs"
+      },
+      {
+        "impact_score": 15,
         "lat": 19.1006,
         "lon": 72.8438,
         "name": "Vile Parle",
@@ -795,163 +795,7 @@
         "zone": "Western Suburbs"
       },
       {
-        "impact_score": 20,
-        "lat": 19.0607,
-        "lon": 72.8362,
-        "name": "Bandra",
-        "risk_level": "normal",
-        "signals": [
-          "rainfall"
-        ],
-        "summary": "Normal to low disruption signal for Bandra based on the current public data model.",
-        "susceptibility": 0.55,
-        "zone": "Western Suburbs"
-      },
-      {
-        "impact_score": 20,
-        "lat": 19.1511,
-        "lon": 72.9372,
-        "name": "Bhandup",
-        "risk_level": "normal",
-        "signals": [
-          "rainfall"
-        ],
-        "summary": "Normal to low disruption signal for Bhandup based on the current public data model.",
-        "susceptibility": 0.55,
-        "zone": "Eastern Suburbs"
-      },
-      {
-        "impact_score": 20,
-        "lat": 19.1663,
-        "lon": 72.8526,
-        "name": "Goregaon",
-        "risk_level": "normal",
-        "signals": [
-          "rainfall"
-        ],
-        "summary": "Normal to low disruption signal for Goregaon based on the current public data model.",
-        "susceptibility": 0.55,
-        "zone": "Western Suburbs"
-      },
-      {
-        "impact_score": 20,
-        "lat": 19.1075,
-        "lon": 72.8263,
-        "name": "Juhu",
-        "risk_level": "normal",
-        "signals": [
-          "rainfall"
-        ],
-        "summary": "Normal to low disruption signal for Juhu based on the current public data model.",
-        "susceptibility": 0.55,
-        "zone": "Western Suburbs"
-      },
-      {
-        "impact_score": 20,
-        "lat": 19.2045,
-        "lon": 72.8518,
-        "name": "Kandivali",
-        "risk_level": "normal",
-        "signals": [
-          "rainfall"
-        ],
-        "summary": "Normal to low disruption signal for Kandivali based on the current public data model.",
-        "susceptibility": 0.55,
-        "zone": "Western Suburbs"
-      },
-      {
-        "impact_score": 20,
-        "lat": 19.1293,
-        "lon": 72.933,
-        "name": "Kanjurmarg",
-        "risk_level": "normal",
-        "signals": [
-          "rainfall"
-        ],
-        "summary": "Normal to low disruption signal for Kanjurmarg based on the current public data model.",
-        "susceptibility": 0.55,
-        "zone": "Eastern Suburbs"
-      },
-      {
-        "impact_score": 20,
-        "lat": 19.07,
-        "lon": 72.84,
-        "name": "Khar",
-        "risk_level": "normal",
-        "signals": [
-          "rainfall"
-        ],
-        "summary": "Normal to low disruption signal for Khar based on the current public data model.",
-        "susceptibility": 0.55,
-        "zone": "Western Suburbs"
-      },
-      {
-        "impact_score": 20,
-        "lat": 18.9518,
-        "lon": 72.838,
-        "name": "Masjid Bunder",
-        "risk_level": "normal",
-        "signals": [
-          "rainfall"
-        ],
-        "summary": "Normal to low disruption signal for Masjid Bunder based on the current public data model.",
-        "susceptibility": 0.55,
-        "zone": "South Mumbai"
-      },
-      {
-        "impact_score": 20,
-        "lat": 18.969,
-        "lon": 72.8205,
-        "name": "Mumbai Central",
-        "risk_level": "normal",
-        "signals": [
-          "rainfall"
-        ],
-        "summary": "Normal to low disruption signal for Mumbai Central based on the current public data model.",
-        "susceptibility": 0.55,
-        "zone": "South Mumbai"
-      },
-      {
-        "impact_score": 20,
-        "lat": 19.028,
-        "lon": 72.8377,
-        "name": "Shivaji Park",
-        "risk_level": "normal",
-        "signals": [
-          "rainfall"
-        ],
-        "summary": "Normal to low disruption signal for Shivaji Park based on the current public data model.",
-        "susceptibility": 0.55,
-        "zone": "Central Mumbai"
-      },
-      {
-        "impact_score": 20,
-        "lat": 19.111,
-        "lon": 72.928,
-        "name": "Vikhroli",
-        "risk_level": "normal",
-        "signals": [
-          "rainfall"
-        ],
-        "summary": "Normal to low disruption signal for Vikhroli based on the current public data model.",
-        "susceptibility": 0.55,
-        "zone": "Eastern Suburbs"
-      },
-      {
-        "impact_score": 20,
-        "lat": 19.0176,
-        "lon": 72.8162,
-        "name": "Worli",
-        "risk_level": "normal",
-        "signals": [
-          "rainfall"
-        ],
-        "summary": "Normal to low disruption signal for Worli based on the current public data model.",
-        "susceptibility": 0.55,
-        "zone": "Central Mumbai"
-      },
-      {
-        "impact_score": 19,
+        "impact_score": 14,
         "lat": 19.16,
         "lon": 72.883,
         "name": "Aarey",
@@ -964,7 +808,33 @@
         "zone": "Western / Green Zone"
       },
       {
-        "impact_score": 19,
+        "impact_score": 14,
+        "lat": 19.0607,
+        "lon": 72.8362,
+        "name": "Bandra",
+        "risk_level": "normal",
+        "signals": [
+          "rainfall"
+        ],
+        "summary": "Normal to low disruption signal for Bandra based on the current public data model.",
+        "susceptibility": 0.55,
+        "zone": "Western Suburbs"
+      },
+      {
+        "impact_score": 14,
+        "lat": 19.1511,
+        "lon": 72.9372,
+        "name": "Bhandup",
+        "risk_level": "normal",
+        "signals": [
+          "rainfall"
+        ],
+        "summary": "Normal to low disruption signal for Bhandup based on the current public data model.",
+        "susceptibility": 0.55,
+        "zone": "Eastern Suburbs"
+      },
+      {
+        "impact_score": 14,
         "lat": 19.2307,
         "lon": 72.8567,
         "name": "Borivali",
@@ -977,7 +847,7 @@
         "zone": "Western Suburbs"
       },
       {
-        "impact_score": 19,
+        "impact_score": 14,
         "lat": 18.9398,
         "lon": 72.8355,
         "name": "CST / Fort",
@@ -990,20 +860,7 @@
         "zone": "South Mumbai"
       },
       {
-        "impact_score": 19,
-        "lat": 18.9322,
-        "lon": 72.8264,
-        "name": "Churchgate",
-        "risk_level": "normal",
-        "signals": [
-          "rainfall"
-        ],
-        "summary": "Normal to low disruption signal for Churchgate based on the current public data model.",
-        "susceptibility": 0.4,
-        "zone": "South Mumbai"
-      },
-      {
-        "impact_score": 19,
+        "impact_score": 14,
         "lat": 19.25,
         "lon": 72.8596,
         "name": "Dahisar",
@@ -1016,7 +873,72 @@
         "zone": "Western Suburbs"
       },
       {
-        "impact_score": 19,
+        "impact_score": 14,
+        "lat": 19.1663,
+        "lon": 72.8526,
+        "name": "Goregaon",
+        "risk_level": "normal",
+        "signals": [
+          "rainfall"
+        ],
+        "summary": "Normal to low disruption signal for Goregaon based on the current public data model.",
+        "susceptibility": 0.55,
+        "zone": "Western Suburbs"
+      },
+      {
+        "impact_score": 14,
+        "lat": 19.1075,
+        "lon": 72.8263,
+        "name": "Juhu",
+        "risk_level": "normal",
+        "signals": [
+          "rainfall"
+        ],
+        "summary": "Normal to low disruption signal for Juhu based on the current public data model.",
+        "susceptibility": 0.55,
+        "zone": "Western Suburbs"
+      },
+      {
+        "impact_score": 14,
+        "lat": 19.2045,
+        "lon": 72.8518,
+        "name": "Kandivali",
+        "risk_level": "normal",
+        "signals": [
+          "rainfall"
+        ],
+        "summary": "Normal to low disruption signal for Kandivali based on the current public data model.",
+        "susceptibility": 0.55,
+        "zone": "Western Suburbs"
+      },
+      {
+        "impact_score": 14,
+        "lat": 19.1293,
+        "lon": 72.933,
+        "name": "Kanjurmarg",
+        "risk_level": "normal",
+        "signals": [
+          "rainfall"
+        ],
+        "summary": "Normal to low disruption signal for Kanjurmarg based on the current public data model.",
+        "susceptibility": 0.55,
+        "zone": "Eastern Suburbs"
+      },
+      {
+        "impact_score": 14,
+        "lat": 19.07,
+        "lon": 72.84,
+        "name": "Khar",
+        "risk_level": "normal",
+        "signals": [
+          "rainfall"
+        ],
+        "summary": "Normal to low disruption signal for Khar based on the current public data model.",
+        "susceptibility": 0.55,
+        "zone": "Western Suburbs"
+      },
+      {
+        "impact_score": 14,
         "lat": 18.944,
         "lon": 72.8236,
         "name": "Marine Lines",
@@ -1029,7 +951,20 @@
         "zone": "South Mumbai"
       },
       {
-        "impact_score": 19,
+        "impact_score": 14,
+        "lat": 18.9518,
+        "lon": 72.838,
+        "name": "Masjid Bunder",
+        "risk_level": "normal",
+        "signals": [
+          "rainfall"
+        ],
+        "summary": "Normal to low disruption signal for Masjid Bunder based on the current public data model.",
+        "susceptibility": 0.55,
+        "zone": "South Mumbai"
+      },
+      {
+        "impact_score": 14,
         "lat": 19.1726,
         "lon": 72.9425,
         "name": "Mulund",
@@ -1042,7 +977,72 @@
         "zone": "Eastern Suburbs"
       },
       {
-        "impact_score": 19,
+        "impact_score": 14,
+        "lat": 18.969,
+        "lon": 72.8205,
+        "name": "Mumbai Central",
+        "risk_level": "normal",
+        "signals": [
+          "rainfall"
+        ],
+        "summary": "Normal to low disruption signal for Mumbai Central based on the current public data model.",
+        "susceptibility": 0.55,
+        "zone": "South Mumbai"
+      },
+      {
+        "impact_score": 14,
+        "lat": 19.028,
+        "lon": 72.8377,
+        "name": "Shivaji Park",
+        "risk_level": "normal",
+        "signals": [
+          "rainfall"
+        ],
+        "summary": "Normal to low disruption signal for Shivaji Park based on the current public data model.",
+        "susceptibility": 0.55,
+        "zone": "Central Mumbai"
+      },
+      {
+        "impact_score": 14,
+        "lat": 19.111,
+        "lon": 72.928,
+        "name": "Vikhroli",
+        "risk_level": "normal",
+        "signals": [
+          "rainfall"
+        ],
+        "summary": "Normal to low disruption signal for Vikhroli based on the current public data model.",
+        "susceptibility": 0.55,
+        "zone": "Eastern Suburbs"
+      },
+      {
+        "impact_score": 14,
+        "lat": 19.0176,
+        "lon": 72.8162,
+        "name": "Worli",
+        "risk_level": "normal",
+        "signals": [
+          "rainfall"
+        ],
+        "summary": "Normal to low disruption signal for Worli based on the current public data model.",
+        "susceptibility": 0.55,
+        "zone": "Central Mumbai"
+      },
+      {
+        "impact_score": 13,
+        "lat": 18.9322,
+        "lon": 72.8264,
+        "name": "Churchgate",
+        "risk_level": "normal",
+        "signals": [
+          "rainfall"
+        ],
+        "summary": "Normal to low disruption signal for Churchgate based on the current public data model.",
+        "susceptibility": 0.4,
+        "zone": "South Mumbai"
+      },
+      {
+        "impact_score": 13,
         "lat": 19.2147,
         "lon": 72.9106,
         "name": "Sanjay Gandhi National Park Edge",
@@ -1055,7 +1055,7 @@
         "zone": "North Mumbai / Green Zone"
       },
       {
-        "impact_score": 18,
+        "impact_score": 12,
         "lat": 18.9067,
         "lon": 72.8147,
         "name": "Colaba",
@@ -1068,7 +1068,7 @@
         "zone": "South Mumbai"
       },
       {
-        "impact_score": 18,
+        "impact_score": 12,
         "lat": 18.9256,
         "lon": 72.8242,
         "name": "Nariman Point",
@@ -1084,7 +1084,7 @@
     "briefing": {
       "headline": "Mumbai monsoon disruption signal is currently low.",
       "method_note": "Impact is computed from public rainfall data plus transparent derived signals for waterlogging, traffic, rail and tide risk. This is not an official alerting system.",
-      "overview": "The current explainable model is driven primarily by a rainfall/nowcast disruption signal of 11.4 mm. Basis: nowcast_intensity_equivalent_mm. Current-hour rain signal is 0.1 mm, with 1.2 mm in the recent 3h window.",
+      "overview": "The current explainable model is driven primarily by a rainfall/nowcast disruption signal of 8.8 mm. Basis: nowcast_intensity_equivalent_mm. Current-hour rain signal is 0.3 mm, with 0.4 mm in the recent 3h window.",
       "public_advisory": [
         "Use official IMD, BMC, Mumbai Police, railway and airport advisories for safety-critical decisions.",
         "Avoid low-lying areas during intense rain and near high-tide overlap windows.",
@@ -1094,13 +1094,13 @@
     "city": {
       "driver_scores": {
         "rail": 5,
-        "rainfall": 25,
+        "rainfall": 10,
         "tide": 10,
         "traffic": 10,
         "waterlogging": 10,
         "weather_alert": 10
       },
-      "impact_score": 14,
+      "impact_score": 10,
       "name": "Mumbai",
       "risk_level": "normal",
       "summary": "Mumbai monsoon disruption signal is currently low."
@@ -1113,8 +1113,8 @@
       },
       "rainfall": {
         "confidence": "medium",
-        "level": "watch",
-        "score": 25
+        "level": "normal",
+        "score": 10
       },
       "tide": {
         "confidence": "low",
@@ -1147,7 +1147,7 @@
             "name": "Colaba",
             "zone": "South Mumbai"
           },
-          "observed_at": "2026-07-09T13:15",
+          "observed_at": "2026-07-09T16:45",
           "severity": "normal",
           "source": "open_meteo_forecast",
           "type": "current_weather",
@@ -1166,15 +1166,15 @@
             "name": "Santacruz",
             "zone": "Western Suburbs"
           },
-          "observed_at": "2026-07-09T13:15",
+          "observed_at": "2026-07-09T16:45",
           "severity": "normal",
           "source": "open_meteo_forecast",
           "type": "current_weather",
           "value": {
-            "precipitation_mm": 0.0,
-            "rain_mm": 0.0,
-            "weather_code": 3,
-            "wind_speed_10m_kmh": 20.9
+            "precipitation_mm": 0.1,
+            "rain_mm": 0.1,
+            "weather_code": 51,
+            "wind_speed_10m_kmh": 19.5
           }
         },
         {
@@ -1185,7 +1185,7 @@
             "name": "Powai",
             "zone": "Eastern Suburbs"
           },
-          "observed_at": "2026-07-09T13:15",
+          "observed_at": "2026-07-09T16:45",
           "severity": "normal",
           "source": "open_meteo_forecast",
           "type": "current_weather",
@@ -1193,7 +1193,7 @@
             "precipitation_mm": 0.0,
             "rain_mm": 0.0,
             "weather_code": 3,
-            "wind_speed_10m_kmh": 17.6
+            "wind_speed_10m_kmh": 16.0
           }
         }
       ],
@@ -1325,7 +1325,7 @@
           "source": "open_meteo_forecast",
           "type": "daily_forecast",
           "value": {
-            "precipitation_probability_max_pct": 99,
+            "precipitation_probability_max_pct": 100,
             "precipitation_sum_mm": 7.2,
             "weather_code": 53,
             "wind_speed_10m_max_kmh": 28.4
@@ -1344,7 +1344,7 @@
           "source": "open_meteo_forecast",
           "type": "daily_forecast",
           "value": {
-            "precipitation_probability_max_pct": 99,
+            "precipitation_probability_max_pct": 100,
             "precipitation_sum_mm": 3.8,
             "weather_code": 95,
             "wind_speed_10m_max_kmh": 17.8
@@ -1363,7 +1363,7 @@
           "source": "open_meteo_forecast",
           "type": "daily_forecast",
           "value": {
-            "precipitation_probability_max_pct": 99,
+            "precipitation_probability_max_pct": 100,
             "precipitation_sum_mm": 3.1,
             "weather_code": 53,
             "wind_speed_10m_max_kmh": 21.1
@@ -1382,7 +1382,7 @@
           "source": "open_meteo_forecast",
           "type": "daily_forecast",
           "value": {
-            "precipitation_probability_max_pct": 97,
+            "precipitation_probability_max_pct": 92,
             "precipitation_sum_mm": 4.2,
             "weather_code": 53,
             "wind_speed_10m_max_kmh": 28.9
@@ -1401,7 +1401,7 @@
           "source": "open_meteo_forecast",
           "type": "daily_forecast",
           "value": {
-            "precipitation_probability_max_pct": 97,
+            "precipitation_probability_max_pct": 92,
             "precipitation_sum_mm": 4.4,
             "weather_code": 95,
             "wind_speed_10m_max_kmh": 19.1
@@ -1420,7 +1420,7 @@
           "source": "open_meteo_forecast",
           "type": "daily_forecast",
           "value": {
-            "precipitation_probability_max_pct": 97,
+            "precipitation_probability_max_pct": 92,
             "precipitation_sum_mm": 2.6,
             "weather_code": 51,
             "wind_speed_10m_max_kmh": 21.5
@@ -1439,7 +1439,7 @@
           "source": "open_meteo_forecast",
           "type": "daily_forecast",
           "value": {
-            "precipitation_probability_max_pct": 93,
+            "precipitation_probability_max_pct": 98,
             "precipitation_sum_mm": 2.7,
             "weather_code": 51,
             "wind_speed_10m_max_kmh": 30.5
@@ -1458,7 +1458,7 @@
           "source": "open_meteo_forecast",
           "type": "daily_forecast",
           "value": {
-            "precipitation_probability_max_pct": 93,
+            "precipitation_probability_max_pct": 98,
             "precipitation_sum_mm": 3.1,
             "weather_code": 95,
             "wind_speed_10m_max_kmh": 20.2
@@ -1477,7 +1477,7 @@
           "source": "open_meteo_forecast",
           "type": "daily_forecast",
           "value": {
-            "precipitation_probability_max_pct": 93,
+            "precipitation_probability_max_pct": 98,
             "precipitation_sum_mm": 3.1,
             "weather_code": 53,
             "wind_speed_10m_max_kmh": 22.9
@@ -1553,7 +1553,7 @@
           "source": "open_meteo_forecast",
           "type": "daily_forecast",
           "value": {
-            "precipitation_probability_max_pct": 53,
+            "precipitation_probability_max_pct": 47,
             "precipitation_sum_mm": 0.0,
             "weather_code": 3,
             "wind_speed_10m_max_kmh": 25.6
@@ -1572,7 +1572,7 @@
           "source": "open_meteo_forecast",
           "type": "daily_forecast",
           "value": {
-            "precipitation_probability_max_pct": 53,
+            "precipitation_probability_max_pct": 47,
             "precipitation_sum_mm": 2.7,
             "weather_code": 51,
             "wind_speed_10m_max_kmh": 17.6
@@ -1591,7 +1591,7 @@
           "source": "open_meteo_forecast",
           "type": "daily_forecast",
           "value": {
-            "precipitation_probability_max_pct": 53,
+            "precipitation_probability_max_pct": 47,
             "precipitation_sum_mm": 5.4,
             "weather_code": 53,
             "wind_speed_10m_max_kmh": 19.6
@@ -1610,7 +1610,7 @@
           "source": "open_meteo_forecast",
           "type": "daily_forecast",
           "value": {
-            "precipitation_probability_max_pct": 94,
+            "precipitation_probability_max_pct": 98,
             "precipitation_sum_mm": 4.2,
             "weather_code": 51,
             "wind_speed_10m_max_kmh": 28.8
@@ -1629,7 +1629,7 @@
           "source": "open_meteo_forecast",
           "type": "daily_forecast",
           "value": {
-            "precipitation_probability_max_pct": 94,
+            "precipitation_probability_max_pct": 98,
             "precipitation_sum_mm": 8.1,
             "weather_code": 53,
             "wind_speed_10m_max_kmh": 17.6
@@ -1648,7 +1648,7 @@
           "source": "open_meteo_forecast",
           "type": "daily_forecast",
           "value": {
-            "precipitation_probability_max_pct": 94,
+            "precipitation_probability_max_pct": 98,
             "precipitation_sum_mm": 8.1,
             "weather_code": 53,
             "wind_speed_10m_max_kmh": 21.1
@@ -13387,16 +13387,16 @@
             "name": "Colaba",
             "zone": "South Mumbai"
           },
-          "observed_at": "2026-07-09T13:15",
+          "observed_at": "2026-07-09T16:45",
           "severity": "normal",
           "source": "open_meteo_forecast_hourly",
           "type": "rain_nowcast",
           "value": {
-            "current_hour_mm": 0.1,
-            "intensity_equivalent_mm": 11.4,
-            "recent_12h_mm": 5.7,
-            "recent_3h_mm": 1.2,
-            "recent_6h_mm": 2.4,
+            "current_hour_mm": 0.0,
+            "intensity_equivalent_mm": 8.8,
+            "recent_12h_mm": 4.4,
+            "recent_3h_mm": 0.2,
+            "recent_6h_mm": 1.4,
             "weather_code": 3,
             "wind_speed_10m_kmh": 27.7
           }
@@ -13409,18 +13409,18 @@
             "name": "Santacruz",
             "zone": "Western Suburbs"
           },
-          "observed_at": "2026-07-09T13:15",
+          "observed_at": "2026-07-09T16:45",
           "severity": "normal",
           "source": "open_meteo_forecast_hourly",
           "type": "rain_nowcast",
           "value": {
-            "current_hour_mm": 0.0,
-            "intensity_equivalent_mm": 3.0,
-            "recent_12h_mm": 1.5,
-            "recent_3h_mm": 0.3,
+            "current_hour_mm": 0.3,
+            "intensity_equivalent_mm": 7.2,
+            "recent_12h_mm": 1.7,
+            "recent_3h_mm": 0.4,
             "recent_6h_mm": 0.7,
-            "weather_code": 3,
-            "wind_speed_10m_kmh": 20.9
+            "weather_code": 51,
+            "wind_speed_10m_kmh": 19.5
           }
         },
         {
@@ -13431,18 +13431,18 @@
             "name": "Powai",
             "zone": "Eastern Suburbs"
           },
-          "observed_at": "2026-07-09T13:15",
+          "observed_at": "2026-07-09T16:45",
           "severity": "normal",
           "source": "open_meteo_forecast_hourly",
           "type": "rain_nowcast",
           "value": {
-            "current_hour_mm": 0.1,
-            "intensity_equivalent_mm": 6.0,
-            "recent_12h_mm": 2.6,
+            "current_hour_mm": 0.2,
+            "intensity_equivalent_mm": 5.0,
+            "recent_12h_mm": 2.5,
             "recent_3h_mm": 0.4,
-            "recent_6h_mm": 1.5,
+            "recent_6h_mm": 0.8,
             "weather_code": 3,
-            "wind_speed_10m_kmh": 17.6
+            "wind_speed_10m_kmh": 16.0
           }
         }
       ]
@@ -13450,18 +13450,18 @@
     "rainfall_signal": {
       "basis": "nowcast_intensity_equivalent_mm",
       "nowcast": {
-        "current_hour_mm": 0.1,
-        "intensity_equivalent_mm": 11.4,
-        "recent_3h_mm": 1.2
+        "current_hour_mm": 0.3,
+        "intensity_equivalent_mm": 8.8,
+        "recent_3h_mm": 0.4
       },
       "today_forecast_mm": 7.2,
-      "value_mm": 11.4
+      "value_mm": 8.8
     },
-    "rainfall_signal_mm": 11.4,
+    "rainfall_signal_mm": 8.8,
     "tide": {
       "confidence": "low",
       "disclaimer": "Approximate non-official tide signal. Use official BMC/Mumbai Port tide tables for safety-critical decisions.",
-      "generated_at": "2026-07-09T13:27:31.059555+05:30",
+      "generated_at": "2026-07-09T16:50:15.659799+05:30",
       "high_tide_windows": [
         {
           "confidence": "low",
@@ -13490,7 +13490,7 @@
     }
   },
   "disclaimer": "Experimental public-information dashboard. Not an official emergency, disaster-management, weather, traffic, railway or airport system.",
-  "generated_at": "2026-07-09T13:27:31.181075+05:30",
+  "generated_at": "2026-07-09T16:50:15.769678+05:30",
   "monsoon_start_date": "2026-06-02",
   "project": "mumbai-monsoon-dashboard",
   "schema_version": "1.0.0",
