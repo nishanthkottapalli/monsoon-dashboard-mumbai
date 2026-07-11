@@ -5,9 +5,9 @@
       "interval": 900,
       "precipitation": 0.0,
       "rain": 0.0,
-      "time": "2026-07-11T19:15",
+      "time": "2026-07-11T22:45",
       "weather_code": 3,
-      "wind_speed_10m": 23.2
+      "wind_speed_10m": 24.1
     },
     "current_units": {
       "interval": "seconds",
@@ -21,10 +21,10 @@
       "precipitation_probability_max": [
         100,
         100,
-        98,
-        59,
-        25,
-        90,
+        99,
+        49,
+        16,
+        76,
         100,
         100,
         100
@@ -82,7 +82,7 @@
       "wind_speed_10m_max": "km/h"
     },
     "elevation": 12.0,
-    "generationtime_ms": 122.61629104614258,
+    "generationtime_ms": 9.20116901397705,
     "hourly": {
       "precipitation": [
         0.1,
@@ -1419,9 +1419,9 @@
       "interval": 900,
       "precipitation": 0.0,
       "rain": 0.0,
-      "time": "2026-07-11T19:15",
+      "time": "2026-07-11T22:45",
       "weather_code": 3,
-      "wind_speed_10m": 16.5
+      "wind_speed_10m": 16.3
     },
     "current_units": {
       "interval": "seconds",
@@ -1435,10 +1435,10 @@
       "precipitation_probability_max": [
         100,
         100,
-        98,
-        59,
-        25,
-        90,
+        99,
+        49,
+        16,
+        76,
         100,
         100,
         100
@@ -1496,7 +1496,7 @@
       "wind_speed_10m_max": "km/h"
     },
     "elevation": 6.0,
-    "generationtime_ms": 8.17561149597168,
+    "generationtime_ms": 10.494112968444824,
     "hourly": {
       "precipitation": [
         0.0,
@@ -2831,11 +2831,11 @@
     "collector_status": "ok",
     "current": {
       "interval": 900,
-      "precipitation": 0.0,
-      "rain": 0.0,
-      "time": "2026-07-11T19:15",
-      "weather_code": 3,
-      "wind_speed_10m": 12.6
+      "precipitation": 0.1,
+      "rain": 0.1,
+      "time": "2026-07-11T22:45",
+      "weather_code": 51,
+      "wind_speed_10m": 10.2
     },
     "current_units": {
       "interval": "seconds",
@@ -2849,10 +2849,10 @@
       "precipitation_probability_max": [
         100,
         100,
-        98,
-        59,
-        25,
-        90,
+        99,
+        49,
+        16,
+        76,
         100,
         100,
         100
@@ -2910,7 +2910,7 @@
       "wind_speed_10m_max": "km/h"
     },
     "elevation": 43.0,
-    "generationtime_ms": 113.33668231964111,
+    "generationtime_ms": 6.877303123474121,
     "hourly": {
       "precipitation": [
         0.1,
