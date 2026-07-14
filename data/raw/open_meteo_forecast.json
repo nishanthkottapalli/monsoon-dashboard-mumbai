@@ -5,9 +5,9 @@
       "interval": 900,
       "precipitation": 0.0,
       "rain": 0.0,
-      "time": "2026-07-14T09:00",
+      "time": "2026-07-14T11:45",
       "weather_code": 3,
-      "wind_speed_10m": 20.9
+      "wind_speed_10m": 21.4
     },
     "current_units": {
       "interval": "seconds",
@@ -22,7 +22,7 @@
         90,
         25,
         98,
-        100,
+        99,
         100,
         100,
         100,
@@ -82,7 +82,7 @@
       "wind_speed_10m_max": "km/h"
     },
     "elevation": 12.0,
-    "generationtime_ms": 0.25534629821777344,
+    "generationtime_ms": 0.46563148498535156,
     "hourly": {
       "precipitation": [
         0.0,
@@ -1419,9 +1419,9 @@
       "interval": 900,
       "precipitation": 0.0,
       "rain": 0.0,
-      "time": "2026-07-14T09:00",
-      "weather_code": 2,
-      "wind_speed_10m": 15.5
+      "time": "2026-07-14T11:45",
+      "weather_code": 3,
+      "wind_speed_10m": 17.4
     },
     "current_units": {
       "interval": "seconds",
@@ -1436,7 +1436,7 @@
         90,
         25,
         98,
-        100,
+        99,
         100,
         100,
         100,
@@ -1496,7 +1496,7 @@
       "wind_speed_10m_max": "km/h"
     },
     "elevation": 6.0,
-    "generationtime_ms": 0.21255016326904297,
+    "generationtime_ms": 0.28896331787109375,
     "hourly": {
       "precipitation": [
         0.0,
@@ -2831,11 +2831,11 @@
     "collector_status": "ok",
     "current": {
       "interval": 900,
-      "precipitation": 0.0,
-      "rain": 0.0,
-      "time": "2026-07-14T09:00",
-      "weather_code": 2,
-      "wind_speed_10m": 13.1
+      "precipitation": 0.1,
+      "rain": 0.1,
+      "time": "2026-07-14T11:45",
+      "weather_code": 51,
+      "wind_speed_10m": 15.3
     },
     "current_units": {
       "interval": "seconds",
@@ -2850,7 +2850,7 @@
         90,
         25,
         98,
-        100,
+        99,
         100,
         100,
         100,
@@ -2910,7 +2910,7 @@
       "wind_speed_10m_max": "km/h"
     },
     "elevation": 43.0,
-    "generationtime_ms": 0.2715587615966797,
+    "generationtime_ms": 0.16641616821289062,
     "hourly": {
       "precipitation": [
         0.0,
