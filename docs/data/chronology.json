@@ -382,7 +382,7 @@
       "impact_score": 58,
       "provisional": true,
       "rainfall_mm_avg": 0.0,
-      "rainfall_mm_max": 68.0,
+      "rainfall_mm_max": 84.0,
       "risk_level": "moderate",
       "severity": "high"
     }
@@ -1258,7 +1258,7 @@
     "briefing": {
       "headline": "Mumbai is under moderate monsoon watch.",
       "method_note": "Impact is computed from public rainfall data plus transparent derived signals for waterlogging, traffic, rail and tide risk. This is not an official alerting system.",
-      "overview": "The current explainable model is driven primarily by a rainfall/nowcast disruption signal of 68.0 mm. Basis: nowcast_intensity_equivalent_mm. Current-hour rain signal is 2.1 mm, with 8.5 mm in the recent 3h window.",
+      "overview": "The current explainable model is driven primarily by a rainfall/nowcast disruption signal of 84.0 mm. Basis: nowcast_intensity_equivalent_mm. Current-hour rain signal is 3.5 mm, with 10.5 mm in the recent 3h window.",
       "public_advisory": [
         "Use official IMD, BMC, Mumbai Police, railway and airport advisories for safety-critical decisions.",
         "Expect localised waterlogging and slower transport movement in susceptible areas.",
@@ -1322,15 +1322,15 @@
             "name": "Colaba",
             "zone": "South Mumbai"
           },
-          "observed_at": "2026-07-19T09:15",
+          "observed_at": "2026-07-19T12:00",
           "severity": "normal",
           "source": "open_meteo_forecast",
           "type": "current_weather",
           "value": {
-            "precipitation_mm": 0.4,
+            "precipitation_mm": 0.3,
             "rain_mm": 0.2,
-            "weather_code": 80,
-            "wind_speed_10m_kmh": 11.8
+            "weather_code": 55,
+            "wind_speed_10m_kmh": 22.3
           }
         },
         {
@@ -1341,15 +1341,15 @@
             "name": "Santacruz",
             "zone": "Western Suburbs"
           },
-          "observed_at": "2026-07-19T09:15",
+          "observed_at": "2026-07-19T12:00",
           "severity": "normal",
           "source": "open_meteo_forecast",
           "type": "current_weather",
           "value": {
-            "precipitation_mm": 0.5,
-            "rain_mm": 0.2,
-            "weather_code": 80,
-            "wind_speed_10m_kmh": 6.6
+            "precipitation_mm": 0.9,
+            "rain_mm": 0.4,
+            "weather_code": 95,
+            "wind_speed_10m_kmh": 13.1
           }
         },
         {
@@ -1360,15 +1360,15 @@
             "name": "Powai",
             "zone": "Eastern Suburbs"
           },
-          "observed_at": "2026-07-19T09:15",
+          "observed_at": "2026-07-19T12:00",
           "severity": "normal",
           "source": "open_meteo_forecast",
           "type": "current_weather",
           "value": {
-            "precipitation_mm": 0.3,
-            "rain_mm": 0.1,
-            "weather_code": 55,
-            "wind_speed_10m_kmh": 5.8
+            "precipitation_mm": 0.5,
+            "rain_mm": 0.2,
+            "weather_code": 80,
+            "wind_speed_10m_kmh": 11.5
           }
         }
       ],
@@ -1578,7 +1578,7 @@
           "value": {
             "precipitation_probability_max_pct": 100,
             "precipitation_sum_mm": 26.1,
-            "weather_code": 95,
+            "weather_code": 81,
             "wind_speed_10m_max_kmh": 15.1
           }
         },
@@ -1863,7 +1863,7 @@
           "value": {
             "precipitation_probability_max_pct": 100,
             "precipitation_sum_mm": 6.6,
-            "weather_code": 95,
+            "weather_code": 51,
             "wind_speed_10m_max_kmh": 18.8
           }
         },
@@ -4854,7 +4854,7 @@
           "type": "hourly_rainfall",
           "value": {
             "rain_mm": 2.3,
-            "weather_code": 80,
+            "weather_code": 95,
             "wind_speed_10m_kmh": 8.7
           }
         },
@@ -4872,7 +4872,7 @@
           "type": "hourly_rainfall",
           "value": {
             "rain_mm": 2.8,
-            "weather_code": 81,
+            "weather_code": 95,
             "wind_speed_10m_kmh": 12.9
           }
         },
@@ -4944,7 +4944,7 @@
           "type": "hourly_rainfall",
           "value": {
             "rain_mm": 1.4,
-            "weather_code": 80,
+            "weather_code": 95,
             "wind_speed_10m_kmh": 4.8
           }
         },
@@ -5232,7 +5232,7 @@
           "type": "hourly_rainfall",
           "value": {
             "rain_mm": 2.9,
-            "weather_code": 81,
+            "weather_code": 95,
             "wind_speed_10m_kmh": 14.5
           }
         },
@@ -6078,7 +6078,7 @@
           "type": "hourly_rainfall",
           "value": {
             "rain_mm": 3.4,
-            "weather_code": 95,
+            "weather_code": 81,
             "wind_speed_10m_kmh": 6.1
           }
         },
@@ -6798,7 +6798,7 @@
           "type": "hourly_rainfall",
           "value": {
             "rain_mm": 2.2,
-            "weather_code": 95,
+            "weather_code": 80,
             "wind_speed_10m_kmh": 18.0
           }
         },
@@ -7446,7 +7446,7 @@
           "type": "hourly_rainfall",
           "value": {
             "rain_mm": 1.4,
-            "weather_code": 80,
+            "weather_code": 95,
             "wind_speed_10m_kmh": 19.6
           }
         },
@@ -7572,7 +7572,7 @@
           "type": "hourly_rainfall",
           "value": {
             "rain_mm": 0.0,
-            "weather_code": 2,
+            "weather_code": 3,
             "wind_speed_10m_kmh": 23.8
           }
         },
@@ -7698,7 +7698,7 @@
           "type": "hourly_rainfall",
           "value": {
             "rain_mm": 1.4,
-            "weather_code": 80,
+            "weather_code": 95,
             "wind_speed_10m_kmh": 13.1
           }
         },
@@ -7716,7 +7716,7 @@
           "type": "hourly_rainfall",
           "value": {
             "rain_mm": 2.0,
-            "weather_code": 80,
+            "weather_code": 95,
             "wind_speed_10m_kmh": 15.6
           }
         },
@@ -7752,7 +7752,7 @@
           "type": "hourly_rainfall",
           "value": {
             "rain_mm": 2.3,
-            "weather_code": 80,
+            "weather_code": 95,
             "wind_speed_10m_kmh": 9.0
           }
         },
@@ -7806,7 +7806,7 @@
           "type": "hourly_rainfall",
           "value": {
             "rain_mm": 0.6,
-            "weather_code": 95,
+            "weather_code": 53,
             "wind_speed_10m_kmh": 9.8
           }
         },
@@ -7824,7 +7824,7 @@
           "type": "hourly_rainfall",
           "value": {
             "rain_mm": 0.5,
-            "weather_code": 95,
+            "weather_code": 53,
             "wind_speed_10m_kmh": 19.0
           }
         },
@@ -8292,7 +8292,7 @@
           "type": "hourly_rainfall",
           "value": {
             "rain_mm": 4.9,
-            "weather_code": 95,
+            "weather_code": 81,
             "wind_speed_10m_kmh": 9.7
           }
         },
@@ -8310,7 +8310,7 @@
           "type": "hourly_rainfall",
           "value": {
             "rain_mm": 4.7,
-            "weather_code": 81,
+            "weather_code": 95,
             "wind_speed_10m_kmh": 11.2
           }
         },
@@ -8328,7 +8328,7 @@
           "type": "hourly_rainfall",
           "value": {
             "rain_mm": 3.2,
-            "weather_code": 81,
+            "weather_code": 95,
             "wind_speed_10m_kmh": 15.4
           }
         },
@@ -8778,7 +8778,7 @@
           "type": "hourly_rainfall",
           "value": {
             "rain_mm": 6.0,
-            "weather_code": 81,
+            "weather_code": 95,
             "wind_speed_10m_kmh": 5.8
           }
         },
@@ -8796,7 +8796,7 @@
           "type": "hourly_rainfall",
           "value": {
             "rain_mm": 2.8,
-            "weather_code": 81,
+            "weather_code": 95,
             "wind_speed_10m_kmh": 5.7
           }
         },
@@ -8976,7 +8976,7 @@
           "type": "hourly_rainfall",
           "value": {
             "rain_mm": 4.5,
-            "weather_code": 95,
+            "weather_code": 81,
             "wind_speed_10m_kmh": 11.2
           }
         },
@@ -9102,7 +9102,7 @@
           "type": "hourly_rainfall",
           "value": {
             "rain_mm": 0.6,
-            "weather_code": 53,
+            "weather_code": 95,
             "wind_speed_10m_kmh": 8.3
           }
         },
@@ -9156,7 +9156,7 @@
           "type": "hourly_rainfall",
           "value": {
             "rain_mm": 0.0,
-            "weather_code": 1,
+            "weather_code": 3,
             "wind_speed_10m_kmh": 12.4
           }
         },
@@ -9174,7 +9174,7 @@
           "type": "hourly_rainfall",
           "value": {
             "rain_mm": 0.0,
-            "weather_code": 1,
+            "weather_code": 3,
             "wind_speed_10m_kmh": 20.5
           }
         },
@@ -9210,7 +9210,7 @@
           "type": "hourly_rainfall",
           "value": {
             "rain_mm": 0.0,
-            "weather_code": 2,
+            "weather_code": 3,
             "wind_speed_10m_kmh": 18.4
           }
         },
@@ -9228,7 +9228,7 @@
           "type": "hourly_rainfall",
           "value": {
             "rain_mm": 0.0,
-            "weather_code": 2,
+            "weather_code": 3,
             "wind_speed_10m_kmh": 22.8
           }
         },
@@ -10128,7 +10128,7 @@
           "type": "hourly_rainfall",
           "value": {
             "rain_mm": 0.0,
-            "weather_code": 3,
+            "weather_code": 2,
             "wind_speed_10m_kmh": 15.4
           }
         },
@@ -10326,7 +10326,7 @@
           "type": "hourly_rainfall",
           "value": {
             "rain_mm": 0.6,
-            "weather_code": 53,
+            "weather_code": 95,
             "wind_speed_10m_kmh": 34.7
           }
         },
@@ -10344,7 +10344,7 @@
           "type": "hourly_rainfall",
           "value": {
             "rain_mm": 0.6,
-            "weather_code": 95,
+            "weather_code": 53,
             "wind_speed_10m_kmh": 20.1
           }
         },
@@ -10362,7 +10362,7 @@
           "type": "hourly_rainfall",
           "value": {
             "rain_mm": 0.8,
-            "weather_code": 53,
+            "weather_code": 95,
             "wind_speed_10m_kmh": 26.0
           }
         },
@@ -10398,7 +10398,7 @@
           "type": "hourly_rainfall",
           "value": {
             "rain_mm": 0.6,
-            "weather_code": 53,
+            "weather_code": 95,
             "wind_speed_10m_kmh": 21.3
           }
         },
@@ -10452,7 +10452,7 @@
           "type": "hourly_rainfall",
           "value": {
             "rain_mm": 0.6,
-            "weather_code": 53,
+            "weather_code": 95,
             "wind_speed_10m_kmh": 22.1
           }
         },
@@ -10488,7 +10488,7 @@
           "type": "hourly_rainfall",
           "value": {
             "rain_mm": 0.6,
-            "weather_code": 53,
+            "weather_code": 95,
             "wind_speed_10m_kmh": 35.9
           }
         },
@@ -10506,7 +10506,7 @@
           "type": "hourly_rainfall",
           "value": {
             "rain_mm": 0.5,
-            "weather_code": 53,
+            "weather_code": 95,
             "wind_speed_10m_kmh": 22.2
           }
         },
@@ -10524,7 +10524,7 @@
           "type": "hourly_rainfall",
           "value": {
             "rain_mm": 0.4,
-            "weather_code": 51,
+            "weather_code": 95,
             "wind_speed_10m_kmh": 27.6
           }
         },
@@ -10542,7 +10542,7 @@
           "type": "hourly_rainfall",
           "value": {
             "rain_mm": 0.6,
-            "weather_code": 53,
+            "weather_code": 95,
             "wind_speed_10m_kmh": 35.0
           }
         },
@@ -10560,7 +10560,7 @@
           "type": "hourly_rainfall",
           "value": {
             "rain_mm": 0.5,
-            "weather_code": 53,
+            "weather_code": 95,
             "wind_speed_10m_kmh": 21.9
           }
         },
@@ -10578,7 +10578,7 @@
           "type": "hourly_rainfall",
           "value": {
             "rain_mm": 0.4,
-            "weather_code": 51,
+            "weather_code": 95,
             "wind_speed_10m_kmh": 26.6
           }
         },
@@ -10596,7 +10596,7 @@
           "type": "hourly_rainfall",
           "value": {
             "rain_mm": 0.6,
-            "weather_code": 53,
+            "weather_code": 95,
             "wind_speed_10m_kmh": 34.4
           }
         },
@@ -10614,7 +10614,7 @@
           "type": "hourly_rainfall",
           "value": {
             "rain_mm": 0.5,
-            "weather_code": 53,
+            "weather_code": 95,
             "wind_speed_10m_kmh": 21.2
           }
         },
@@ -10632,7 +10632,7 @@
           "type": "hourly_rainfall",
           "value": {
             "rain_mm": 0.4,
-            "weather_code": 51,
+            "weather_code": 95,
             "wind_speed_10m_kmh": 26.1
           }
         },
@@ -10650,7 +10650,7 @@
           "type": "hourly_rainfall",
           "value": {
             "rain_mm": 0.5,
-            "weather_code": 53,
+            "weather_code": 95,
             "wind_speed_10m_kmh": 34.5
           }
         },
@@ -10704,7 +10704,7 @@
           "type": "hourly_rainfall",
           "value": {
             "rain_mm": 0.5,
-            "weather_code": 53,
+            "weather_code": 95,
             "wind_speed_10m_kmh": 35.2
           }
         },
@@ -10758,7 +10758,7 @@
           "type": "hourly_rainfall",
           "value": {
             "rain_mm": 0.5,
-            "weather_code": 53,
+            "weather_code": 95,
             "wind_speed_10m_kmh": 35.5
           }
         },
@@ -11640,7 +11640,7 @@
           "type": "hourly_rainfall",
           "value": {
             "rain_mm": 0.9,
-            "weather_code": 53,
+            "weather_code": 95,
             "wind_speed_10m_kmh": 21.8
           }
         },
@@ -11694,7 +11694,7 @@
           "type": "hourly_rainfall",
           "value": {
             "rain_mm": 0.9,
-            "weather_code": 53,
+            "weather_code": 95,
             "wind_speed_10m_kmh": 21.8
           }
         },
@@ -11748,7 +11748,7 @@
           "type": "hourly_rainfall",
           "value": {
             "rain_mm": 0.9,
-            "weather_code": 53,
+            "weather_code": 95,
             "wind_speed_10m_kmh": 21.3
           }
         },
@@ -11910,7 +11910,7 @@
           "type": "hourly_rainfall",
           "value": {
             "rain_mm": 1.0,
-            "weather_code": 95,
+            "weather_code": 55,
             "wind_speed_10m_kmh": 18.0
           }
         },
@@ -12882,7 +12882,7 @@
           "type": "hourly_rainfall",
           "value": {
             "rain_mm": 0.3,
-            "weather_code": 95,
+            "weather_code": 51,
             "wind_speed_10m_kmh": 18.7
           }
         },
@@ -13562,18 +13562,18 @@
             "name": "Colaba",
             "zone": "South Mumbai"
           },
-          "observed_at": "2026-07-19T09:15",
+          "observed_at": "2026-07-19T12:00",
           "severity": "watch",
           "source": "open_meteo_forecast_hourly",
           "type": "rain_nowcast",
           "value": {
-            "current_hour_mm": 1.7,
-            "intensity_equivalent_mm": 52.0,
-            "recent_12h_mm": 12.6,
-            "recent_3h_mm": 6.5,
-            "recent_6h_mm": 9.9,
-            "weather_code": 80,
-            "wind_speed_10m_kmh": 11.8
+            "current_hour_mm": 1.0,
+            "intensity_equivalent_mm": 38.8,
+            "recent_12h_mm": 14.2,
+            "recent_3h_mm": 3.2,
+            "recent_6h_mm": 9.7,
+            "weather_code": 55,
+            "wind_speed_10m_kmh": 22.3
           }
         },
         {
@@ -13584,18 +13584,18 @@
             "name": "Santacruz",
             "zone": "Western Suburbs"
           },
-          "observed_at": "2026-07-19T09:15",
+          "observed_at": "2026-07-19T12:00",
           "severity": "moderate",
           "source": "open_meteo_forecast_hourly",
           "type": "rain_nowcast",
           "value": {
-            "current_hour_mm": 2.1,
-            "intensity_equivalent_mm": 68.0,
-            "recent_12h_mm": 14.9,
-            "recent_3h_mm": 8.5,
-            "recent_6h_mm": 12.0,
-            "weather_code": 80,
-            "wind_speed_10m_kmh": 6.6
+            "current_hour_mm": 3.5,
+            "intensity_equivalent_mm": 84.0,
+            "recent_12h_mm": 24.4,
+            "recent_3h_mm": 10.5,
+            "recent_6h_mm": 19.0,
+            "weather_code": 95,
+            "wind_speed_10m_kmh": 13.1
           }
         },
         {
@@ -13606,18 +13606,18 @@
             "name": "Powai",
             "zone": "Eastern Suburbs"
           },
-          "observed_at": "2026-07-19T09:15",
+          "observed_at": "2026-07-19T12:00",
           "severity": "watch",
           "source": "open_meteo_forecast_hourly",
           "type": "rain_nowcast",
           "value": {
-            "current_hour_mm": 1.3,
-            "intensity_equivalent_mm": 50.4,
-            "recent_12h_mm": 12.5,
-            "recent_3h_mm": 6.3,
-            "recent_6h_mm": 10.9,
-            "weather_code": 55,
-            "wind_speed_10m_kmh": 5.8
+            "current_hour_mm": 1.8,
+            "intensity_equivalent_mm": 43.2,
+            "recent_12h_mm": 16.4,
+            "recent_3h_mm": 4.5,
+            "recent_6h_mm": 10.8,
+            "weather_code": 80,
+            "wind_speed_10m_kmh": 11.5
           }
         }
       ]
@@ -13625,18 +13625,18 @@
     "rainfall_signal": {
       "basis": "nowcast_intensity_equivalent_mm",
       "nowcast": {
-        "current_hour_mm": 2.1,
-        "intensity_equivalent_mm": 68.0,
-        "recent_3h_mm": 8.5
+        "current_hour_mm": 3.5,
+        "intensity_equivalent_mm": 84.0,
+        "recent_3h_mm": 10.5
       },
       "today_forecast_mm": 44.6,
-      "value_mm": 68.0
+      "value_mm": 84.0
     },
-    "rainfall_signal_mm": 68.0,
+    "rainfall_signal_mm": 84.0,
     "tide": {
       "confidence": "low",
       "disclaimer": "Approximate non-official tide signal. Use official BMC/Mumbai Port tide tables for safety-critical decisions.",
-      "generated_at": "2026-07-19T09:26:45.721822+05:30",
+      "generated_at": "2026-07-19T12:13:52.088159+05:30",
       "high_tide_windows": [
         {
           "confidence": "low",
@@ -13665,7 +13665,7 @@
     }
   },
   "disclaimer": "Experimental public-information dashboard. Not an official emergency, disaster-management, weather, traffic, railway or airport system.",
-  "generated_at": "2026-07-19T09:26:45.808763+05:30",
+  "generated_at": "2026-07-19T12:13:52.187108+05:30",
   "monsoon_start_date": "2026-06-02",
   "project": "mumbai-monsoon-dashboard",
   "schema_version": "1.0.0",
