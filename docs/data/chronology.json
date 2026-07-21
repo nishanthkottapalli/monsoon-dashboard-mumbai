@@ -395,12 +395,12 @@
     {
       "basis": "nowcast_intensity_equivalent_mm",
       "date": "2026-07-21",
-      "impact_score": 37,
+      "impact_score": 58,
       "provisional": true,
       "rainfall_mm_avg": 0.0,
-      "rainfall_mm_max": 57.6,
-      "risk_level": "watch",
-      "severity": "moderate"
+      "rainfall_mm_max": 61.6,
+      "risk_level": "moderate",
+      "severity": "high"
     }
   ],
   "collector_statuses": [
@@ -423,872 +423,909 @@
   "current": {
     "areas": [
       {
-        "impact_score": 44,
+        "impact_score": 63,
         "lat": 19.0206,
         "lon": 72.8426,
         "name": "Dadar / Hindmata",
-        "risk_level": "watch",
+        "risk_level": "moderate",
         "signals": [
           "rainfall",
-          "traffic"
+          "traffic",
+          "waterlogging"
         ],
-        "summary": "Watch conditions in Dadar / Hindmata; disruption may rise if rainfall intensifies.",
+        "summary": "Moderate monsoon impact risk in Dadar / Hindmata; expect slower movement during rain bands.",
         "susceptibility": 0.95,
         "zone": "Central Mumbai"
       },
       {
-        "impact_score": 44,
+        "impact_score": 63,
         "lat": 19.0726,
         "lon": 72.8845,
         "name": "Kurla",
-        "risk_level": "watch",
+        "risk_level": "moderate",
         "signals": [
           "rainfall",
-          "traffic"
+          "traffic",
+          "waterlogging"
         ],
-        "summary": "Watch conditions in Kurla; disruption may rise if rainfall intensifies.",
+        "summary": "Moderate monsoon impact risk in Kurla; expect slower movement during rain bands.",
         "susceptibility": 0.9,
         "zone": "Central Suburbs"
       },
       {
-        "impact_score": 44,
+        "impact_score": 63,
         "lat": 19.027,
         "lon": 72.855,
         "name": "Matunga / King's Circle",
-        "risk_level": "watch",
+        "risk_level": "moderate",
         "signals": [
           "rainfall",
-          "traffic"
+          "traffic",
+          "waterlogging"
         ],
-        "summary": "Watch conditions in Matunga / King's Circle; disruption may rise if rainfall intensifies.",
+        "summary": "Moderate monsoon impact risk in Matunga / King's Circle; expect slower movement during rain bands.",
         "susceptibility": 0.9,
         "zone": "Central Mumbai"
       },
       {
-        "impact_score": 43,
+        "impact_score": 62,
         "lat": 19.038,
         "lon": 72.8538,
         "name": "Dharavi",
-        "risk_level": "watch",
+        "risk_level": "moderate",
         "signals": [
           "rainfall",
-          "traffic"
+          "traffic",
+          "waterlogging"
         ],
-        "summary": "Watch conditions in Dharavi; disruption may rise if rainfall intensifies.",
+        "summary": "Moderate monsoon impact risk in Dharavi; expect slower movement during rain bands.",
         "susceptibility": 0.8,
         "zone": "Central Mumbai"
       },
       {
-        "impact_score": 43,
+        "impact_score": 62,
         "lat": 19.0434,
         "lon": 72.8633,
         "name": "Sion",
-        "risk_level": "watch",
+        "risk_level": "moderate",
         "signals": [
           "rainfall",
-          "traffic"
+          "traffic",
+          "waterlogging"
         ],
-        "summary": "Watch conditions in Sion; disruption may rise if rainfall intensifies.",
+        "summary": "Moderate monsoon impact risk in Sion; expect slower movement during rain bands.",
         "susceptibility": 0.85,
         "zone": "Central Mumbai"
       },
       {
-        "impact_score": 42,
+        "impact_score": 61,
         "lat": 19.0522,
         "lon": 72.9005,
         "name": "Chembur",
-        "risk_level": "watch",
+        "risk_level": "moderate",
         "signals": [
           "rainfall",
-          "traffic"
+          "traffic",
+          "waterlogging"
         ],
-        "summary": "Watch conditions in Chembur; disruption may rise if rainfall intensifies.",
+        "summary": "Moderate monsoon impact risk in Chembur; expect slower movement during rain bands.",
         "susceptibility": 0.7,
         "zone": "Eastern Suburbs"
       },
       {
-        "impact_score": 42,
+        "impact_score": 61,
         "lat": 19.0522,
         "lon": 72.8696,
         "name": "Chunabhatti",
-        "risk_level": "watch",
+        "risk_level": "moderate",
         "signals": [
           "rainfall",
-          "traffic"
+          "traffic",
+          "waterlogging"
         ],
-        "summary": "Watch conditions in Chunabhatti; disruption may rise if rainfall intensifies.",
+        "summary": "Moderate monsoon impact risk in Chunabhatti; expect slower movement during rain bands.",
         "susceptibility": 0.75,
         "zone": "Harbour / Eastern Corridor"
       },
       {
-        "impact_score": 42,
+        "impact_score": 61,
         "lat": 19.0856,
         "lon": 72.908,
         "name": "Ghatkopar",
-        "risk_level": "watch",
+        "risk_level": "moderate",
         "signals": [
           "rainfall",
-          "traffic"
+          "traffic",
+          "waterlogging"
         ],
-        "summary": "Watch conditions in Ghatkopar; disruption may rise if rainfall intensifies.",
+        "summary": "Moderate monsoon impact risk in Ghatkopar; expect slower movement during rain bands.",
         "susceptibility": 0.7,
         "zone": "Eastern Suburbs"
       },
       {
-        "impact_score": 42,
+        "impact_score": 61,
         "lat": 19.0556,
         "lon": 72.9156,
         "name": "Govandi",
-        "risk_level": "watch",
+        "risk_level": "moderate",
         "signals": [
           "rainfall",
-          "traffic"
+          "traffic",
+          "waterlogging"
         ],
-        "summary": "Watch conditions in Govandi; disruption may rise if rainfall intensifies.",
+        "summary": "Moderate monsoon impact risk in Govandi; expect slower movement during rain bands.",
         "susceptibility": 0.7,
         "zone": "Harbour / Eastern Corridor"
       },
       {
-        "impact_score": 42,
+        "impact_score": 61,
         "lat": 19.1363,
         "lon": 72.8487,
         "name": "Jogeshwari",
-        "risk_level": "watch",
+        "risk_level": "moderate",
         "signals": [
           "rainfall",
-          "traffic"
+          "traffic",
+          "waterlogging"
         ],
-        "summary": "Watch conditions in Jogeshwari; disruption may rise if rainfall intensifies.",
+        "summary": "Moderate monsoon impact risk in Jogeshwari; expect slower movement during rain bands.",
         "susceptibility": 0.7,
         "zone": "Western Suburbs"
       },
       {
-        "impact_score": 42,
+        "impact_score": 61,
         "lat": 19.0358,
         "lon": 72.8426,
         "name": "Mahim",
-        "risk_level": "watch",
+        "risk_level": "moderate",
         "signals": [
           "rainfall",
-          "traffic"
+          "traffic",
+          "waterlogging"
         ],
-        "summary": "Watch conditions in Mahim; disruption may rise if rainfall intensifies.",
+        "summary": "Moderate monsoon impact risk in Mahim; expect slower movement during rain bands.",
         "susceptibility": 0.7,
         "zone": "Central Mumbai"
       },
       {
-        "impact_score": 42,
+        "impact_score": 61,
         "lat": 19.0485,
         "lon": 72.9322,
         "name": "Mankhurd",
-        "risk_level": "watch",
+        "risk_level": "moderate",
         "signals": [
           "rainfall",
-          "traffic"
+          "traffic",
+          "waterlogging"
         ],
-        "summary": "Watch conditions in Mankhurd; disruption may rise if rainfall intensifies.",
+        "summary": "Moderate monsoon impact risk in Mankhurd; expect slower movement during rain bands.",
         "susceptibility": 0.7,
         "zone": "Harbour / Eastern Corridor"
       },
       {
-        "impact_score": 42,
+        "impact_score": 61,
         "lat": 18.993,
         "lon": 72.8374,
         "name": "Parel",
-        "risk_level": "watch",
+        "risk_level": "moderate",
         "signals": [
           "rainfall",
-          "traffic"
+          "traffic",
+          "waterlogging"
         ],
-        "summary": "Watch conditions in Parel; disruption may rise if rainfall intensifies.",
+        "summary": "Moderate monsoon impact risk in Parel; expect slower movement during rain bands.",
         "susceptibility": 0.75,
         "zone": "Central Mumbai"
       },
       {
-        "impact_score": 42,
+        "impact_score": 61,
         "lat": 19.103,
         "lon": 72.8888,
         "name": "Saki Naka",
-        "risk_level": "watch",
+        "risk_level": "moderate",
         "signals": [
           "rainfall",
-          "traffic"
+          "traffic",
+          "waterlogging"
         ],
-        "summary": "Watch conditions in Saki Naka; disruption may rise if rainfall intensifies.",
+        "summary": "Moderate monsoon impact risk in Saki Naka; expect slower movement during rain bands.",
         "susceptibility": 0.75,
         "zone": "Airport / MIDC Corridor"
       },
       {
-        "impact_score": 42,
+        "impact_score": 61,
         "lat": 19.067,
         "lon": 72.8976,
         "name": "Tilak Nagar",
-        "risk_level": "watch",
+        "risk_level": "moderate",
         "signals": [
           "rainfall",
-          "traffic"
+          "traffic",
+          "waterlogging"
         ],
-        "summary": "Watch conditions in Tilak Nagar; disruption may rise if rainfall intensifies.",
+        "summary": "Moderate monsoon impact risk in Tilak Nagar; expect slower movement during rain bands.",
         "susceptibility": 0.7,
         "zone": "Harbour / Eastern Corridor"
       },
       {
-        "impact_score": 42,
+        "impact_score": 61,
         "lat": 19.0178,
         "lon": 72.8562,
         "name": "Wadala",
-        "risk_level": "watch",
+        "risk_level": "moderate",
         "signals": [
           "rainfall",
-          "traffic"
+          "traffic",
+          "waterlogging"
         ],
-        "summary": "Watch conditions in Wadala; disruption may rise if rainfall intensifies.",
+        "summary": "Moderate monsoon impact risk in Wadala; expect slower movement during rain bands.",
         "susceptibility": 0.7,
         "zone": "Harbour / Eastern Corridor"
       },
       {
-        "impact_score": 41,
+        "impact_score": 60,
         "lat": 19.1197,
         "lon": 72.8464,
         "name": "Andheri",
-        "risk_level": "watch",
+        "risk_level": "moderate",
         "signals": [
           "rainfall",
-          "traffic"
+          "traffic",
+          "waterlogging"
         ],
-        "summary": "Watch conditions in Andheri; disruption may rise if rainfall intensifies.",
+        "summary": "Moderate monsoon impact risk in Andheri; expect slower movement during rain bands.",
         "susceptibility": 0.65,
         "zone": "Western Suburbs"
       },
       {
-        "impact_score": 41,
+        "impact_score": 60,
         "lat": 19.1364,
         "lon": 72.8296,
         "name": "Andheri West",
-        "risk_level": "watch",
+        "risk_level": "moderate",
         "signals": [
           "rainfall",
-          "traffic"
+          "traffic",
+          "waterlogging"
         ],
-        "summary": "Watch conditions in Andheri West; disruption may rise if rainfall intensifies.",
+        "summary": "Moderate monsoon impact risk in Andheri West; expect slower movement during rain bands.",
         "susceptibility": 0.65,
         "zone": "Western Suburbs"
       },
       {
-        "impact_score": 41,
+        "impact_score": 60,
         "lat": 19.0667,
         "lon": 72.8679,
         "name": "BKC",
-        "risk_level": "watch",
+        "risk_level": "moderate",
         "signals": [
           "rainfall",
-          "traffic"
+          "traffic",
+          "waterlogging"
         ],
-        "summary": "Watch conditions in BKC; disruption may rise if rainfall intensifies.",
+        "summary": "Moderate monsoon impact risk in BKC; expect slower movement during rain bands.",
         "susceptibility": 0.65,
         "zone": "Western Suburbs"
       },
       {
-        "impact_score": 41,
+        "impact_score": 60,
         "lat": 18.975,
         "lon": 72.8333,
         "name": "Byculla",
-        "risk_level": "watch",
+        "risk_level": "moderate",
         "signals": [
           "rainfall",
-          "traffic"
+          "traffic",
+          "waterlogging"
         ],
-        "summary": "Watch conditions in Byculla; disruption may rise if rainfall intensifies.",
+        "summary": "Moderate monsoon impact risk in Byculla; expect slower movement during rain bands.",
         "susceptibility": 0.6,
         "zone": "Central Mumbai"
       },
       {
-        "impact_score": 41,
+        "impact_score": 60,
         "lat": 19.1097,
         "lon": 72.9003,
         "name": "Chandivali",
-        "risk_level": "watch",
+        "risk_level": "moderate",
         "signals": [
           "rainfall",
-          "traffic"
+          "traffic",
+          "waterlogging"
         ],
-        "summary": "Watch conditions in Chandivali; disruption may rise if rainfall intensifies.",
+        "summary": "Moderate monsoon impact risk in Chandivali; expect slower movement during rain bands.",
         "susceptibility": 0.65,
         "zone": "Airport / MIDC Corridor"
       },
       {
-        "impact_score": 41,
+        "impact_score": 60,
         "lat": 19.0476,
         "lon": 72.9129,
         "name": "Deonar",
-        "risk_level": "watch",
+        "risk_level": "moderate",
         "signals": [
           "rainfall",
-          "traffic"
+          "traffic",
+          "waterlogging"
         ],
-        "summary": "Watch conditions in Deonar; disruption may rise if rainfall intensifies.",
+        "summary": "Moderate monsoon impact risk in Deonar; expect slower movement during rain bands.",
         "susceptibility": 0.65,
         "zone": "Harbour / Eastern Corridor"
       },
       {
-        "impact_score": 41,
+        "impact_score": 60,
         "lat": 19.1433,
         "lon": 72.8244,
         "name": "Lokhandwala / Oshiwara",
-        "risk_level": "watch",
+        "risk_level": "moderate",
         "signals": [
           "rainfall",
-          "traffic"
+          "traffic",
+          "waterlogging"
         ],
-        "summary": "Watch conditions in Lokhandwala / Oshiwara; disruption may rise if rainfall intensifies.",
+        "summary": "Moderate monsoon impact risk in Lokhandwala / Oshiwara; expect slower movement during rain bands.",
         "susceptibility": 0.65,
         "zone": "Western Suburbs"
       },
       {
-        "impact_score": 41,
+        "impact_score": 60,
         "lat": 18.998,
         "lon": 72.83,
         "name": "Lower Parel",
-        "risk_level": "watch",
+        "risk_level": "moderate",
         "signals": [
           "rainfall",
-          "traffic"
+          "traffic",
+          "waterlogging"
         ],
-        "summary": "Watch conditions in Lower Parel; disruption may rise if rainfall intensifies.",
+        "summary": "Moderate monsoon impact risk in Lower Parel; expect slower movement during rain bands.",
         "susceptibility": 0.65,
         "zone": "Central Mumbai"
       },
       {
-        "impact_score": 41,
+        "impact_score": 60,
         "lat": 19.119,
         "lon": 72.8718,
         "name": "MIDC Andheri",
-        "risk_level": "watch",
+        "risk_level": "moderate",
         "signals": [
           "rainfall",
-          "traffic"
+          "traffic",
+          "waterlogging"
         ],
-        "summary": "Watch conditions in MIDC Andheri; disruption may rise if rainfall intensifies.",
+        "summary": "Moderate monsoon impact risk in MIDC Andheri; expect slower movement during rain bands.",
         "susceptibility": 0.65,
         "zone": "Airport / MIDC Corridor"
       },
       {
-        "impact_score": 41,
+        "impact_score": 60,
         "lat": 19.186,
         "lon": 72.8485,
         "name": "Malad",
-        "risk_level": "watch",
+        "risk_level": "moderate",
         "signals": [
           "rainfall",
-          "traffic"
+          "traffic",
+          "waterlogging"
         ],
-        "summary": "Watch conditions in Malad; disruption may rise if rainfall intensifies.",
+        "summary": "Moderate monsoon impact risk in Malad; expect slower movement during rain bands.",
         "susceptibility": 0.6,
         "zone": "Western Suburbs"
       },
       {
-        "impact_score": 41,
+        "impact_score": 60,
         "lat": 19.1191,
         "lon": 72.8828,
         "name": "Marol",
-        "risk_level": "watch",
+        "risk_level": "moderate",
         "signals": [
           "rainfall",
-          "traffic"
+          "traffic",
+          "waterlogging"
         ],
-        "summary": "Watch conditions in Marol; disruption may rise if rainfall intensifies.",
+        "summary": "Moderate monsoon impact risk in Marol; expect slower movement during rain bands.",
         "susceptibility": 0.65,
         "zone": "Airport / MIDC Corridor"
       },
       {
-        "impact_score": 41,
+        "impact_score": 60,
         "lat": 19.0896,
         "lon": 72.8656,
         "name": "Mumbai Airport / Sahar",
-        "risk_level": "watch",
+        "risk_level": "moderate",
         "signals": [
           "rainfall",
-          "traffic"
+          "traffic",
+          "waterlogging"
         ],
-        "summary": "Watch conditions in Mumbai Airport / Sahar; disruption may rise if rainfall intensifies.",
+        "summary": "Moderate monsoon impact risk in Mumbai Airport / Sahar; expect slower movement during rain bands.",
         "susceptibility": 0.65,
         "zone": "Airport / MIDC Corridor"
       },
       {
-        "impact_score": 41,
+        "impact_score": 60,
         "lat": 19.1176,
         "lon": 72.906,
         "name": "Powai",
-        "risk_level": "watch",
+        "risk_level": "moderate",
         "signals": [
           "rainfall",
-          "traffic"
+          "traffic",
+          "waterlogging"
         ],
-        "summary": "Watch conditions in Powai; disruption may rise if rainfall intensifies.",
+        "summary": "Moderate monsoon impact risk in Powai; expect slower movement during rain bands.",
         "susceptibility": 0.6,
         "zone": "Eastern Suburbs"
       },
       {
-        "impact_score": 41,
+        "impact_score": 60,
         "lat": 19.0166,
         "lon": 72.8295,
         "name": "Prabhadevi",
-        "risk_level": "watch",
+        "risk_level": "moderate",
         "signals": [
           "rainfall",
-          "traffic"
+          "traffic",
+          "waterlogging"
         ],
-        "summary": "Watch conditions in Prabhadevi; disruption may rise if rainfall intensifies.",
+        "summary": "Moderate monsoon impact risk in Prabhadevi; expect slower movement during rain bands.",
         "susceptibility": 0.6,
         "zone": "Central Mumbai"
       },
       {
-        "impact_score": 41,
+        "impact_score": 60,
         "lat": 19.1268,
         "lon": 72.8746,
         "name": "SEEPZ",
-        "risk_level": "watch",
+        "risk_level": "moderate",
         "signals": [
           "rainfall",
-          "traffic"
+          "traffic",
+          "waterlogging"
         ],
-        "summary": "Watch conditions in SEEPZ; disruption may rise if rainfall intensifies.",
+        "summary": "Moderate monsoon impact risk in SEEPZ; expect slower movement during rain bands.",
         "susceptibility": 0.6,
         "zone": "Airport / MIDC Corridor"
       },
       {
-        "impact_score": 41,
+        "impact_score": 60,
         "lat": 19.0896,
         "lon": 72.8656,
         "name": "Santacruz",
-        "risk_level": "watch",
+        "risk_level": "moderate",
         "signals": [
           "rainfall",
-          "traffic"
+          "traffic",
+          "waterlogging"
         ],
-        "summary": "Watch conditions in Santacruz; disruption may rise if rainfall intensifies.",
+        "summary": "Moderate monsoon impact risk in Santacruz; expect slower movement during rain bands.",
         "susceptibility": 0.65,
         "zone": "Western Suburbs"
       },
       {
-        "impact_score": 41,
+        "impact_score": 60,
         "lat": 18.9986,
         "lon": 72.8548,
         "name": "Sewri",
-        "risk_level": "watch",
+        "risk_level": "moderate",
         "signals": [
           "rainfall",
-          "traffic"
+          "traffic",
+          "waterlogging"
         ],
-        "summary": "Watch conditions in Sewri; disruption may rise if rainfall intensifies.",
+        "summary": "Moderate monsoon impact risk in Sewri; expect slower movement during rain bands.",
         "susceptibility": 0.65,
         "zone": "Harbour / Eastern Corridor"
       },
       {
-        "impact_score": 41,
+        "impact_score": 60,
         "lat": 19.1312,
         "lon": 72.8148,
         "name": "Versova",
-        "risk_level": "watch",
+        "risk_level": "moderate",
         "signals": [
           "rainfall",
-          "traffic"
+          "traffic",
+          "waterlogging"
         ],
-        "summary": "Watch conditions in Versova; disruption may rise if rainfall intensifies.",
+        "summary": "Moderate monsoon impact risk in Versova; expect slower movement during rain bands.",
         "susceptibility": 0.6,
         "zone": "Western Suburbs"
       },
       {
-        "impact_score": 41,
+        "impact_score": 60,
         "lat": 19.079,
         "lon": 72.897,
         "name": "Vidyavihar",
-        "risk_level": "watch",
+        "risk_level": "moderate",
         "signals": [
           "rainfall",
-          "traffic"
+          "traffic",
+          "waterlogging"
         ],
-        "summary": "Watch conditions in Vidyavihar; disruption may rise if rainfall intensifies.",
+        "summary": "Moderate monsoon impact risk in Vidyavihar; expect slower movement during rain bands.",
         "susceptibility": 0.65,
         "zone": "Eastern Suburbs"
       },
       {
-        "impact_score": 41,
+        "impact_score": 60,
         "lat": 19.1006,
         "lon": 72.8438,
         "name": "Vile Parle",
-        "risk_level": "watch",
+        "risk_level": "moderate",
         "signals": [
           "rainfall",
-          "traffic"
+          "traffic",
+          "waterlogging"
         ],
-        "summary": "Watch conditions in Vile Parle; disruption may rise if rainfall intensifies.",
+        "summary": "Moderate monsoon impact risk in Vile Parle; expect slower movement during rain bands.",
         "susceptibility": 0.6,
         "zone": "Western Suburbs"
       },
       {
-        "impact_score": 40,
+        "impact_score": 59,
         "lat": 19.0607,
         "lon": 72.8362,
         "name": "Bandra",
-        "risk_level": "watch",
+        "risk_level": "moderate",
         "signals": [
           "rainfall",
           "traffic"
         ],
-        "summary": "Watch conditions in Bandra; disruption may rise if rainfall intensifies.",
+        "summary": "Moderate monsoon impact risk in Bandra; expect slower movement during rain bands.",
         "susceptibility": 0.55,
         "zone": "Western Suburbs"
       },
       {
-        "impact_score": 40,
+        "impact_score": 59,
         "lat": 19.1511,
         "lon": 72.9372,
         "name": "Bhandup",
-        "risk_level": "watch",
+        "risk_level": "moderate",
         "signals": [
           "rainfall",
           "traffic"
         ],
-        "summary": "Watch conditions in Bhandup; disruption may rise if rainfall intensifies.",
+        "summary": "Moderate monsoon impact risk in Bhandup; expect slower movement during rain bands.",
         "susceptibility": 0.55,
         "zone": "Eastern Suburbs"
       },
       {
-        "impact_score": 40,
+        "impact_score": 59,
         "lat": 19.1663,
         "lon": 72.8526,
         "name": "Goregaon",
-        "risk_level": "watch",
+        "risk_level": "moderate",
         "signals": [
           "rainfall",
           "traffic"
         ],
-        "summary": "Watch conditions in Goregaon; disruption may rise if rainfall intensifies.",
+        "summary": "Moderate monsoon impact risk in Goregaon; expect slower movement during rain bands.",
         "susceptibility": 0.55,
         "zone": "Western Suburbs"
       },
       {
-        "impact_score": 40,
+        "impact_score": 59,
         "lat": 19.1075,
         "lon": 72.8263,
         "name": "Juhu",
-        "risk_level": "watch",
+        "risk_level": "moderate",
         "signals": [
           "rainfall",
           "traffic"
         ],
-        "summary": "Watch conditions in Juhu; disruption may rise if rainfall intensifies.",
+        "summary": "Moderate monsoon impact risk in Juhu; expect slower movement during rain bands.",
         "susceptibility": 0.55,
         "zone": "Western Suburbs"
       },
       {
-        "impact_score": 40,
+        "impact_score": 59,
         "lat": 19.2045,
         "lon": 72.8518,
         "name": "Kandivali",
-        "risk_level": "watch",
+        "risk_level": "moderate",
         "signals": [
           "rainfall",
           "traffic"
         ],
-        "summary": "Watch conditions in Kandivali; disruption may rise if rainfall intensifies.",
+        "summary": "Moderate monsoon impact risk in Kandivali; expect slower movement during rain bands.",
         "susceptibility": 0.55,
         "zone": "Western Suburbs"
       },
       {
-        "impact_score": 40,
+        "impact_score": 59,
         "lat": 19.1293,
         "lon": 72.933,
         "name": "Kanjurmarg",
-        "risk_level": "watch",
+        "risk_level": "moderate",
         "signals": [
           "rainfall",
           "traffic"
         ],
-        "summary": "Watch conditions in Kanjurmarg; disruption may rise if rainfall intensifies.",
+        "summary": "Moderate monsoon impact risk in Kanjurmarg; expect slower movement during rain bands.",
         "susceptibility": 0.55,
         "zone": "Eastern Suburbs"
       },
       {
-        "impact_score": 40,
+        "impact_score": 59,
         "lat": 19.07,
         "lon": 72.84,
         "name": "Khar",
-        "risk_level": "watch",
+        "risk_level": "moderate",
         "signals": [
           "rainfall",
           "traffic"
         ],
-        "summary": "Watch conditions in Khar; disruption may rise if rainfall intensifies.",
+        "summary": "Moderate monsoon impact risk in Khar; expect slower movement during rain bands.",
         "susceptibility": 0.55,
         "zone": "Western Suburbs"
       },
       {
-        "impact_score": 40,
+        "impact_score": 59,
         "lat": 18.9518,
         "lon": 72.838,
         "name": "Masjid Bunder",
-        "risk_level": "watch",
+        "risk_level": "moderate",
         "signals": [
           "rainfall",
           "traffic"
         ],
-        "summary": "Watch conditions in Masjid Bunder; disruption may rise if rainfall intensifies.",
+        "summary": "Moderate monsoon impact risk in Masjid Bunder; expect slower movement during rain bands.",
         "susceptibility": 0.55,
         "zone": "South Mumbai"
       },
       {
-        "impact_score": 40,
+        "impact_score": 59,
         "lat": 18.969,
         "lon": 72.8205,
         "name": "Mumbai Central",
-        "risk_level": "watch",
+        "risk_level": "moderate",
         "signals": [
           "rainfall",
           "traffic"
         ],
-        "summary": "Watch conditions in Mumbai Central; disruption may rise if rainfall intensifies.",
+        "summary": "Moderate monsoon impact risk in Mumbai Central; expect slower movement during rain bands.",
         "susceptibility": 0.55,
         "zone": "South Mumbai"
       },
       {
-        "impact_score": 40,
+        "impact_score": 59,
         "lat": 19.028,
         "lon": 72.8377,
         "name": "Shivaji Park",
-        "risk_level": "watch",
+        "risk_level": "moderate",
         "signals": [
           "rainfall",
           "traffic"
         ],
-        "summary": "Watch conditions in Shivaji Park; disruption may rise if rainfall intensifies.",
+        "summary": "Moderate monsoon impact risk in Shivaji Park; expect slower movement during rain bands.",
         "susceptibility": 0.55,
         "zone": "Central Mumbai"
       },
       {
-        "impact_score": 40,
+        "impact_score": 59,
         "lat": 19.111,
         "lon": 72.928,
         "name": "Vikhroli",
-        "risk_level": "watch",
+        "risk_level": "moderate",
         "signals": [
           "rainfall",
           "traffic"
         ],
-        "summary": "Watch conditions in Vikhroli; disruption may rise if rainfall intensifies.",
+        "summary": "Moderate monsoon impact risk in Vikhroli; expect slower movement during rain bands.",
         "susceptibility": 0.55,
         "zone": "Eastern Suburbs"
       },
       {
-        "impact_score": 40,
+        "impact_score": 59,
         "lat": 19.0176,
         "lon": 72.8162,
         "name": "Worli",
-        "risk_level": "watch",
+        "risk_level": "moderate",
         "signals": [
           "rainfall",
           "traffic"
         ],
-        "summary": "Watch conditions in Worli; disruption may rise if rainfall intensifies.",
+        "summary": "Moderate monsoon impact risk in Worli; expect slower movement during rain bands.",
         "susceptibility": 0.55,
         "zone": "Central Mumbai"
       },
       {
-        "impact_score": 39,
+        "impact_score": 58,
         "lat": 19.16,
         "lon": 72.883,
         "name": "Aarey",
-        "risk_level": "watch",
+        "risk_level": "moderate",
         "signals": [
           "rainfall",
           "traffic"
         ],
-        "summary": "Watch conditions in Aarey; disruption may rise if rainfall intensifies.",
+        "summary": "Moderate monsoon impact risk in Aarey; expect slower movement during rain bands.",
         "susceptibility": 0.45,
         "zone": "Western / Green Zone"
       },
       {
-        "impact_score": 39,
+        "impact_score": 58,
         "lat": 19.2307,
         "lon": 72.8567,
         "name": "Borivali",
-        "risk_level": "watch",
+        "risk_level": "moderate",
         "signals": [
           "rainfall",
           "traffic"
         ],
-        "summary": "Watch conditions in Borivali; disruption may rise if rainfall intensifies.",
+        "summary": "Moderate monsoon impact risk in Borivali; expect slower movement during rain bands.",
         "susceptibility": 0.45,
         "zone": "Western Suburbs"
       },
       {
-        "impact_score": 39,
+        "impact_score": 58,
         "lat": 18.9398,
         "lon": 72.8355,
         "name": "CST / Fort",
-        "risk_level": "watch",
+        "risk_level": "moderate",
         "signals": [
           "rainfall",
           "traffic"
         ],
-        "summary": "Watch conditions in CST / Fort; disruption may rise if rainfall intensifies.",
+        "summary": "Moderate monsoon impact risk in CST / Fort; expect slower movement during rain bands.",
         "susceptibility": 0.45,
         "zone": "South Mumbai"
       },
       {
-        "impact_score": 39,
+        "impact_score": 58,
         "lat": 18.9322,
         "lon": 72.8264,
         "name": "Churchgate",
-        "risk_level": "watch",
+        "risk_level": "moderate",
         "signals": [
           "rainfall",
           "traffic"
         ],
-        "summary": "Watch conditions in Churchgate; disruption may rise if rainfall intensifies.",
+        "summary": "Moderate monsoon impact risk in Churchgate; expect slower movement during rain bands.",
         "susceptibility": 0.4,
         "zone": "South Mumbai"
       },
       {
-        "impact_score": 39,
+        "impact_score": 58,
         "lat": 19.25,
         "lon": 72.8596,
         "name": "Dahisar",
-        "risk_level": "watch",
+        "risk_level": "moderate",
         "signals": [
           "rainfall",
           "traffic"
         ],
-        "summary": "Watch conditions in Dahisar; disruption may rise if rainfall intensifies.",
+        "summary": "Moderate monsoon impact risk in Dahisar; expect slower movement during rain bands.",
         "susceptibility": 0.45,
         "zone": "Western Suburbs"
       },
       {
-        "impact_score": 39,
+        "impact_score": 58,
         "lat": 18.944,
         "lon": 72.8236,
         "name": "Marine Lines",
-        "risk_level": "watch",
+        "risk_level": "moderate",
         "signals": [
           "rainfall",
           "traffic"
         ],
-        "summary": "Watch conditions in Marine Lines; disruption may rise if rainfall intensifies.",
+        "summary": "Moderate monsoon impact risk in Marine Lines; expect slower movement during rain bands.",
         "susceptibility": 0.45,
         "zone": "South Mumbai"
       },
       {
-        "impact_score": 39,
+        "impact_score": 58,
         "lat": 19.1726,
         "lon": 72.9425,
         "name": "Mulund",
-        "risk_level": "watch",
+        "risk_level": "moderate",
         "signals": [
           "rainfall",
           "traffic"
         ],
-        "summary": "Watch conditions in Mulund; disruption may rise if rainfall intensifies.",
+        "summary": "Moderate monsoon impact risk in Mulund; expect slower movement during rain bands.",
         "susceptibility": 0.45,
         "zone": "Eastern Suburbs"
       },
       {
-        "impact_score": 39,
+        "impact_score": 58,
         "lat": 19.2147,
         "lon": 72.9106,
         "name": "Sanjay Gandhi National Park Edge",
-        "risk_level": "watch",
+        "risk_level": "moderate",
         "signals": [
           "rainfall",
           "traffic"
         ],
-        "summary": "Watch conditions in Sanjay Gandhi National Park Edge; disruption may rise if rainfall intensifies.",
+        "summary": "Moderate monsoon impact risk in Sanjay Gandhi National Park Edge; expect slower movement during rain bands.",
         "susceptibility": 0.4,
         "zone": "North Mumbai / Green Zone"
       },
       {
-        "impact_score": 38,
+        "impact_score": 57,
         "lat": 18.9067,
         "lon": 72.8147,
         "name": "Colaba",
-        "risk_level": "watch",
+        "risk_level": "moderate",
         "signals": [
           "rainfall",
           "traffic"
         ],
-        "summary": "Watch conditions in Colaba; disruption may rise if rainfall intensifies.",
+        "summary": "Moderate monsoon impact risk in Colaba; expect slower movement during rain bands.",
         "susceptibility": 0.35,
         "zone": "South Mumbai"
       },
       {
-        "impact_score": 38,
+        "impact_score": 57,
         "lat": 18.9256,
         "lon": 72.8242,
         "name": "Nariman Point",
-        "risk_level": "watch",
+        "risk_level": "moderate",
         "signals": [
           "rainfall",
           "traffic"
         ],
-        "summary": "Watch conditions in Nariman Point; disruption may rise if rainfall intensifies.",
+        "summary": "Moderate monsoon impact risk in Nariman Point; expect slower movement during rain bands.",
         "susceptibility": 0.35,
         "zone": "South Mumbai"
       }
     ],
     "briefing": {
-      "headline": "Mumbai has early monsoon disruption signals.",
+      "headline": "Mumbai is under moderate monsoon watch.",
       "method_note": "Impact is computed from public rainfall data plus transparent derived signals for waterlogging, traffic, rail and tide risk. This is not an official alerting system.",
-      "overview": "The current explainable model is driven primarily by a rainfall/nowcast disruption signal of 57.6 mm. Basis: nowcast_intensity_equivalent_mm. Current-hour rain signal is 2.4 mm, with 4.9 mm in the recent 3h window.",
+      "overview": "The current explainable model is driven primarily by a rainfall/nowcast disruption signal of 61.6 mm. Basis: nowcast_intensity_equivalent_mm. Current-hour rain signal is 2.1 mm, with 7.7 mm in the recent 3h window.",
       "public_advisory": [
         "Use official IMD, BMC, Mumbai Police, railway and airport advisories for safety-critical decisions.",
+        "Expect localised waterlogging and slower transport movement in susceptible areas.",
         "Avoid low-lying areas during intense rain and near high-tide overlap windows.",
         "Allow additional time for road and rail journeys during active rain bands."
       ]
     },
     "city": {
       "driver_scores": {
-        "rail": 25,
-        "rainfall": 45,
-        "tide": 10,
-        "traffic": 35,
-        "waterlogging": 40,
-        "weather_alert": 35
+        "rail": 45,
+        "rainfall": 65,
+        "tide": 45,
+        "traffic": 55,
+        "waterlogging": 60,
+        "weather_alert": 60
       },
-      "impact_score": 37,
+      "impact_score": 58,
       "name": "Mumbai",
-      "risk_level": "watch",
-      "summary": "Mumbai has early monsoon disruption signals."
+      "risk_level": "moderate",
+      "summary": "Mumbai is under moderate monsoon watch."
     },
     "drivers": {
       "rail": {
         "confidence": "derived",
-        "level": "watch",
-        "score": 25
-      },
-      "rainfall": {
-        "confidence": "medium",
         "level": "moderate",
         "score": 45
       },
+      "rainfall": {
+        "confidence": "medium",
+        "level": "high",
+        "score": 65
+      },
       "tide": {
         "confidence": "low",
-        "level": "normal",
-        "score": 10
+        "level": "moderate",
+        "score": 45
       },
       "traffic": {
         "confidence": "derived",
-        "level": "watch",
-        "score": 35
+        "level": "moderate",
+        "score": 55
       },
       "waterlogging": {
         "confidence": "derived",
-        "level": "watch",
-        "score": 40
+        "level": "moderate",
+        "score": 60
       },
       "weather_alert": {
         "confidence": "medium",
-        "level": "watch",
-        "score": 35
+        "level": "moderate",
+        "score": 60
       }
     },
     "forecast": {
@@ -1301,15 +1338,15 @@
             "name": "Colaba",
             "zone": "South Mumbai"
           },
-          "observed_at": "2026-07-21T19:45",
+          "observed_at": "2026-07-21T23:15",
           "severity": "normal",
           "source": "open_meteo_forecast",
           "type": "current_weather",
           "value": {
-            "precipitation_mm": 0.9,
-            "rain_mm": 0.6,
-            "weather_code": 81,
-            "wind_speed_10m_kmh": 18.7
+            "precipitation_mm": 0.5,
+            "rain_mm": 0.1,
+            "weather_code": 80,
+            "wind_speed_10m_kmh": 20.1
           }
         },
         {
@@ -1320,15 +1357,15 @@
             "name": "Santacruz",
             "zone": "Western Suburbs"
           },
-          "observed_at": "2026-07-21T19:45",
+          "observed_at": "2026-07-21T23:15",
           "severity": "normal",
           "source": "open_meteo_forecast",
           "type": "current_weather",
           "value": {
-            "precipitation_mm": 0.7,
-            "rain_mm": 0.2,
-            "weather_code": 95,
-            "wind_speed_10m_kmh": 18.3
+            "precipitation_mm": 0.5,
+            "rain_mm": 0.1,
+            "weather_code": 80,
+            "wind_speed_10m_kmh": 13.0
           }
         },
         {
@@ -1339,15 +1376,15 @@
             "name": "Powai",
             "zone": "Eastern Suburbs"
           },
-          "observed_at": "2026-07-21T19:45",
+          "observed_at": "2026-07-21T23:15",
           "severity": "normal",
           "source": "open_meteo_forecast",
           "type": "current_weather",
           "value": {
-            "precipitation_mm": 0.6,
-            "rain_mm": 0.3,
+            "precipitation_mm": 0.4,
+            "rain_mm": 0.1,
             "weather_code": 80,
-            "wind_speed_10m_kmh": 13.3
+            "wind_speed_10m_kmh": 12.3
           }
         }
       ],
@@ -13541,18 +13578,18 @@
             "name": "Colaba",
             "zone": "South Mumbai"
           },
-          "observed_at": "2026-07-21T19:45",
-          "severity": "watch",
+          "observed_at": "2026-07-21T23:15",
+          "severity": "moderate",
           "source": "open_meteo_forecast_hourly",
           "type": "rain_nowcast",
           "value": {
-            "current_hour_mm": 1.6,
-            "intensity_equivalent_mm": 38.4,
-            "recent_12h_mm": 10.1,
-            "recent_3h_mm": 4.3,
-            "recent_6h_mm": 6.9,
-            "weather_code": 81,
-            "wind_speed_10m_kmh": 18.7
+            "current_hour_mm": 2.1,
+            "intensity_equivalent_mm": 61.6,
+            "recent_12h_mm": 19.3,
+            "recent_3h_mm": 7.7,
+            "recent_6h_mm": 14.6,
+            "weather_code": 80,
+            "wind_speed_10m_kmh": 20.1
           }
         },
         {
@@ -13563,18 +13600,18 @@
             "name": "Santacruz",
             "zone": "Western Suburbs"
           },
-          "observed_at": "2026-07-21T19:45",
+          "observed_at": "2026-07-21T23:15",
           "severity": "watch",
           "source": "open_meteo_forecast_hourly",
           "type": "rain_nowcast",
           "value": {
-            "current_hour_mm": 2.3,
-            "intensity_equivalent_mm": 55.2,
-            "recent_12h_mm": 9.8,
-            "recent_3h_mm": 4.4,
-            "recent_6h_mm": 6.3,
-            "weather_code": 95,
-            "wind_speed_10m_kmh": 18.3
+            "current_hour_mm": 2.0,
+            "intensity_equivalent_mm": 54.4,
+            "recent_12h_mm": 16.3,
+            "recent_3h_mm": 6.7,
+            "recent_6h_mm": 13.6,
+            "weather_code": 80,
+            "wind_speed_10m_kmh": 13.0
           }
         },
         {
@@ -13585,18 +13622,18 @@
             "name": "Powai",
             "zone": "Eastern Suburbs"
           },
-          "observed_at": "2026-07-21T19:45",
+          "observed_at": "2026-07-21T23:15",
           "severity": "watch",
           "source": "open_meteo_forecast_hourly",
           "type": "rain_nowcast",
           "value": {
-            "current_hour_mm": 2.4,
-            "intensity_equivalent_mm": 57.6,
-            "recent_12h_mm": 11.8,
-            "recent_3h_mm": 4.9,
-            "recent_6h_mm": 7.0,
+            "current_hour_mm": 1.7,
+            "intensity_equivalent_mm": 48.0,
+            "recent_12h_mm": 15.8,
+            "recent_3h_mm": 5.2,
+            "recent_6h_mm": 12.0,
             "weather_code": 80,
-            "wind_speed_10m_kmh": 13.3
+            "wind_speed_10m_kmh": 12.3
           }
         }
       ]
@@ -13604,26 +13641,19 @@
     "rainfall_signal": {
       "basis": "nowcast_intensity_equivalent_mm",
       "nowcast": {
-        "current_hour_mm": 2.4,
-        "intensity_equivalent_mm": 57.6,
-        "recent_3h_mm": 4.9
+        "current_hour_mm": 2.1,
+        "intensity_equivalent_mm": 61.6,
+        "recent_3h_mm": 7.7
       },
       "today_forecast_mm": 27.1,
-      "value_mm": 57.6
+      "value_mm": 61.6
     },
-    "rainfall_signal_mm": 57.6,
+    "rainfall_signal_mm": 61.6,
     "tide": {
       "confidence": "low",
       "disclaimer": "Approximate non-official tide signal. Use official BMC/Mumbai Port tide tables for safety-critical decisions.",
-      "generated_at": "2026-07-21T19:54:53.863407+05:30",
+      "generated_at": "2026-07-21T23:17:24.179586+05:30",
       "high_tide_windows": [
-        {
-          "confidence": "low",
-          "risk_window_end": "2026-07-21T16:40:00+05:30",
-          "risk_window_start": "2026-07-21T12:40:00+05:30",
-          "source_type": "computed_estimate",
-          "time": "2026-07-21T14:40:00+05:30"
-        },
         {
           "confidence": "low",
           "risk_window_end": "2026-07-22T05:05:00+05:30",
@@ -13651,7 +13681,7 @@
     }
   },
   "disclaimer": "Experimental public-information dashboard. Not an official emergency, disaster-management, weather, traffic, railway or airport system.",
-  "generated_at": "2026-07-21T19:54:53.986463+05:30",
+  "generated_at": "2026-07-21T23:17:24.301989+05:30",
   "monsoon_start_date": "2026-06-02",
   "project": "mumbai-monsoon-dashboard",
   "schema_version": "1.0.0",
