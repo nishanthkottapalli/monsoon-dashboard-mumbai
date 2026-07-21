@@ -1,7 +1,7 @@
 {
   "collector_status": "ok",
   "disclaimer": "Approximate non-official tide signal. Use official BMC/Mumbai Port tide tables for safety-critical decisions.",
-  "generated_at": "2026-07-21T16:04:34.095994+05:30",
+  "generated_at": "2026-07-21T19:54:53.863407+05:30",
   "high_tide_windows": [
     {
       "confidence": "low",
