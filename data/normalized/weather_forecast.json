@@ -8,15 +8,15 @@
         "name": "Colaba",
         "zone": "South Mumbai"
       },
-      "observed_at": "2026-07-23T20:00",
+      "observed_at": "2026-07-23T23:15",
       "severity": "normal",
       "source": "open_meteo_forecast",
       "type": "current_weather",
       "value": {
-        "precipitation_mm": 0.1,
-        "rain_mm": 0.1,
-        "weather_code": 51,
-        "wind_speed_10m_kmh": 33.3
+        "precipitation_mm": 0.7,
+        "rain_mm": 0.7,
+        "weather_code": 95,
+        "wind_speed_10m_kmh": 32.6
       }
     },
     {
@@ -27,15 +27,15 @@
         "name": "Santacruz",
         "zone": "Western Suburbs"
       },
-      "observed_at": "2026-07-23T20:00",
+      "observed_at": "2026-07-23T23:15",
       "severity": "normal",
       "source": "open_meteo_forecast",
       "type": "current_weather",
       "value": {
-        "precipitation_mm": 0.1,
+        "precipitation_mm": 0.4,
         "rain_mm": 0.1,
-        "weather_code": 51,
-        "wind_speed_10m_kmh": 23.5
+        "weather_code": 80,
+        "wind_speed_10m_kmh": 22.7
       }
     },
     {
@@ -46,15 +46,15 @@
         "name": "Powai",
         "zone": "Eastern Suburbs"
       },
-      "observed_at": "2026-07-23T20:00",
+      "observed_at": "2026-07-23T23:15",
       "severity": "normal",
       "source": "open_meteo_forecast",
       "type": "current_weather",
       "value": {
-        "precipitation_mm": 0.2,
-        "rain_mm": 0.1,
-        "weather_code": 53,
-        "wind_speed_10m_kmh": 16.7
+        "precipitation_mm": 0.4,
+        "rain_mm": 0.4,
+        "weather_code": 80,
+        "wind_speed_10m_kmh": 16.9
       }
     }
   ],
@@ -12248,18 +12248,18 @@
         "name": "Colaba",
         "zone": "South Mumbai"
       },
-      "observed_at": "2026-07-23T20:00",
+      "observed_at": "2026-07-23T23:15",
       "severity": "moderate",
       "source": "open_meteo_forecast_hourly",
       "type": "rain_nowcast",
       "value": {
-        "current_hour_mm": 0.4,
-        "intensity_equivalent_mm": 62.0,
-        "recent_12h_mm": 31.0,
-        "recent_3h_mm": 1.5,
-        "recent_6h_mm": 6.3,
-        "weather_code": 51,
-        "wind_speed_10m_kmh": 33.3
+        "current_hour_mm": 2.9,
+        "intensity_equivalent_mm": 69.6,
+        "recent_12h_mm": 25.6,
+        "recent_3h_mm": 8.2,
+        "recent_6h_mm": 9.7,
+        "weather_code": 95,
+        "wind_speed_10m_kmh": 32.6
       }
     },
     {
@@ -12270,18 +12270,18 @@
         "name": "Santacruz",
         "zone": "Western Suburbs"
       },
-      "observed_at": "2026-07-23T20:00",
-      "severity": "moderate",
+      "observed_at": "2026-07-23T23:15",
+      "severity": "watch",
       "source": "open_meteo_forecast_hourly",
       "type": "rain_nowcast",
       "value": {
-        "current_hour_mm": 0.4,
-        "intensity_equivalent_mm": 98.0,
-        "recent_12h_mm": 49.0,
-        "recent_3h_mm": 2.0,
-        "recent_6h_mm": 9.8,
-        "weather_code": 51,
-        "wind_speed_10m_kmh": 23.5
+        "current_hour_mm": 1.4,
+        "intensity_equivalent_mm": 59.0,
+        "recent_12h_mm": 29.5,
+        "recent_3h_mm": 2.3,
+        "recent_6h_mm": 4.3,
+        "weather_code": 80,
+        "wind_speed_10m_kmh": 22.7
       }
     },
     {
@@ -12292,18 +12292,18 @@
         "name": "Powai",
         "zone": "Eastern Suburbs"
       },
-      "observed_at": "2026-07-23T20:00",
-      "severity": "high",
+      "observed_at": "2026-07-23T23:15",
+      "severity": "moderate",
       "source": "open_meteo_forecast_hourly",
       "type": "rain_nowcast",
       "value": {
-        "current_hour_mm": 0.6,
-        "intensity_equivalent_mm": 107.4,
-        "recent_12h_mm": 53.7,
-        "recent_3h_mm": 2.5,
-        "recent_6h_mm": 11.5,
-        "weather_code": 53,
-        "wind_speed_10m_kmh": 16.7
+        "current_hour_mm": 1.6,
+        "intensity_equivalent_mm": 66.4,
+        "recent_12h_mm": 33.2,
+        "recent_3h_mm": 3.5,
+        "recent_6h_mm": 6.0,
+        "weather_code": 80,
+        "wind_speed_10m_kmh": 16.9
       }
     }
   ]
