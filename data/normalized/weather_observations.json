@@ -3167,7 +3167,7 @@
       "precipitation_sum_mm": 58.4,
       "temperature_2m_max_c": 29.1,
       "temperature_2m_min_c": 25.9,
-      "wind_speed_10m_max_kmh": 39.5
+      "wind_speed_10m_max_kmh": 39.9
     }
   },
   {
@@ -3188,7 +3188,7 @@
       "precipitation_sum_mm": 81.8,
       "temperature_2m_max_c": 26.7,
       "temperature_2m_min_c": 24.6,
-      "wind_speed_10m_max_kmh": 21.8
+      "wind_speed_10m_max_kmh": 23.2
     }
   },
   {
@@ -3209,7 +3209,7 @@
       "precipitation_sum_mm": 71.0,
       "temperature_2m_max_c": 27.9,
       "temperature_2m_min_c": 25.6,
-      "wind_speed_10m_max_kmh": 30.3
+      "wind_speed_10m_max_kmh": 34.0
     }
   }
 ]
