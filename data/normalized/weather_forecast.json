@@ -8,15 +8,15 @@
         "name": "Colaba",
         "zone": "South Mumbai"
       },
-      "observed_at": "2026-07-25T09:00",
+      "observed_at": "2026-07-25T12:00",
       "severity": "normal",
       "source": "open_meteo_forecast",
       "type": "current_weather",
       "value": {
-        "precipitation_mm": 0.7,
-        "rain_mm": 0.3,
-        "weather_code": 81,
-        "wind_speed_10m_kmh": 20.5
+        "precipitation_mm": 0.6,
+        "rain_mm": 0.1,
+        "weather_code": 95,
+        "wind_speed_10m_kmh": 18.5
       }
     },
     {
@@ -27,15 +27,15 @@
         "name": "Santacruz",
         "zone": "Western Suburbs"
       },
-      "observed_at": "2026-07-25T09:00",
+      "observed_at": "2026-07-25T12:00",
       "severity": "normal",
       "source": "open_meteo_forecast",
       "type": "current_weather",
       "value": {
-        "precipitation_mm": 1.1,
-        "rain_mm": 0.2,
-        "weather_code": 96,
-        "wind_speed_10m_kmh": 14.7
+        "precipitation_mm": 0.2,
+        "rain_mm": 0.1,
+        "weather_code": 53,
+        "wind_speed_10m_kmh": 14.9
       }
     },
     {
@@ -46,15 +46,15 @@
         "name": "Powai",
         "zone": "Eastern Suburbs"
       },
-      "observed_at": "2026-07-25T09:00",
+      "observed_at": "2026-07-25T12:00",
       "severity": "normal",
       "source": "open_meteo_forecast",
       "type": "current_weather",
       "value": {
-        "precipitation_mm": 0.6,
-        "rain_mm": 0.3,
-        "weather_code": 95,
-        "wind_speed_10m_kmh": 3.6
+        "precipitation_mm": 0.3,
+        "rain_mm": 0.1,
+        "weather_code": 55,
+        "wind_speed_10m_kmh": 11.5
       }
     }
   ],
@@ -12248,18 +12248,18 @@
         "name": "Colaba",
         "zone": "South Mumbai"
       },
-      "observed_at": "2026-07-25T09:00",
+      "observed_at": "2026-07-25T12:00",
       "severity": "moderate",
       "source": "open_meteo_forecast_hourly",
       "type": "rain_nowcast",
       "value": {
-        "current_hour_mm": 2.7,
-        "intensity_equivalent_mm": 64.8,
-        "recent_12h_mm": 15.2,
-        "recent_3h_mm": 7.8,
-        "recent_6h_mm": 12.6,
-        "weather_code": 81,
-        "wind_speed_10m_kmh": 20.5
+        "current_hour_mm": 2.4,
+        "intensity_equivalent_mm": 76.8,
+        "recent_12h_mm": 22.7,
+        "recent_3h_mm": 9.6,
+        "recent_6h_mm": 17.4,
+        "weather_code": 95,
+        "wind_speed_10m_kmh": 18.5
       }
     },
     {
@@ -12270,18 +12270,18 @@
         "name": "Santacruz",
         "zone": "Western Suburbs"
       },
-      "observed_at": "2026-07-25T09:00",
-      "severity": "high",
+      "observed_at": "2026-07-25T12:00",
+      "severity": "watch",
       "source": "open_meteo_forecast_hourly",
       "type": "rain_nowcast",
       "value": {
-        "current_hour_mm": 4.3,
-        "intensity_equivalent_mm": 103.2,
-        "recent_12h_mm": 10.7,
-        "recent_3h_mm": 6.5,
-        "recent_6h_mm": 9.1,
-        "weather_code": 96,
-        "wind_speed_10m_kmh": 14.7
+        "current_hour_mm": 0.8,
+        "intensity_equivalent_mm": 47.2,
+        "recent_12h_mm": 15.1,
+        "recent_3h_mm": 5.3,
+        "recent_6h_mm": 11.8,
+        "weather_code": 53,
+        "wind_speed_10m_kmh": 14.9
       }
     },
     {
@@ -12292,18 +12292,18 @@
         "name": "Powai",
         "zone": "Eastern Suburbs"
       },
-      "observed_at": "2026-07-25T09:00",
-      "severity": "watch",
+      "observed_at": "2026-07-25T12:00",
+      "severity": "moderate",
       "source": "open_meteo_forecast_hourly",
       "type": "rain_nowcast",
       "value": {
-        "current_hour_mm": 2.2,
-        "intensity_equivalent_mm": 52.8,
-        "recent_12h_mm": 10.5,
-        "recent_3h_mm": 4.6,
-        "recent_6h_mm": 7.8,
-        "weather_code": 95,
-        "wind_speed_10m_kmh": 3.6
+        "current_hour_mm": 1.3,
+        "intensity_equivalent_mm": 87.2,
+        "recent_12h_mm": 20.2,
+        "recent_3h_mm": 10.9,
+        "recent_6h_mm": 15.5,
+        "weather_code": 55,
+        "wind_speed_10m_kmh": 11.5
       }
     }
   ]
