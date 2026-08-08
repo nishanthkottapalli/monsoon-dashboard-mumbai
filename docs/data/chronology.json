@@ -542,7 +542,7 @@
       "impact_score": 14,
       "provisional": true,
       "rainfall_mm_avg": 0.0,
-      "rainfall_mm_max": 14.4,
+      "rainfall_mm_max": 12.0,
       "risk_level": "normal",
       "severity": "watch"
     }
@@ -1324,7 +1324,7 @@
     "briefing": {
       "headline": "Mumbai monsoon disruption signal is currently low.",
       "method_note": "Impact is computed from public rainfall data plus transparent derived signals for waterlogging, traffic, rail and tide risk. This is not an official alerting system.",
-      "overview": "The current explainable model is driven primarily by a rainfall/nowcast disruption signal of 14.4 mm. Basis: nowcast_intensity_equivalent_mm. Current-hour rain signal is 0.6 mm, with 1.2 mm in the recent 3h window.",
+      "overview": "The current explainable model is driven primarily by a rainfall/nowcast disruption signal of 12.0 mm. Basis: nowcast_intensity_equivalent_mm. Current-hour rain signal is 0.5 mm, with 0.9 mm in the recent 3h window.",
       "public_advisory": [
         "Use official IMD, BMC, Mumbai Police, railway and airport advisories for safety-critical decisions.",
         "Avoid low-lying areas during intense rain and near high-tide overlap windows.",
@@ -1387,7 +1387,7 @@
             "name": "Colaba",
             "zone": "South Mumbai"
           },
-          "observed_at": "2026-08-08T07:45",
+          "observed_at": "2026-08-08T10:30",
           "severity": "normal",
           "source": "open_meteo_forecast",
           "type": "current_weather",
@@ -1395,7 +1395,7 @@
             "precipitation_mm": 0.1,
             "rain_mm": 0.1,
             "weather_code": 51,
-            "wind_speed_10m_kmh": 21.1
+            "wind_speed_10m_kmh": 22.0
           }
         },
         {
@@ -1406,15 +1406,15 @@
             "name": "Santacruz",
             "zone": "Western Suburbs"
           },
-          "observed_at": "2026-08-08T07:45",
+          "observed_at": "2026-08-08T10:30",
           "severity": "normal",
           "source": "open_meteo_forecast",
           "type": "current_weather",
           "value": {
-            "precipitation_mm": 0.1,
-            "rain_mm": 0.1,
-            "weather_code": 51,
-            "wind_speed_10m_kmh": 13.2
+            "precipitation_mm": 0.0,
+            "rain_mm": 0.0,
+            "weather_code": 2,
+            "wind_speed_10m_kmh": 16.1
           }
         },
         {
@@ -1425,15 +1425,15 @@
             "name": "Powai",
             "zone": "Eastern Suburbs"
           },
-          "observed_at": "2026-08-08T07:45",
+          "observed_at": "2026-08-08T10:30",
           "severity": "normal",
           "source": "open_meteo_forecast",
           "type": "current_weather",
           "value": {
-            "precipitation_mm": 0.1,
-            "rain_mm": 0.1,
-            "weather_code": 51,
-            "wind_speed_10m_kmh": 10.0
+            "precipitation_mm": 0.0,
+            "rain_mm": 0.0,
+            "weather_code": 3,
+            "wind_speed_10m_kmh": 12.3
           }
         }
       ],
@@ -1565,7 +1565,7 @@
           "source": "open_meteo_forecast",
           "type": "daily_forecast",
           "value": {
-            "precipitation_probability_max_pct": 98,
+            "precipitation_probability_max_pct": 100,
             "precipitation_sum_mm": 7.7,
             "weather_code": 53,
             "wind_speed_10m_max_kmh": 26.1
@@ -1584,7 +1584,7 @@
           "source": "open_meteo_forecast",
           "type": "daily_forecast",
           "value": {
-            "precipitation_probability_max_pct": 98,
+            "precipitation_probability_max_pct": 100,
             "precipitation_sum_mm": 8.0,
             "weather_code": 55,
             "wind_speed_10m_max_kmh": 16.3
@@ -1603,7 +1603,7 @@
           "source": "open_meteo_forecast",
           "type": "daily_forecast",
           "value": {
-            "precipitation_probability_max_pct": 98,
+            "precipitation_probability_max_pct": 100,
             "precipitation_sum_mm": 5.6,
             "weather_code": 53,
             "wind_speed_10m_max_kmh": 18.2
@@ -1622,7 +1622,7 @@
           "source": "open_meteo_forecast",
           "type": "daily_forecast",
           "value": {
-            "precipitation_probability_max_pct": 99,
+            "precipitation_probability_max_pct": 100,
             "precipitation_sum_mm": 4.9,
             "weather_code": 53,
             "wind_speed_10m_max_kmh": 23.6
@@ -1641,7 +1641,7 @@
           "source": "open_meteo_forecast",
           "type": "daily_forecast",
           "value": {
-            "precipitation_probability_max_pct": 99,
+            "precipitation_probability_max_pct": 100,
             "precipitation_sum_mm": 5.1,
             "weather_code": 53,
             "wind_speed_10m_max_kmh": 14.8
@@ -1660,7 +1660,7 @@
           "source": "open_meteo_forecast",
           "type": "daily_forecast",
           "value": {
-            "precipitation_probability_max_pct": 99,
+            "precipitation_probability_max_pct": 100,
             "precipitation_sum_mm": 3.3,
             "weather_code": 51,
             "wind_speed_10m_max_kmh": 17.3
@@ -1793,7 +1793,7 @@
           "source": "open_meteo_forecast",
           "type": "daily_forecast",
           "value": {
-            "precipitation_probability_max_pct": 98,
+            "precipitation_probability_max_pct": 100,
             "precipitation_sum_mm": 10.5,
             "weather_code": 53,
             "wind_speed_10m_max_kmh": 26.9
@@ -1812,7 +1812,7 @@
           "source": "open_meteo_forecast",
           "type": "daily_forecast",
           "value": {
-            "precipitation_probability_max_pct": 98,
+            "precipitation_probability_max_pct": 100,
             "precipitation_sum_mm": 8.1,
             "weather_code": 53,
             "wind_speed_10m_max_kmh": 14.6
@@ -1831,7 +1831,7 @@
           "source": "open_meteo_forecast",
           "type": "daily_forecast",
           "value": {
-            "precipitation_probability_max_pct": 98,
+            "precipitation_probability_max_pct": 100,
             "precipitation_sum_mm": 7.2,
             "weather_code": 53,
             "wind_speed_10m_max_kmh": 18.8
@@ -13627,18 +13627,18 @@
             "name": "Colaba",
             "zone": "South Mumbai"
           },
-          "observed_at": "2026-08-08T07:45",
+          "observed_at": "2026-08-08T10:30",
           "severity": "normal",
           "source": "open_meteo_forecast_hourly",
           "type": "rain_nowcast",
           "value": {
-            "current_hour_mm": 0.6,
-            "intensity_equivalent_mm": 14.4,
-            "recent_12h_mm": 2.9,
-            "recent_3h_mm": 1.2,
+            "current_hour_mm": 0.5,
+            "intensity_equivalent_mm": 12.0,
+            "recent_12h_mm": 3.4,
+            "recent_3h_mm": 0.9,
             "recent_6h_mm": 2.1,
             "weather_code": 51,
-            "wind_speed_10m_kmh": 21.1
+            "wind_speed_10m_kmh": 22.0
           }
         },
         {
@@ -13649,18 +13649,18 @@
             "name": "Santacruz",
             "zone": "Western Suburbs"
           },
-          "observed_at": "2026-08-08T07:45",
+          "observed_at": "2026-08-08T10:30",
           "severity": "normal",
           "source": "open_meteo_forecast_hourly",
           "type": "rain_nowcast",
           "value": {
-            "current_hour_mm": 0.4,
-            "intensity_equivalent_mm": 9.6,
+            "current_hour_mm": 0.0,
+            "intensity_equivalent_mm": 6.8,
             "recent_12h_mm": 2.9,
-            "recent_3h_mm": 1.1,
-            "recent_6h_mm": 1.9,
-            "weather_code": 51,
-            "wind_speed_10m_kmh": 13.2
+            "recent_3h_mm": 0.6,
+            "recent_6h_mm": 1.7,
+            "weather_code": 2,
+            "wind_speed_10m_kmh": 16.1
           }
         },
         {
@@ -13671,18 +13671,18 @@
             "name": "Powai",
             "zone": "Eastern Suburbs"
           },
-          "observed_at": "2026-08-08T07:45",
+          "observed_at": "2026-08-08T10:30",
           "severity": "normal",
           "source": "open_meteo_forecast_hourly",
           "type": "rain_nowcast",
           "value": {
-            "current_hour_mm": 0.3,
-            "intensity_equivalent_mm": 7.2,
-            "recent_12h_mm": 2.8,
-            "recent_3h_mm": 0.7,
-            "recent_6h_mm": 1.6,
-            "weather_code": 51,
-            "wind_speed_10m_kmh": 10.0
+            "current_hour_mm": 0.1,
+            "intensity_equivalent_mm": 5.0,
+            "recent_12h_mm": 2.5,
+            "recent_3h_mm": 0.5,
+            "recent_6h_mm": 1.2,
+            "weather_code": 3,
+            "wind_speed_10m_kmh": 12.3
           }
         }
       ]
@@ -13690,18 +13690,18 @@
     "rainfall_signal": {
       "basis": "nowcast_intensity_equivalent_mm",
       "nowcast": {
-        "current_hour_mm": 0.6,
-        "intensity_equivalent_mm": 14.4,
-        "recent_3h_mm": 1.2
+        "current_hour_mm": 0.5,
+        "intensity_equivalent_mm": 12.0,
+        "recent_3h_mm": 0.9
       },
       "today_forecast_mm": 8.0,
-      "value_mm": 14.4
+      "value_mm": 12.0
     },
-    "rainfall_signal_mm": 14.4,
+    "rainfall_signal_mm": 12.0,
     "tide": {
       "confidence": "low",
       "disclaimer": "Approximate non-official tide signal. Use official BMC/Mumbai Port tide tables for safety-critical decisions.",
-      "generated_at": "2026-08-08T07:52:43.640595+05:30",
+      "generated_at": "2026-08-08T10:40:18.241719+05:30",
       "high_tide_windows": [
         {
           "confidence": "low",
@@ -13737,7 +13737,7 @@
     }
   },
   "disclaimer": "Experimental public-information dashboard. Not an official emergency, disaster-management, weather, traffic, railway or airport system.",
-  "generated_at": "2026-08-08T07:52:43.756610+05:30",
+  "generated_at": "2026-08-08T10:40:18.364412+05:30",
   "monsoon_start_date": "2026-06-02",
   "project": "mumbai-monsoon-dashboard",
   "schema_version": "1.0.0",
