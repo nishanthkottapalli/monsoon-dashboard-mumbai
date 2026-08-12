@@ -5042,6 +5042,77 @@
   },
   {
     "date": "2026-08-12",
+    "rainfall_mm_avg": 15.77,
+    "rainfall_mm_max": 19.1,
+    "severity": "normal",
+    "stations": [
+      {
+        "confidence": "medium",
+        "id": "daily-colaba-2026-08-12",
+        "location": {
+          "latitude": 18.9067,
+          "longitude": 72.8147,
+          "name": "Colaba",
+          "zone": "South Mumbai"
+        },
+        "observed_date": "2026-08-12",
+        "severity": "normal",
+        "source": "open_meteo_archive",
+        "type": "daily_rainfall",
+        "value": {
+          "precipitation_hours": 23.0,
+          "precipitation_sum_mm": 16.2,
+          "temperature_2m_max_c": 28.9,
+          "temperature_2m_min_c": 26.4,
+          "wind_speed_10m_max_kmh": 20.4
+        }
+      },
+      {
+        "confidence": "medium",
+        "id": "daily-powai-2026-08-12",
+        "location": {
+          "latitude": 19.1176,
+          "longitude": 72.906,
+          "name": "Powai",
+          "zone": "Eastern Suburbs"
+        },
+        "observed_date": "2026-08-12",
+        "severity": "normal",
+        "source": "open_meteo_archive",
+        "type": "daily_rainfall",
+        "value": {
+          "precipitation_hours": 24.0,
+          "precipitation_sum_mm": 19.1,
+          "temperature_2m_max_c": 28.6,
+          "temperature_2m_min_c": 24.8,
+          "wind_speed_10m_max_kmh": 12.9
+        }
+      },
+      {
+        "confidence": "medium",
+        "id": "daily-santacruz-2026-08-12",
+        "location": {
+          "latitude": 19.0896,
+          "longitude": 72.8656,
+          "name": "Santacruz",
+          "zone": "Western Suburbs"
+        },
+        "observed_date": "2026-08-12",
+        "severity": "normal",
+        "source": "open_meteo_archive",
+        "type": "daily_rainfall",
+        "value": {
+          "precipitation_hours": 24.0,
+          "precipitation_sum_mm": 12.0,
+          "temperature_2m_max_c": 28.5,
+          "temperature_2m_min_c": 24.8,
+          "wind_speed_10m_max_kmh": 17.6
+        }
+      }
+    ]
+  },
+  {
+    "date": "2026-08-13",
     "rainfall_mm_avg": 0.0,
     "rainfall_mm_max": 0.0,
     "severity": "normal",
