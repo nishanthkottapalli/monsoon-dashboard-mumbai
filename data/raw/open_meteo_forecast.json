@@ -3,11 +3,11 @@
     "collector_status": "ok",
     "current": {
       "interval": 900,
-      "precipitation": 0.2,
+      "precipitation": 0.3,
       "rain": 0.1,
-      "time": "2026-08-13T08:15",
-      "weather_code": 53,
-      "wind_speed_10m": 19.3
+      "time": "2026-08-13T11:15",
+      "weather_code": 55,
+      "wind_speed_10m": 17.6
     },
     "current_units": {
       "interval": "seconds",
@@ -82,7 +82,7 @@
       "wind_speed_10m_max": "km/h"
     },
     "elevation": 12.0,
-    "generationtime_ms": 5.15139102935791,
+    "generationtime_ms": 1.0825395584106445,
     "hourly": {
       "precipitation": [
         0.3,
@@ -1418,10 +1418,10 @@
     "current": {
       "interval": 900,
       "precipitation": 0.1,
-      "rain": 0.0,
-      "time": "2026-08-13T08:15",
+      "rain": 0.1,
+      "time": "2026-08-13T11:15",
       "weather_code": 51,
-      "wind_speed_10m": 16.0
+      "wind_speed_10m": 15.0
     },
     "current_units": {
       "interval": "seconds",
@@ -1496,7 +1496,7 @@
       "wind_speed_10m_max": "km/h"
     },
     "elevation": 6.0,
-    "generationtime_ms": 0.3249645233154297,
+    "generationtime_ms": 0.4552602767944336,
     "hourly": {
       "precipitation": [
         0.0,
@@ -2831,11 +2831,11 @@
     "collector_status": "ok",
     "current": {
       "interval": 900,
-      "precipitation": 0.1,
-      "rain": 0.1,
-      "time": "2026-08-13T08:15",
-      "weather_code": 51,
-      "wind_speed_10m": 8.4
+      "precipitation": 0.0,
+      "rain": 0.0,
+      "time": "2026-08-13T11:15",
+      "weather_code": 3,
+      "wind_speed_10m": 10.7
     },
     "current_units": {
       "interval": "seconds",
@@ -2910,7 +2910,7 @@
       "wind_speed_10m_max": "km/h"
     },
     "elevation": 43.0,
-    "generationtime_ms": 1.6585588455200195,
+    "generationtime_ms": 0.6583929061889648,
     "hourly": {
       "precipitation": [
         0.0,
