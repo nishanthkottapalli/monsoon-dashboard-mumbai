@@ -3,11 +3,11 @@
     "collector_status": "ok",
     "current": {
       "interval": 900,
-      "precipitation": 0.2,
-      "rain": 0.1,
-      "time": "2026-08-21T07:15",
-      "weather_code": 53,
-      "wind_speed_10m": 14.2
+      "precipitation": 0.0,
+      "rain": 0.0,
+      "time": "2026-08-21T10:15",
+      "weather_code": 1,
+      "wind_speed_10m": 17.8
     },
     "current_units": {
       "interval": "seconds",
@@ -24,9 +24,9 @@
         100,
         100,
         100,
-        96,
+        97,
+        97,
         98,
-        94,
         97
       ],
       "precipitation_sum": [
@@ -82,7 +82,7 @@
       "wind_speed_10m_max": "km/h"
     },
     "elevation": 12.0,
-    "generationtime_ms": 4.253506660461426,
+    "generationtime_ms": 15.18869400024414,
     "hourly": {
       "precipitation": [
         0.1,
@@ -1417,11 +1417,11 @@
     "collector_status": "ok",
     "current": {
       "interval": 900,
-      "precipitation": 0.1,
-      "rain": 0.1,
-      "time": "2026-08-21T07:15",
-      "weather_code": 51,
-      "wind_speed_10m": 8.8
+      "precipitation": 0.0,
+      "rain": 0.0,
+      "time": "2026-08-21T10:15",
+      "weather_code": 3,
+      "wind_speed_10m": 13.3
     },
     "current_units": {
       "interval": "seconds",
@@ -1438,9 +1438,9 @@
         100,
         100,
         100,
-        96,
+        97,
+        97,
         98,
-        94,
         97
       ],
       "precipitation_sum": [
@@ -1496,7 +1496,7 @@
       "wind_speed_10m_max": "km/h"
     },
     "elevation": 6.0,
-    "generationtime_ms": 0.3333091735839844,
+    "generationtime_ms": 16.256093978881836,
     "hourly": {
       "precipitation": [
         0.2,
@@ -2831,11 +2831,11 @@
     "collector_status": "ok",
     "current": {
       "interval": 900,
-      "precipitation": 0.1,
+      "precipitation": 0.0,
       "rain": 0.0,
-      "time": "2026-08-21T07:15",
-      "weather_code": 51,
-      "wind_speed_10m": 1.8
+      "time": "2026-08-21T10:15",
+      "weather_code": 3,
+      "wind_speed_10m": 9.9
     },
     "current_units": {
       "interval": "seconds",
@@ -2852,9 +2852,9 @@
         100,
         100,
         100,
-        96,
+        97,
+        97,
         98,
-        94,
         97
       ],
       "precipitation_sum": [
@@ -2910,7 +2910,7 @@
       "wind_speed_10m_max": "km/h"
     },
     "elevation": 43.0,
-    "generationtime_ms": 8.851051330566406,
+    "generationtime_ms": 10.859847068786621,
     "hourly": {
       "precipitation": [
         0.1,
