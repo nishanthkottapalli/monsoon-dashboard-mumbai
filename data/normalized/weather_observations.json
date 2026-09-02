@@ -5794,5 +5794,68 @@
       "temperature_2m_min_c": 26.1,
       "wind_speed_10m_max_kmh": 17.5
     }
+  },
+  {
+    "confidence": "medium",
+    "id": "daily-colaba-2026-09-02",
+    "location": {
+      "latitude": 18.9067,
+      "longitude": 72.8147,
+      "name": "Colaba",
+      "zone": "South Mumbai"
+    },
+    "observed_date": "2026-09-02",
+    "severity": "normal",
+    "source": "open_meteo_archive",
+    "type": "daily_rainfall",
+    "value": {
+      "precipitation_hours": 23.0,
+      "precipitation_sum_mm": 9.3,
+      "temperature_2m_max_c": 28.1,
+      "temperature_2m_min_c": 25.4,
+      "wind_speed_10m_max_kmh": 18.7
+    }
+  },
+  {
+    "confidence": "medium",
+    "id": "daily-powai-2026-09-02",
+    "location": {
+      "latitude": 19.1176,
+      "longitude": 72.906,
+      "name": "Powai",
+      "zone": "Eastern Suburbs"
+    },
+    "observed_date": "2026-09-02",
+    "severity": "normal",
+    "source": "open_meteo_archive",
+    "type": "daily_rainfall",
+    "value": {
+      "precipitation_hours": 24.0,
+      "precipitation_sum_mm": 10.4,
+      "temperature_2m_max_c": 28.4,
+      "temperature_2m_min_c": 23.9,
+      "wind_speed_10m_max_kmh": 12.3
+    }
+  },
+  {
+    "confidence": "medium",
+    "id": "daily-santacruz-2026-09-02",
+    "location": {
+      "latitude": 19.0896,
+      "longitude": 72.8656,
+      "name": "Santacruz",
+      "zone": "Western Suburbs"
+    },
+    "observed_date": "2026-09-02",
+    "severity": "normal",
+    "source": "open_meteo_archive",
+    "type": "daily_rainfall",
+    "value": {
+      "precipitation_hours": 24.0,
+      "precipitation_sum_mm": 13.8,
+      "temperature_2m_max_c": 28.2,
+      "temperature_2m_min_c": 25.0,
+      "wind_speed_10m_max_kmh": 14.1
+    }
   }
 ]
