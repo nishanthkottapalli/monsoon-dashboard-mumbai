@@ -1,6 +1,27 @@
 [
   {
     "confidence": "medium",
+    "id": "daily-colaba-2026-06-02",
+    "location": {
+      "latitude": 18.9067,
+      "longitude": 72.8147,
+      "name": "Colaba",
+      "zone": "South Mumbai"
+    },
+    "observed_date": "2026-06-02",
+    "severity": "normal",
+    "source": "open_meteo_archive",
+    "type": "daily_rainfall",
+    "value": {
+      "precipitation_hours": 7.0,
+      "precipitation_sum_mm": 0.8,
+      "temperature_2m_max_c": 31.2,
+      "temperature_2m_min_c": 28.1,
+      "wind_speed_10m_max_kmh": 21.4
+    }
+  },
+  {
+    "confidence": "medium",
     "id": "daily-powai-2026-06-02",
     "location": {
       "latitude": 19.1176,
@@ -39,6 +60,27 @@
       "temperature_2m_max_c": 34.2,
       "temperature_2m_min_c": 25.0,
       "wind_speed_10m_max_kmh": 16.0
+    }
+  },
+  {
+    "confidence": "medium",
+    "id": "daily-colaba-2026-06-03",
+    "location": {
+      "latitude": 18.9067,
+      "longitude": 72.8147,
+      "name": "Colaba",
+      "zone": "South Mumbai"
+    },
+    "observed_date": "2026-06-03",
+    "severity": "normal",
+    "source": "open_meteo_archive",
+    "type": "daily_rainfall",
+    "value": {
+      "precipitation_hours": 6.0,
+      "precipitation_sum_mm": 1.1,
+      "temperature_2m_max_c": 30.7,
+      "temperature_2m_min_c": 27.8,
+      "wind_speed_10m_max_kmh": 23.7
     }
   },
   {
@@ -85,6 +127,27 @@
   },
   {
     "confidence": "medium",
+    "id": "daily-colaba-2026-06-04",
+    "location": {
+      "latitude": 18.9067,
+      "longitude": 72.8147,
+      "name": "Colaba",
+      "zone": "South Mumbai"
+    },
+    "observed_date": "2026-06-04",
+    "severity": "normal",
+    "source": "open_meteo_archive",
+    "type": "daily_rainfall",
+    "value": {
+      "precipitation_hours": 0.0,
+      "precipitation_sum_mm": 0.0,
+      "temperature_2m_max_c": 31.5,
+      "temperature_2m_min_c": 28.0,
+      "wind_speed_10m_max_kmh": 22.7
+    }
+  },
+  {
+    "confidence": "medium",
     "id": "daily-powai-2026-06-04",
     "location": {
       "latitude": 19.1176,
@@ -123,6 +186,27 @@
       "temperature_2m_max_c": 32.9,
       "temperature_2m_min_c": 28.1,
       "wind_speed_10m_max_kmh": 14.2
+    }
+  },
+  {
+    "confidence": "medium",
+    "id": "daily-colaba-2026-06-05",
+    "location": {
+      "latitude": 18.9067,
+      "longitude": 72.8147,
+      "name": "Colaba",
+      "zone": "South Mumbai"
+    },
+    "observed_date": "2026-06-05",
+    "severity": "normal",
+    "source": "open_meteo_archive",
+    "type": "daily_rainfall",
+    "value": {
+      "precipitation_hours": 7.0,
+      "precipitation_sum_mm": 1.9,
+      "temperature_2m_max_c": 31.6,
+      "temperature_2m_min_c": 28.3,
+      "wind_speed_10m_max_kmh": 19.3
     }
   },
   {
@@ -169,6 +253,27 @@
   },
   {
     "confidence": "medium",
+    "id": "daily-colaba-2026-06-06",
+    "location": {
+      "latitude": 18.9067,
+      "longitude": 72.8147,
+      "name": "Colaba",
+      "zone": "South Mumbai"
+    },
+    "observed_date": "2026-06-06",
+    "severity": "normal",
+    "source": "open_meteo_archive",
+    "type": "daily_rainfall",
+    "value": {
+      "precipitation_hours": 11.0,
+      "precipitation_sum_mm": 3.2,
+      "temperature_2m_max_c": 31.9,
+      "temperature_2m_min_c": 27.8,
+      "wind_speed_10m_max_kmh": 18.6
+    }
+  },
+  {
+    "confidence": "medium",
     "id": "daily-powai-2026-06-06",
     "location": {
       "latitude": 19.1176,
@@ -207,6 +312,27 @@
       "temperature_2m_max_c": 34.0,
       "temperature_2m_min_c": 27.7,
       "wind_speed_10m_max_kmh": 14.8
+    }
+  },
+  {
+    "confidence": "medium",
+    "id": "daily-colaba-2026-06-07",
+    "location": {
+      "latitude": 18.9067,
+      "longitude": 72.8147,
+      "name": "Colaba",
+      "zone": "South Mumbai"
+    },
+    "observed_date": "2026-06-07",
+    "severity": "normal",
+    "source": "open_meteo_archive",
+    "type": "daily_rainfall",
+    "value": {
+      "precipitation_hours": 13.0,
+      "precipitation_sum_mm": 4.1,
+      "temperature_2m_max_c": 31.3,
+      "temperature_2m_min_c": 27.8,
+      "wind_speed_10m_max_kmh": 17.5
     }
   },
   {
@@ -253,6 +379,27 @@
   },
   {
     "confidence": "medium",
+    "id": "daily-colaba-2026-06-08",
+    "location": {
+      "latitude": 18.9067,
+      "longitude": 72.8147,
+      "name": "Colaba",
+      "zone": "South Mumbai"
+    },
+    "observed_date": "2026-06-08",
+    "severity": "normal",
+    "source": "open_meteo_archive",
+    "type": "daily_rainfall",
+    "value": {
+      "precipitation_hours": 12.0,
+      "precipitation_sum_mm": 2.9,
+      "temperature_2m_max_c": 31.6,
+      "temperature_2m_min_c": 27.0,
+      "wind_speed_10m_max_kmh": 22.8
+    }
+  },
+  {
+    "confidence": "medium",
     "id": "daily-powai-2026-06-08",
     "location": {
       "latitude": 19.1176,
@@ -291,6 +438,27 @@
       "temperature_2m_max_c": 33.7,
       "temperature_2m_min_c": 26.8,
       "wind_speed_10m_max_kmh": 17.1
+    }
+  },
+  {
+    "confidence": "medium",
+    "id": "daily-colaba-2026-06-09",
+    "location": {
+      "latitude": 18.9067,
+      "longitude": 72.8147,
+      "name": "Colaba",
+      "zone": "South Mumbai"
+    },
+    "observed_date": "2026-06-09",
+    "severity": "normal",
+    "source": "open_meteo_archive",
+    "type": "daily_rainfall",
+    "value": {
+      "precipitation_hours": 14.0,
+      "precipitation_sum_mm": 4.3,
+      "temperature_2m_max_c": 31.9,
+      "temperature_2m_min_c": 27.1,
+      "wind_speed_10m_max_kmh": 27.2
     }
   },
   {
@@ -337,6 +505,27 @@
   },
   {
     "confidence": "medium",
+    "id": "daily-colaba-2026-06-10",
+    "location": {
+      "latitude": 18.9067,
+      "longitude": 72.8147,
+      "name": "Colaba",
+      "zone": "South Mumbai"
+    },
+    "observed_date": "2026-06-10",
+    "severity": "normal",
+    "source": "open_meteo_archive",
+    "type": "daily_rainfall",
+    "value": {
+      "precipitation_hours": 18.0,
+      "precipitation_sum_mm": 4.0,
+      "temperature_2m_max_c": 31.8,
+      "temperature_2m_min_c": 28.7,
+      "wind_speed_10m_max_kmh": 23.2
+    }
+  },
+  {
+    "confidence": "medium",
     "id": "daily-powai-2026-06-10",
     "location": {
       "latitude": 19.1176,
@@ -375,6 +564,27 @@
       "temperature_2m_max_c": 33.3,
       "temperature_2m_min_c": 28.0,
       "wind_speed_10m_max_kmh": 17.8
+    }
+  },
+  {
+    "confidence": "medium",
+    "id": "daily-colaba-2026-06-11",
+    "location": {
+      "latitude": 18.9067,
+      "longitude": 72.8147,
+      "name": "Colaba",
+      "zone": "South Mumbai"
+    },
+    "observed_date": "2026-06-11",
+    "severity": "normal",
+    "source": "open_meteo_archive",
+    "type": "daily_rainfall",
+    "value": {
+      "precipitation_hours": 7.0,
+      "precipitation_sum_mm": 1.2,
+      "temperature_2m_max_c": 31.5,
+      "temperature_2m_min_c": 30.1,
+      "wind_speed_10m_max_kmh": 23.1
     }
   },
   {
@@ -421,6 +631,27 @@
   },
   {
     "confidence": "medium",
+    "id": "daily-colaba-2026-06-12",
+    "location": {
+      "latitude": 18.9067,
+      "longitude": 72.8147,
+      "name": "Colaba",
+      "zone": "South Mumbai"
+    },
+    "observed_date": "2026-06-12",
+    "severity": "normal",
+    "source": "open_meteo_archive",
+    "type": "daily_rainfall",
+    "value": {
+      "precipitation_hours": 6.0,
+      "precipitation_sum_mm": 0.6,
+      "temperature_2m_max_c": 31.8,
+      "temperature_2m_min_c": 29.7,
+      "wind_speed_10m_max_kmh": 23.5
+    }
+  },
+  {
+    "confidence": "medium",
     "id": "daily-powai-2026-06-12",
     "location": {
       "latitude": 19.1176,
@@ -459,6 +690,27 @@
       "temperature_2m_max_c": 33.9,
       "temperature_2m_min_c": 30.0,
       "wind_speed_10m_max_kmh": 17.6
+    }
+  },
+  {
+    "confidence": "medium",
+    "id": "daily-colaba-2026-06-13",
+    "location": {
+      "latitude": 18.9067,
+      "longitude": 72.8147,
+      "name": "Colaba",
+      "zone": "South Mumbai"
+    },
+    "observed_date": "2026-06-13",
+    "severity": "normal",
+    "source": "open_meteo_archive",
+    "type": "daily_rainfall",
+    "value": {
+      "precipitation_hours": 5.0,
+      "precipitation_sum_mm": 0.5,
+      "temperature_2m_max_c": 31.9,
+      "temperature_2m_min_c": 30.2,
+      "wind_speed_10m_max_kmh": 25.3
     }
   },
   {
@@ -505,6 +757,27 @@
   },
   {
     "confidence": "medium",
+    "id": "daily-colaba-2026-06-14",
+    "location": {
+      "latitude": 18.9067,
+      "longitude": 72.8147,
+      "name": "Colaba",
+      "zone": "South Mumbai"
+    },
+    "observed_date": "2026-06-14",
+    "severity": "normal",
+    "source": "open_meteo_archive",
+    "type": "daily_rainfall",
+    "value": {
+      "precipitation_hours": 11.0,
+      "precipitation_sum_mm": 3.1,
+      "temperature_2m_max_c": 31.2,
+      "temperature_2m_min_c": 29.9,
+      "wind_speed_10m_max_kmh": 25.5
+    }
+  },
+  {
+    "confidence": "medium",
     "id": "daily-powai-2026-06-14",
     "location": {
       "latitude": 19.1176,
@@ -543,6 +816,27 @@
       "temperature_2m_max_c": 33.6,
       "temperature_2m_min_c": 29.4,
       "wind_speed_10m_max_kmh": 19.0
+    }
+  },
+  {
+    "confidence": "medium",
+    "id": "daily-colaba-2026-06-15",
+    "location": {
+      "latitude": 18.9067,
+      "longitude": 72.8147,
+      "name": "Colaba",
+      "zone": "South Mumbai"
+    },
+    "observed_date": "2026-06-15",
+    "severity": "normal",
+    "source": "open_meteo_archive",
+    "type": "daily_rainfall",
+    "value": {
+      "precipitation_hours": 4.0,
+      "precipitation_sum_mm": 0.7,
+      "temperature_2m_max_c": 31.6,
+      "temperature_2m_min_c": 29.2,
+      "wind_speed_10m_max_kmh": 25.1
     }
   },
   {
@@ -589,6 +883,27 @@
   },
   {
     "confidence": "medium",
+    "id": "daily-colaba-2026-06-16",
+    "location": {
+      "latitude": 18.9067,
+      "longitude": 72.8147,
+      "name": "Colaba",
+      "zone": "South Mumbai"
+    },
+    "observed_date": "2026-06-16",
+    "severity": "normal",
+    "source": "open_meteo_archive",
+    "type": "daily_rainfall",
+    "value": {
+      "precipitation_hours": 4.0,
+      "precipitation_sum_mm": 0.5,
+      "temperature_2m_max_c": 31.2,
+      "temperature_2m_min_c": 29.9,
+      "wind_speed_10m_max_kmh": 22.7
+    }
+  },
+  {
+    "confidence": "medium",
     "id": "daily-powai-2026-06-16",
     "location": {
       "latitude": 19.1176,
@@ -627,6 +942,27 @@
       "temperature_2m_max_c": 33.2,
       "temperature_2m_min_c": 28.9,
       "wind_speed_10m_max_kmh": 16.8
+    }
+  },
+  {
+    "confidence": "medium",
+    "id": "daily-colaba-2026-06-17",
+    "location": {
+      "latitude": 18.9067,
+      "longitude": 72.8147,
+      "name": "Colaba",
+      "zone": "South Mumbai"
+    },
+    "observed_date": "2026-06-17",
+    "severity": "normal",
+    "source": "open_meteo_archive",
+    "type": "daily_rainfall",
+    "value": {
+      "precipitation_hours": 6.0,
+      "precipitation_sum_mm": 0.7,
+      "temperature_2m_max_c": 31.1,
+      "temperature_2m_min_c": 29.8,
+      "wind_speed_10m_max_kmh": 25.9
     }
   },
   {
@@ -673,6 +1009,27 @@
   },
   {
     "confidence": "medium",
+    "id": "daily-colaba-2026-06-18",
+    "location": {
+      "latitude": 18.9067,
+      "longitude": 72.8147,
+      "name": "Colaba",
+      "zone": "South Mumbai"
+    },
+    "observed_date": "2026-06-18",
+    "severity": "normal",
+    "source": "open_meteo_archive",
+    "type": "daily_rainfall",
+    "value": {
+      "precipitation_hours": 6.0,
+      "precipitation_sum_mm": 1.3,
+      "temperature_2m_max_c": 30.8,
+      "temperature_2m_min_c": 28.7,
+      "wind_speed_10m_max_kmh": 20.4
+    }
+  },
+  {
+    "confidence": "medium",
     "id": "daily-powai-2026-06-18",
     "location": {
       "latitude": 19.1176,
@@ -711,6 +1068,27 @@
       "temperature_2m_max_c": 33.5,
       "temperature_2m_min_c": 28.9,
       "wind_speed_10m_max_kmh": 15.5
+    }
+  },
+  {
+    "confidence": "medium",
+    "id": "daily-colaba-2026-06-19",
+    "location": {
+      "latitude": 18.9067,
+      "longitude": 72.8147,
+      "name": "Colaba",
+      "zone": "South Mumbai"
+    },
+    "observed_date": "2026-06-19",
+    "severity": "normal",
+    "source": "open_meteo_archive",
+    "type": "daily_rainfall",
+    "value": {
+      "precipitation_hours": 0.0,
+      "precipitation_sum_mm": 0.0,
+      "temperature_2m_max_c": 31.1,
+      "temperature_2m_min_c": 29.0,
+      "wind_speed_10m_max_kmh": 20.9
     }
   },
   {
@@ -757,6 +1135,27 @@
   },
   {
     "confidence": "medium",
+    "id": "daily-colaba-2026-06-20",
+    "location": {
+      "latitude": 18.9067,
+      "longitude": 72.8147,
+      "name": "Colaba",
+      "zone": "South Mumbai"
+    },
+    "observed_date": "2026-06-20",
+    "severity": "normal",
+    "source": "open_meteo_archive",
+    "type": "daily_rainfall",
+    "value": {
+      "precipitation_hours": 1.0,
+      "precipitation_sum_mm": 0.1,
+      "temperature_2m_max_c": 30.9,
+      "temperature_2m_min_c": 29.5,
+      "wind_speed_10m_max_kmh": 18.3
+    }
+  },
+  {
+    "confidence": "medium",
     "id": "daily-powai-2026-06-20",
     "location": {
       "latitude": 19.1176,
@@ -795,6 +1194,27 @@
       "temperature_2m_max_c": 33.5,
       "temperature_2m_min_c": 29.5,
       "wind_speed_10m_max_kmh": 14.3
+    }
+  },
+  {
+    "confidence": "medium",
+    "id": "daily-colaba-2026-06-21",
+    "location": {
+      "latitude": 18.9067,
+      "longitude": 72.8147,
+      "name": "Colaba",
+      "zone": "South Mumbai"
+    },
+    "observed_date": "2026-06-21",
+    "severity": "normal",
+    "source": "open_meteo_archive",
+    "type": "daily_rainfall",
+    "value": {
+      "precipitation_hours": 5.0,
+      "precipitation_sum_mm": 0.9,
+      "temperature_2m_max_c": 30.9,
+      "temperature_2m_min_c": 29.3,
+      "wind_speed_10m_max_kmh": 15.9
     }
   },
   {
@@ -841,6 +1261,27 @@
   },
   {
     "confidence": "medium",
+    "id": "daily-colaba-2026-06-22",
+    "location": {
+      "latitude": 18.9067,
+      "longitude": 72.8147,
+      "name": "Colaba",
+      "zone": "South Mumbai"
+    },
+    "observed_date": "2026-06-22",
+    "severity": "normal",
+    "source": "open_meteo_archive",
+    "type": "daily_rainfall",
+    "value": {
+      "precipitation_hours": 19.0,
+      "precipitation_sum_mm": 11.3,
+      "temperature_2m_max_c": 31.2,
+      "temperature_2m_min_c": 27.3,
+      "wind_speed_10m_max_kmh": 22.0
+    }
+  },
+  {
+    "confidence": "medium",
     "id": "daily-powai-2026-06-22",
     "location": {
       "latitude": 19.1176,
@@ -879,6 +1320,27 @@
       "temperature_2m_max_c": 31.8,
       "temperature_2m_min_c": 25.4,
       "wind_speed_10m_max_kmh": 13.6
+    }
+  },
+  {
+    "confidence": "medium",
+    "id": "daily-colaba-2026-06-23",
+    "location": {
+      "latitude": 18.9067,
+      "longitude": 72.8147,
+      "name": "Colaba",
+      "zone": "South Mumbai"
+    },
+    "observed_date": "2026-06-23",
+    "severity": "watch",
+    "source": "open_meteo_archive",
+    "type": "daily_rainfall",
+    "value": {
+      "precipitation_hours": 24.0,
+      "precipitation_sum_mm": 50.8,
+      "temperature_2m_max_c": 28.3,
+      "temperature_2m_min_c": 26.1,
+      "wind_speed_10m_max_kmh": 19.3
     }
   },
   {
@@ -925,6 +1387,27 @@
   },
   {
     "confidence": "medium",
+    "id": "daily-colaba-2026-06-24",
+    "location": {
+      "latitude": 18.9067,
+      "longitude": 72.8147,
+      "name": "Colaba",
+      "zone": "South Mumbai"
+    },
+    "observed_date": "2026-06-24",
+    "severity": "watch",
+    "source": "open_meteo_archive",
+    "type": "daily_rainfall",
+    "value": {
+      "precipitation_hours": 20.0,
+      "precipitation_sum_mm": 48.3,
+      "temperature_2m_max_c": 28.6,
+      "temperature_2m_min_c": 25.5,
+      "wind_speed_10m_max_kmh": 17.1
+    }
+  },
+  {
+    "confidence": "medium",
     "id": "daily-powai-2026-06-24",
     "location": {
       "latitude": 19.1176,
@@ -963,6 +1446,27 @@
       "temperature_2m_max_c": 27.7,
       "temperature_2m_min_c": 24.9,
       "wind_speed_10m_max_kmh": 12.0
+    }
+  },
+  {
+    "confidence": "medium",
+    "id": "daily-colaba-2026-06-25",
+    "location": {
+      "latitude": 18.9067,
+      "longitude": 72.8147,
+      "name": "Colaba",
+      "zone": "South Mumbai"
+    },
+    "observed_date": "2026-06-25",
+    "severity": "normal",
+    "source": "open_meteo_archive",
+    "type": "daily_rainfall",
+    "value": {
+      "precipitation_hours": 16.0,
+      "precipitation_sum_mm": 5.1,
+      "temperature_2m_max_c": 29.1,
+      "temperature_2m_min_c": 26.2,
+      "wind_speed_10m_max_kmh": 22.0
     }
   },
   {
@@ -1009,6 +1513,27 @@
   },
   {
     "confidence": "medium",
+    "id": "daily-colaba-2026-06-26",
+    "location": {
+      "latitude": 18.9067,
+      "longitude": 72.8147,
+      "name": "Colaba",
+      "zone": "South Mumbai"
+    },
+    "observed_date": "2026-06-26",
+    "severity": "normal",
+    "source": "open_meteo_archive",
+    "type": "daily_rainfall",
+    "value": {
+      "precipitation_hours": 13.0,
+      "precipitation_sum_mm": 3.1,
+      "temperature_2m_max_c": 29.6,
+      "temperature_2m_min_c": 26.4,
+      "wind_speed_10m_max_kmh": 23.1
+    }
+  },
+  {
+    "confidence": "medium",
     "id": "daily-powai-2026-06-26",
     "location": {
       "latitude": 19.1176,
@@ -1046,6 +1571,27 @@
       "precipitation_sum_mm": 5.8,
       "temperature_2m_max_c": 30.3,
       "temperature_2m_min_c": 26.2,
+      "wind_speed_10m_max_kmh": 15.3
+    }
+  },
+  {
+    "confidence": "medium",
+    "id": "daily-colaba-2026-06-27",
+    "location": {
+      "latitude": 18.9067,
+      "longitude": 72.8147,
+      "name": "Colaba",
+      "zone": "South Mumbai"
+    },
+    "observed_date": "2026-06-27",
+    "severity": "normal",
+    "source": "open_meteo_archive",
+    "type": "daily_rainfall",
+    "value": {
+      "precipitation_hours": 7.0,
+      "precipitation_sum_mm": 0.7,
+      "temperature_2m_max_c": 31.0,
+      "temperature_2m_min_c": 26.9,
       "wind_speed_10m_max_kmh": 15.3
     }
   },
@@ -1093,6 +1639,27 @@
   },
   {
     "confidence": "medium",
+    "id": "daily-colaba-2026-06-28",
+    "location": {
+      "latitude": 18.9067,
+      "longitude": 72.8147,
+      "name": "Colaba",
+      "zone": "South Mumbai"
+    },
+    "observed_date": "2026-06-28",
+    "severity": "normal",
+    "source": "open_meteo_archive",
+    "type": "daily_rainfall",
+    "value": {
+      "precipitation_hours": 21.0,
+      "precipitation_sum_mm": 17.4,
+      "temperature_2m_max_c": 29.6,
+      "temperature_2m_min_c": 26.4,
+      "wind_speed_10m_max_kmh": 17.7
+    }
+  },
+  {
+    "confidence": "medium",
     "id": "daily-powai-2026-06-28",
     "location": {
       "latitude": 19.1176,
@@ -1131,6 +1698,27 @@
       "temperature_2m_max_c": 30.6,
       "temperature_2m_min_c": 25.7,
       "wind_speed_10m_max_kmh": 13.0
+    }
+  },
+  {
+    "confidence": "medium",
+    "id": "daily-colaba-2026-06-29",
+    "location": {
+      "latitude": 18.9067,
+      "longitude": 72.8147,
+      "name": "Colaba",
+      "zone": "South Mumbai"
+    },
+    "observed_date": "2026-06-29",
+    "severity": "watch",
+    "source": "open_meteo_archive",
+    "type": "daily_rainfall",
+    "value": {
+      "precipitation_hours": 21.0,
+      "precipitation_sum_mm": 47.0,
+      "temperature_2m_max_c": 28.6,
+      "temperature_2m_min_c": 26.1,
+      "wind_speed_10m_max_kmh": 17.0
     }
   },
   {
@@ -1177,6 +1765,27 @@
   },
   {
     "confidence": "medium",
+    "id": "daily-colaba-2026-06-30",
+    "location": {
+      "latitude": 18.9067,
+      "longitude": 72.8147,
+      "name": "Colaba",
+      "zone": "South Mumbai"
+    },
+    "observed_date": "2026-06-30",
+    "severity": "moderate",
+    "source": "open_meteo_archive",
+    "type": "daily_rainfall",
+    "value": {
+      "precipitation_hours": 24.0,
+      "precipitation_sum_mm": 87.1,
+      "temperature_2m_max_c": 28.5,
+      "temperature_2m_min_c": 26.4,
+      "wind_speed_10m_max_kmh": 26.8
+    }
+  },
+  {
+    "confidence": "medium",
     "id": "daily-powai-2026-06-30",
     "location": {
       "latitude": 19.1176,
@@ -1215,6 +1824,27 @@
       "temperature_2m_max_c": 28.6,
       "temperature_2m_min_c": 25.1,
       "wind_speed_10m_max_kmh": 20.7
+    }
+  },
+  {
+    "confidence": "medium",
+    "id": "daily-colaba-2026-07-01",
+    "location": {
+      "latitude": 18.9067,
+      "longitude": 72.8147,
+      "name": "Colaba",
+      "zone": "South Mumbai"
+    },
+    "observed_date": "2026-07-01",
+    "severity": "high",
+    "source": "open_meteo_archive",
+    "type": "daily_rainfall",
+    "value": {
+      "precipitation_hours": 24.0,
+      "precipitation_sum_mm": 109.3,
+      "temperature_2m_max_c": 28.7,
+      "temperature_2m_min_c": 25.9,
+      "wind_speed_10m_max_kmh": 29.7
     }
   },
   {
@@ -1261,6 +1891,27 @@
   },
   {
     "confidence": "medium",
+    "id": "daily-colaba-2026-07-02",
+    "location": {
+      "latitude": 18.9067,
+      "longitude": 72.8147,
+      "name": "Colaba",
+      "zone": "South Mumbai"
+    },
+    "observed_date": "2026-07-02",
+    "severity": "watch",
+    "source": "open_meteo_archive",
+    "type": "daily_rainfall",
+    "value": {
+      "precipitation_hours": 24.0,
+      "precipitation_sum_mm": 49.6,
+      "temperature_2m_max_c": 28.3,
+      "temperature_2m_min_c": 25.7,
+      "wind_speed_10m_max_kmh": 27.3
+    }
+  },
+  {
+    "confidence": "medium",
     "id": "daily-powai-2026-07-02",
     "location": {
       "latitude": 19.1176,
@@ -1299,6 +1950,27 @@
       "temperature_2m_max_c": 27.6,
       "temperature_2m_min_c": 25.3,
       "wind_speed_10m_max_kmh": 19.8
+    }
+  },
+  {
+    "confidence": "medium",
+    "id": "daily-colaba-2026-07-03",
+    "location": {
+      "latitude": 18.9067,
+      "longitude": 72.8147,
+      "name": "Colaba",
+      "zone": "South Mumbai"
+    },
+    "observed_date": "2026-07-03",
+    "severity": "watch",
+    "source": "open_meteo_archive",
+    "type": "daily_rainfall",
+    "value": {
+      "precipitation_hours": 24.0,
+      "precipitation_sum_mm": 48.3,
+      "temperature_2m_max_c": 28.0,
+      "temperature_2m_min_c": 26.3,
+      "wind_speed_10m_max_kmh": 25.3
     }
   },
   {
@@ -1345,6 +2017,27 @@
   },
   {
     "confidence": "medium",
+    "id": "daily-colaba-2026-07-04",
+    "location": {
+      "latitude": 18.9067,
+      "longitude": 72.8147,
+      "name": "Colaba",
+      "zone": "South Mumbai"
+    },
+    "observed_date": "2026-07-04",
+    "severity": "high",
+    "source": "open_meteo_archive",
+    "type": "daily_rainfall",
+    "value": {
+      "precipitation_hours": 24.0,
+      "precipitation_sum_mm": 108.0,
+      "temperature_2m_max_c": 28.2,
+      "temperature_2m_min_c": 27.0,
+      "wind_speed_10m_max_kmh": 31.7
+    }
+  },
+  {
+    "confidence": "medium",
     "id": "daily-powai-2026-07-04",
     "location": {
       "latitude": 19.1176,
@@ -1383,6 +2076,27 @@
       "temperature_2m_max_c": 27.3,
       "temperature_2m_min_c": 25.8,
       "wind_speed_10m_max_kmh": 19.1
+    }
+  },
+  {
+    "confidence": "medium",
+    "id": "daily-colaba-2026-07-05",
+    "location": {
+      "latitude": 18.9067,
+      "longitude": 72.8147,
+      "name": "Colaba",
+      "zone": "South Mumbai"
+    },
+    "observed_date": "2026-07-05",
+    "severity": "severe",
+    "source": "open_meteo_archive",
+    "type": "daily_rainfall",
+    "value": {
+      "precipitation_hours": 24.0,
+      "precipitation_sum_mm": 218.9,
+      "temperature_2m_max_c": 28.2,
+      "temperature_2m_min_c": 26.9,
+      "wind_speed_10m_max_kmh": 42.5
     }
   },
   {
@@ -1429,6 +2143,27 @@
   },
   {
     "confidence": "medium",
+    "id": "daily-colaba-2026-07-06",
+    "location": {
+      "latitude": 18.9067,
+      "longitude": 72.8147,
+      "name": "Colaba",
+      "zone": "South Mumbai"
+    },
+    "observed_date": "2026-07-06",
+    "severity": "moderate",
+    "source": "open_meteo_archive",
+    "type": "daily_rainfall",
+    "value": {
+      "precipitation_hours": 24.0,
+      "precipitation_sum_mm": 82.5,
+      "temperature_2m_max_c": 28.6,
+      "temperature_2m_min_c": 27.5,
+      "wind_speed_10m_max_kmh": 49.4
+    }
+  },
+  {
+    "confidence": "medium",
     "id": "daily-powai-2026-07-06",
     "location": {
       "latitude": 19.1176,
@@ -1467,6 +2202,27 @@
       "temperature_2m_max_c": 27.6,
       "temperature_2m_min_c": 26.4,
       "wind_speed_10m_max_kmh": 34.6
+    }
+  },
+  {
+    "confidence": "medium",
+    "id": "daily-colaba-2026-07-07",
+    "location": {
+      "latitude": 18.9067,
+      "longitude": 72.8147,
+      "name": "Colaba",
+      "zone": "South Mumbai"
+    },
+    "observed_date": "2026-07-07",
+    "severity": "watch",
+    "source": "open_meteo_archive",
+    "type": "daily_rainfall",
+    "value": {
+      "precipitation_hours": 24.0,
+      "precipitation_sum_mm": 51.7,
+      "temperature_2m_max_c": 28.9,
+      "temperature_2m_min_c": 27.2,
+      "wind_speed_10m_max_kmh": 45.4
     }
   },
   {
@@ -1513,6 +2269,27 @@
   },
   {
     "confidence": "medium",
+    "id": "daily-colaba-2026-07-08",
+    "location": {
+      "latitude": 18.9067,
+      "longitude": 72.8147,
+      "name": "Colaba",
+      "zone": "South Mumbai"
+    },
+    "observed_date": "2026-07-08",
+    "severity": "watch",
+    "source": "open_meteo_archive",
+    "type": "daily_rainfall",
+    "value": {
+      "precipitation_hours": 24.0,
+      "precipitation_sum_mm": 32.2,
+      "temperature_2m_max_c": 29.6,
+      "temperature_2m_min_c": 26.9,
+      "wind_speed_10m_max_kmh": 38.0
+    }
+  },
+  {
+    "confidence": "medium",
     "id": "daily-powai-2026-07-08",
     "location": {
       "latitude": 19.1176,
@@ -1551,6 +2328,27 @@
       "temperature_2m_max_c": 29.2,
       "temperature_2m_min_c": 26.2,
       "wind_speed_10m_max_kmh": 27.8
+    }
+  },
+  {
+    "confidence": "medium",
+    "id": "daily-colaba-2026-07-09",
+    "location": {
+      "latitude": 18.9067,
+      "longitude": 72.8147,
+      "name": "Colaba",
+      "zone": "South Mumbai"
+    },
+    "observed_date": "2026-07-09",
+    "severity": "normal",
+    "source": "open_meteo_archive",
+    "type": "daily_rainfall",
+    "value": {
+      "precipitation_hours": 23.0,
+      "precipitation_sum_mm": 8.2,
+      "temperature_2m_max_c": 28.9,
+      "temperature_2m_min_c": 27.4,
+      "wind_speed_10m_max_kmh": 26.7
     }
   },
   {
@@ -1597,6 +2395,27 @@
   },
   {
     "confidence": "medium",
+    "id": "daily-colaba-2026-07-10",
+    "location": {
+      "latitude": 18.9067,
+      "longitude": 72.8147,
+      "name": "Colaba",
+      "zone": "South Mumbai"
+    },
+    "observed_date": "2026-07-10",
+    "severity": "normal",
+    "source": "open_meteo_archive",
+    "type": "daily_rainfall",
+    "value": {
+      "precipitation_hours": 17.0,
+      "precipitation_sum_mm": 3.3,
+      "temperature_2m_max_c": 29.2,
+      "temperature_2m_min_c": 27.0,
+      "wind_speed_10m_max_kmh": 24.3
+    }
+  },
+  {
+    "confidence": "medium",
     "id": "daily-powai-2026-07-10",
     "location": {
       "latitude": 19.1176,
@@ -1635,6 +2454,27 @@
       "temperature_2m_max_c": 30.2,
       "temperature_2m_min_c": 26.7,
       "wind_speed_10m_max_kmh": 18.0
+    }
+  },
+  {
+    "confidence": "medium",
+    "id": "daily-colaba-2026-07-11",
+    "location": {
+      "latitude": 18.9067,
+      "longitude": 72.8147,
+      "name": "Colaba",
+      "zone": "South Mumbai"
+    },
+    "observed_date": "2026-07-11",
+    "severity": "normal",
+    "source": "open_meteo_archive",
+    "type": "daily_rainfall",
+    "value": {
+      "precipitation_hours": 16.0,
+      "precipitation_sum_mm": 2.7,
+      "temperature_2m_max_c": 29.2,
+      "temperature_2m_min_c": 27.4,
+      "wind_speed_10m_max_kmh": 28.9
     }
   },
   {
@@ -1681,6 +2521,27 @@
   },
   {
     "confidence": "medium",
+    "id": "daily-colaba-2026-07-12",
+    "location": {
+      "latitude": 18.9067,
+      "longitude": 72.8147,
+      "name": "Colaba",
+      "zone": "South Mumbai"
+    },
+    "observed_date": "2026-07-12",
+    "severity": "normal",
+    "source": "open_meteo_archive",
+    "type": "daily_rainfall",
+    "value": {
+      "precipitation_hours": 8.0,
+      "precipitation_sum_mm": 1.0,
+      "temperature_2m_max_c": 29.4,
+      "temperature_2m_min_c": 28.1,
+      "wind_speed_10m_max_kmh": 31.1
+    }
+  },
+  {
+    "confidence": "medium",
     "id": "daily-powai-2026-07-12",
     "location": {
       "latitude": 19.1176,
@@ -1719,6 +2580,27 @@
       "temperature_2m_max_c": 30.0,
       "temperature_2m_min_c": 27.5,
       "wind_speed_10m_max_kmh": 23.2
+    }
+  },
+  {
+    "confidence": "medium",
+    "id": "daily-colaba-2026-07-13",
+    "location": {
+      "latitude": 18.9067,
+      "longitude": 72.8147,
+      "name": "Colaba",
+      "zone": "South Mumbai"
+    },
+    "observed_date": "2026-07-13",
+    "severity": "normal",
+    "source": "open_meteo_archive",
+    "type": "daily_rainfall",
+    "value": {
+      "precipitation_hours": 3.0,
+      "precipitation_sum_mm": 0.3,
+      "temperature_2m_max_c": 29.6,
+      "temperature_2m_min_c": 28.0,
+      "wind_speed_10m_max_kmh": 27.1
     }
   },
   {
@@ -1765,6 +2647,27 @@
   },
   {
     "confidence": "medium",
+    "id": "daily-colaba-2026-07-14",
+    "location": {
+      "latitude": 18.9067,
+      "longitude": 72.8147,
+      "name": "Colaba",
+      "zone": "South Mumbai"
+    },
+    "observed_date": "2026-07-14",
+    "severity": "normal",
+    "source": "open_meteo_archive",
+    "type": "daily_rainfall",
+    "value": {
+      "precipitation_hours": 7.0,
+      "precipitation_sum_mm": 0.9,
+      "temperature_2m_max_c": 29.3,
+      "temperature_2m_min_c": 27.9,
+      "wind_speed_10m_max_kmh": 21.9
+    }
+  },
+  {
+    "confidence": "medium",
     "id": "daily-powai-2026-07-14",
     "location": {
       "latitude": 19.1176,
@@ -1803,6 +2706,27 @@
       "temperature_2m_max_c": 30.1,
       "temperature_2m_min_c": 27.3,
       "wind_speed_10m_max_kmh": 16.1
+    }
+  },
+  {
+    "confidence": "medium",
+    "id": "daily-colaba-2026-07-15",
+    "location": {
+      "latitude": 18.9067,
+      "longitude": 72.8147,
+      "name": "Colaba",
+      "zone": "South Mumbai"
+    },
+    "observed_date": "2026-07-15",
+    "severity": "normal",
+    "source": "open_meteo_archive",
+    "type": "daily_rainfall",
+    "value": {
+      "precipitation_hours": 19.0,
+      "precipitation_sum_mm": 12.0,
+      "temperature_2m_max_c": 29.8,
+      "temperature_2m_min_c": 27.2,
+      "wind_speed_10m_max_kmh": 25.1
     }
   },
   {
@@ -1849,6 +2773,27 @@
   },
   {
     "confidence": "medium",
+    "id": "daily-colaba-2026-07-16",
+    "location": {
+      "latitude": 18.9067,
+      "longitude": 72.8147,
+      "name": "Colaba",
+      "zone": "South Mumbai"
+    },
+    "observed_date": "2026-07-16",
+    "severity": "normal",
+    "source": "open_meteo_archive",
+    "type": "daily_rainfall",
+    "value": {
+      "precipitation_hours": 24.0,
+      "precipitation_sum_mm": 9.1,
+      "temperature_2m_max_c": 29.5,
+      "temperature_2m_min_c": 26.0,
+      "wind_speed_10m_max_kmh": 20.0
+    }
+  },
+  {
+    "confidence": "medium",
     "id": "daily-powai-2026-07-16",
     "location": {
       "latitude": 19.1176,
@@ -1887,6 +2832,27 @@
       "temperature_2m_max_c": 29.6,
       "temperature_2m_min_c": 25.9,
       "wind_speed_10m_max_kmh": 12.5
+    }
+  },
+  {
+    "confidence": "medium",
+    "id": "daily-colaba-2026-07-17",
+    "location": {
+      "latitude": 18.9067,
+      "longitude": 72.8147,
+      "name": "Colaba",
+      "zone": "South Mumbai"
+    },
+    "observed_date": "2026-07-17",
+    "severity": "normal",
+    "source": "open_meteo_archive",
+    "type": "daily_rainfall",
+    "value": {
+      "precipitation_hours": 23.0,
+      "precipitation_sum_mm": 17.0,
+      "temperature_2m_max_c": 29.7,
+      "temperature_2m_min_c": 26.0,
+      "wind_speed_10m_max_kmh": 24.2
     }
   },
   {
@@ -1933,6 +2899,27 @@
   },
   {
     "confidence": "medium",
+    "id": "daily-colaba-2026-07-18",
+    "location": {
+      "latitude": 18.9067,
+      "longitude": 72.8147,
+      "name": "Colaba",
+      "zone": "South Mumbai"
+    },
+    "observed_date": "2026-07-18",
+    "severity": "watch",
+    "source": "open_meteo_archive",
+    "type": "daily_rainfall",
+    "value": {
+      "precipitation_hours": 23.0,
+      "precipitation_sum_mm": 24.3,
+      "temperature_2m_max_c": 29.8,
+      "temperature_2m_min_c": 25.3,
+      "wind_speed_10m_max_kmh": 26.3
+    }
+  },
+  {
+    "confidence": "medium",
     "id": "daily-powai-2026-07-18",
     "location": {
       "latitude": 19.1176,
@@ -1971,6 +2958,27 @@
       "temperature_2m_max_c": 30.6,
       "temperature_2m_min_c": 25.9,
       "wind_speed_10m_max_kmh": 21.8
+    }
+  },
+  {
+    "confidence": "medium",
+    "id": "daily-colaba-2026-07-19",
+    "location": {
+      "latitude": 18.9067,
+      "longitude": 72.8147,
+      "name": "Colaba",
+      "zone": "South Mumbai"
+    },
+    "observed_date": "2026-07-19",
+    "severity": "watch",
+    "source": "open_meteo_archive",
+    "type": "daily_rainfall",
+    "value": {
+      "precipitation_hours": 24.0,
+      "precipitation_sum_mm": 45.2,
+      "temperature_2m_max_c": 28.0,
+      "temperature_2m_min_c": 25.7,
+      "wind_speed_10m_max_kmh": 26.1
     }
   },
   {
@@ -2017,6 +3025,27 @@
   },
   {
     "confidence": "medium",
+    "id": "daily-colaba-2026-07-20",
+    "location": {
+      "latitude": 18.9067,
+      "longitude": 72.8147,
+      "name": "Colaba",
+      "zone": "South Mumbai"
+    },
+    "observed_date": "2026-07-20",
+    "severity": "moderate",
+    "source": "open_meteo_archive",
+    "type": "daily_rainfall",
+    "value": {
+      "precipitation_hours": 24.0,
+      "precipitation_sum_mm": 66.7,
+      "temperature_2m_max_c": 28.7,
+      "temperature_2m_min_c": 25.8,
+      "wind_speed_10m_max_kmh": 33.9
+    }
+  },
+  {
+    "confidence": "medium",
     "id": "daily-powai-2026-07-20",
     "location": {
       "latitude": 19.1176,
@@ -2055,6 +3084,27 @@
       "temperature_2m_max_c": 28.9,
       "temperature_2m_min_c": 25.3,
       "wind_speed_10m_max_kmh": 24.0
+    }
+  },
+  {
+    "confidence": "medium",
+    "id": "daily-colaba-2026-07-21",
+    "location": {
+      "latitude": 18.9067,
+      "longitude": 72.8147,
+      "name": "Colaba",
+      "zone": "South Mumbai"
+    },
+    "observed_date": "2026-07-21",
+    "severity": "normal",
+    "source": "open_meteo_archive",
+    "type": "daily_rainfall",
+    "value": {
+      "precipitation_hours": 24.0,
+      "precipitation_sum_mm": 18.0,
+      "temperature_2m_max_c": 28.9,
+      "temperature_2m_min_c": 26.7,
+      "wind_speed_10m_max_kmh": 32.6
     }
   },
   {
@@ -2101,6 +3151,27 @@
   },
   {
     "confidence": "medium",
+    "id": "daily-colaba-2026-07-22",
+    "location": {
+      "latitude": 18.9067,
+      "longitude": 72.8147,
+      "name": "Colaba",
+      "zone": "South Mumbai"
+    },
+    "observed_date": "2026-07-22",
+    "severity": "watch",
+    "source": "open_meteo_archive",
+    "type": "daily_rainfall",
+    "value": {
+      "precipitation_hours": 24.0,
+      "precipitation_sum_mm": 58.4,
+      "temperature_2m_max_c": 29.1,
+      "temperature_2m_min_c": 25.9,
+      "wind_speed_10m_max_kmh": 39.9
+    }
+  },
+  {
+    "confidence": "medium",
     "id": "daily-powai-2026-07-22",
     "location": {
       "latitude": 19.1176,
@@ -2139,6 +3210,27 @@
       "temperature_2m_max_c": 27.9,
       "temperature_2m_min_c": 25.6,
       "wind_speed_10m_max_kmh": 34.0
+    }
+  },
+  {
+    "confidence": "medium",
+    "id": "daily-colaba-2026-07-23",
+    "location": {
+      "latitude": 18.9067,
+      "longitude": 72.8147,
+      "name": "Colaba",
+      "zone": "South Mumbai"
+    },
+    "observed_date": "2026-07-23",
+    "severity": "moderate",
+    "source": "open_meteo_archive",
+    "type": "daily_rainfall",
+    "value": {
+      "precipitation_hours": 24.0,
+      "precipitation_sum_mm": 73.3,
+      "temperature_2m_max_c": 28.7,
+      "temperature_2m_min_c": 26.2,
+      "wind_speed_10m_max_kmh": 40.9
     }
   },
   {
@@ -2185,6 +3277,27 @@
   },
   {
     "confidence": "medium",
+    "id": "daily-colaba-2026-07-24",
+    "location": {
+      "latitude": 18.9067,
+      "longitude": 72.8147,
+      "name": "Colaba",
+      "zone": "South Mumbai"
+    },
+    "observed_date": "2026-07-24",
+    "severity": "watch",
+    "source": "open_meteo_archive",
+    "type": "daily_rainfall",
+    "value": {
+      "precipitation_hours": 24.0,
+      "precipitation_sum_mm": 35.5,
+      "temperature_2m_max_c": 29.1,
+      "temperature_2m_min_c": 25.6,
+      "wind_speed_10m_max_kmh": 36.7
+    }
+  },
+  {
+    "confidence": "medium",
     "id": "daily-powai-2026-07-24",
     "location": {
       "latitude": 19.1176,
@@ -2223,6 +3336,27 @@
       "temperature_2m_max_c": 28.6,
       "temperature_2m_min_c": 25.0,
       "wind_speed_10m_max_kmh": 30.1
+    }
+  },
+  {
+    "confidence": "medium",
+    "id": "daily-colaba-2026-07-25",
+    "location": {
+      "latitude": 18.9067,
+      "longitude": 72.8147,
+      "name": "Colaba",
+      "zone": "South Mumbai"
+    },
+    "observed_date": "2026-07-25",
+    "severity": "watch",
+    "source": "open_meteo_archive",
+    "type": "daily_rainfall",
+    "value": {
+      "precipitation_hours": 21.0,
+      "precipitation_sum_mm": 30.8,
+      "temperature_2m_max_c": 28.9,
+      "temperature_2m_min_c": 26.4,
+      "wind_speed_10m_max_kmh": 32.6
     }
   },
   {
@@ -2269,6 +3403,27 @@
   },
   {
     "confidence": "medium",
+    "id": "daily-colaba-2026-07-26",
+    "location": {
+      "latitude": 18.9067,
+      "longitude": 72.8147,
+      "name": "Colaba",
+      "zone": "South Mumbai"
+    },
+    "observed_date": "2026-07-26",
+    "severity": "watch",
+    "source": "open_meteo_archive",
+    "type": "daily_rainfall",
+    "value": {
+      "precipitation_hours": 24.0,
+      "precipitation_sum_mm": 37.4,
+      "temperature_2m_max_c": 28.6,
+      "temperature_2m_min_c": 24.8,
+      "wind_speed_10m_max_kmh": 25.0
+    }
+  },
+  {
+    "confidence": "medium",
     "id": "daily-powai-2026-07-26",
     "location": {
       "latitude": 19.1176,
@@ -2307,6 +3462,27 @@
       "temperature_2m_max_c": 29.1,
       "temperature_2m_min_c": 25.3,
       "wind_speed_10m_max_kmh": 17.2
+    }
+  },
+  {
+    "confidence": "medium",
+    "id": "daily-colaba-2026-07-27",
+    "location": {
+      "latitude": 18.9067,
+      "longitude": 72.8147,
+      "name": "Colaba",
+      "zone": "South Mumbai"
+    },
+    "observed_date": "2026-07-27",
+    "severity": "watch",
+    "source": "open_meteo_archive",
+    "type": "daily_rainfall",
+    "value": {
+      "precipitation_hours": 24.0,
+      "precipitation_sum_mm": 35.5,
+      "temperature_2m_max_c": 28.4,
+      "temperature_2m_min_c": 25.7,
+      "wind_speed_10m_max_kmh": 24.5
     }
   },
   {
@@ -2353,6 +3529,27 @@
   },
   {
     "confidence": "medium",
+    "id": "daily-colaba-2026-07-28",
+    "location": {
+      "latitude": 18.9067,
+      "longitude": 72.8147,
+      "name": "Colaba",
+      "zone": "South Mumbai"
+    },
+    "observed_date": "2026-07-28",
+    "severity": "normal",
+    "source": "open_meteo_archive",
+    "type": "daily_rainfall",
+    "value": {
+      "precipitation_hours": 20.0,
+      "precipitation_sum_mm": 18.4,
+      "temperature_2m_max_c": 29.0,
+      "temperature_2m_min_c": 26.2,
+      "wind_speed_10m_max_kmh": 30.4
+    }
+  },
+  {
+    "confidence": "medium",
     "id": "daily-powai-2026-07-28",
     "location": {
       "latitude": 19.1176,
@@ -2391,6 +3588,27 @@
       "temperature_2m_max_c": 29.6,
       "temperature_2m_min_c": 25.8,
       "wind_speed_10m_max_kmh": 21.9
+    }
+  },
+  {
+    "confidence": "medium",
+    "id": "daily-colaba-2026-07-29",
+    "location": {
+      "latitude": 18.9067,
+      "longitude": 72.8147,
+      "name": "Colaba",
+      "zone": "South Mumbai"
+    },
+    "observed_date": "2026-07-29",
+    "severity": "normal",
+    "source": "open_meteo_archive",
+    "type": "daily_rainfall",
+    "value": {
+      "precipitation_hours": 20.0,
+      "precipitation_sum_mm": 9.1,
+      "temperature_2m_max_c": 29.0,
+      "temperature_2m_min_c": 27.6,
+      "wind_speed_10m_max_kmh": 35.1
     }
   },
   {
@@ -2437,6 +3655,27 @@
   },
   {
     "confidence": "medium",
+    "id": "daily-colaba-2026-07-30",
+    "location": {
+      "latitude": 18.9067,
+      "longitude": 72.8147,
+      "name": "Colaba",
+      "zone": "South Mumbai"
+    },
+    "observed_date": "2026-07-30",
+    "severity": "normal",
+    "source": "open_meteo_archive",
+    "type": "daily_rainfall",
+    "value": {
+      "precipitation_hours": 22.0,
+      "precipitation_sum_mm": 11.9,
+      "temperature_2m_max_c": 28.4,
+      "temperature_2m_min_c": 27.1,
+      "wind_speed_10m_max_kmh": 29.0
+    }
+  },
+  {
+    "confidence": "medium",
     "id": "daily-powai-2026-07-30",
     "location": {
       "latitude": 19.1176,
@@ -2475,6 +3714,27 @@
       "temperature_2m_max_c": 28.2,
       "temperature_2m_min_c": 26.4,
       "wind_speed_10m_max_kmh": 20.2
+    }
+  },
+  {
+    "confidence": "medium",
+    "id": "daily-colaba-2026-07-31",
+    "location": {
+      "latitude": 18.9067,
+      "longitude": 72.8147,
+      "name": "Colaba",
+      "zone": "South Mumbai"
+    },
+    "observed_date": "2026-07-31",
+    "severity": "normal",
+    "source": "open_meteo_archive",
+    "type": "daily_rainfall",
+    "value": {
+      "precipitation_hours": 23.0,
+      "precipitation_sum_mm": 17.9,
+      "temperature_2m_max_c": 28.5,
+      "temperature_2m_min_c": 27.0,
+      "wind_speed_10m_max_kmh": 34.1
     }
   },
   {
@@ -2521,6 +3781,27 @@
   },
   {
     "confidence": "medium",
+    "id": "daily-colaba-2026-08-01",
+    "location": {
+      "latitude": 18.9067,
+      "longitude": 72.8147,
+      "name": "Colaba",
+      "zone": "South Mumbai"
+    },
+    "observed_date": "2026-08-01",
+    "severity": "normal",
+    "source": "open_meteo_archive",
+    "type": "daily_rainfall",
+    "value": {
+      "precipitation_hours": 21.0,
+      "precipitation_sum_mm": 10.5,
+      "temperature_2m_max_c": 29.0,
+      "temperature_2m_min_c": 26.6,
+      "wind_speed_10m_max_kmh": 34.2
+    }
+  },
+  {
+    "confidence": "medium",
     "id": "daily-powai-2026-08-01",
     "location": {
       "latitude": 19.1176,
@@ -2559,6 +3840,27 @@
       "temperature_2m_max_c": 28.8,
       "temperature_2m_min_c": 26.6,
       "wind_speed_10m_max_kmh": 25.3
+    }
+  },
+  {
+    "confidence": "medium",
+    "id": "daily-colaba-2026-08-02",
+    "location": {
+      "latitude": 18.9067,
+      "longitude": 72.8147,
+      "name": "Colaba",
+      "zone": "South Mumbai"
+    },
+    "observed_date": "2026-08-02",
+    "severity": "normal",
+    "source": "open_meteo_archive",
+    "type": "daily_rainfall",
+    "value": {
+      "precipitation_hours": 23.0,
+      "precipitation_sum_mm": 19.7,
+      "temperature_2m_max_c": 29.1,
+      "temperature_2m_min_c": 27.1,
+      "wind_speed_10m_max_kmh": 31.4
     }
   },
   {
@@ -2605,6 +3907,27 @@
   },
   {
     "confidence": "medium",
+    "id": "daily-colaba-2026-08-03",
+    "location": {
+      "latitude": 18.9067,
+      "longitude": 72.8147,
+      "name": "Colaba",
+      "zone": "South Mumbai"
+    },
+    "observed_date": "2026-08-03",
+    "severity": "watch",
+    "source": "open_meteo_archive",
+    "type": "daily_rainfall",
+    "value": {
+      "precipitation_hours": 24.0,
+      "precipitation_sum_mm": 27.7,
+      "temperature_2m_max_c": 28.9,
+      "temperature_2m_min_c": 26.6,
+      "wind_speed_10m_max_kmh": 25.6
+    }
+  },
+  {
+    "confidence": "medium",
     "id": "daily-powai-2026-08-03",
     "location": {
       "latitude": 19.1176,
@@ -2643,6 +3966,27 @@
       "temperature_2m_max_c": 29.5,
       "temperature_2m_min_c": 25.9,
       "wind_speed_10m_max_kmh": 19.3
+    }
+  },
+  {
+    "confidence": "medium",
+    "id": "daily-colaba-2026-08-04",
+    "location": {
+      "latitude": 18.9067,
+      "longitude": 72.8147,
+      "name": "Colaba",
+      "zone": "South Mumbai"
+    },
+    "observed_date": "2026-08-04",
+    "severity": "normal",
+    "source": "open_meteo_archive",
+    "type": "daily_rainfall",
+    "value": {
+      "precipitation_hours": 23.0,
+      "precipitation_sum_mm": 16.7,
+      "temperature_2m_max_c": 28.6,
+      "temperature_2m_min_c": 26.6,
+      "wind_speed_10m_max_kmh": 25.5
     }
   },
   {
@@ -2689,6 +4033,27 @@
   },
   {
     "confidence": "medium",
+    "id": "daily-colaba-2026-08-05",
+    "location": {
+      "latitude": 18.9067,
+      "longitude": 72.8147,
+      "name": "Colaba",
+      "zone": "South Mumbai"
+    },
+    "observed_date": "2026-08-05",
+    "severity": "watch",
+    "source": "open_meteo_archive",
+    "type": "daily_rainfall",
+    "value": {
+      "precipitation_hours": 22.0,
+      "precipitation_sum_mm": 21.2,
+      "temperature_2m_max_c": 28.1,
+      "temperature_2m_min_c": 26.5,
+      "wind_speed_10m_max_kmh": 25.0
+    }
+  },
+  {
+    "confidence": "medium",
     "id": "daily-powai-2026-08-05",
     "location": {
       "latitude": 19.1176,
@@ -2727,6 +4092,27 @@
       "temperature_2m_max_c": 28.3,
       "temperature_2m_min_c": 25.4,
       "wind_speed_10m_max_kmh": 17.5
+    }
+  },
+  {
+    "confidence": "medium",
+    "id": "daily-colaba-2026-08-06",
+    "location": {
+      "latitude": 18.9067,
+      "longitude": 72.8147,
+      "name": "Colaba",
+      "zone": "South Mumbai"
+    },
+    "observed_date": "2026-08-06",
+    "severity": "normal",
+    "source": "open_meteo_archive",
+    "type": "daily_rainfall",
+    "value": {
+      "precipitation_hours": 22.0,
+      "precipitation_sum_mm": 14.6,
+      "temperature_2m_max_c": 28.8,
+      "temperature_2m_min_c": 26.5,
+      "wind_speed_10m_max_kmh": 27.0
     }
   },
   {
@@ -2773,6 +4159,27 @@
   },
   {
     "confidence": "medium",
+    "id": "daily-colaba-2026-08-07",
+    "location": {
+      "latitude": 18.9067,
+      "longitude": 72.8147,
+      "name": "Colaba",
+      "zone": "South Mumbai"
+    },
+    "observed_date": "2026-08-07",
+    "severity": "normal",
+    "source": "open_meteo_archive",
+    "type": "daily_rainfall",
+    "value": {
+      "precipitation_hours": 21.0,
+      "precipitation_sum_mm": 7.3,
+      "temperature_2m_max_c": 28.8,
+      "temperature_2m_min_c": 27.7,
+      "wind_speed_10m_max_kmh": 27.3
+    }
+  },
+  {
+    "confidence": "medium",
     "id": "daily-powai-2026-08-07",
     "location": {
       "latitude": 19.1176,
@@ -2811,6 +4218,27 @@
       "temperature_2m_max_c": 29.7,
       "temperature_2m_min_c": 26.8,
       "wind_speed_10m_max_kmh": 21.2
+    }
+  },
+  {
+    "confidence": "medium",
+    "id": "daily-colaba-2026-08-08",
+    "location": {
+      "latitude": 18.9067,
+      "longitude": 72.8147,
+      "name": "Colaba",
+      "zone": "South Mumbai"
+    },
+    "observed_date": "2026-08-08",
+    "severity": "normal",
+    "source": "open_meteo_archive",
+    "type": "daily_rainfall",
+    "value": {
+      "precipitation_hours": 21.0,
+      "precipitation_sum_mm": 7.4,
+      "temperature_2m_max_c": 29.0,
+      "temperature_2m_min_c": 27.3,
+      "wind_speed_10m_max_kmh": 24.2
     }
   },
   {
@@ -2857,6 +4285,27 @@
   },
   {
     "confidence": "medium",
+    "id": "daily-colaba-2026-08-09",
+    "location": {
+      "latitude": 18.9067,
+      "longitude": 72.8147,
+      "name": "Colaba",
+      "zone": "South Mumbai"
+    },
+    "observed_date": "2026-08-09",
+    "severity": "normal",
+    "source": "open_meteo_archive",
+    "type": "daily_rainfall",
+    "value": {
+      "precipitation_hours": 24.0,
+      "precipitation_sum_mm": 11.4,
+      "temperature_2m_max_c": 28.7,
+      "temperature_2m_min_c": 26.9,
+      "wind_speed_10m_max_kmh": 23.2
+    }
+  },
+  {
+    "confidence": "medium",
     "id": "daily-powai-2026-08-09",
     "location": {
       "latitude": 19.1176,
@@ -2895,6 +4344,27 @@
       "temperature_2m_max_c": 29.6,
       "temperature_2m_min_c": 26.5,
       "wind_speed_10m_max_kmh": 17.7
+    }
+  },
+  {
+    "confidence": "medium",
+    "id": "daily-colaba-2026-08-10",
+    "location": {
+      "latitude": 18.9067,
+      "longitude": 72.8147,
+      "name": "Colaba",
+      "zone": "South Mumbai"
+    },
+    "observed_date": "2026-08-10",
+    "severity": "normal",
+    "source": "open_meteo_archive",
+    "type": "daily_rainfall",
+    "value": {
+      "precipitation_hours": 23.0,
+      "precipitation_sum_mm": 11.5,
+      "temperature_2m_max_c": 29.0,
+      "temperature_2m_min_c": 25.8,
+      "wind_speed_10m_max_kmh": 25.6
     }
   },
   {
@@ -2941,6 +4411,27 @@
   },
   {
     "confidence": "medium",
+    "id": "daily-colaba-2026-08-11",
+    "location": {
+      "latitude": 18.9067,
+      "longitude": 72.8147,
+      "name": "Colaba",
+      "zone": "South Mumbai"
+    },
+    "observed_date": "2026-08-11",
+    "severity": "watch",
+    "source": "open_meteo_archive",
+    "type": "daily_rainfall",
+    "value": {
+      "precipitation_hours": 24.0,
+      "precipitation_sum_mm": 35.5,
+      "temperature_2m_max_c": 27.7,
+      "temperature_2m_min_c": 25.5,
+      "wind_speed_10m_max_kmh": 23.7
+    }
+  },
+  {
+    "confidence": "medium",
     "id": "daily-powai-2026-08-11",
     "location": {
       "latitude": 19.1176,
@@ -2979,6 +4470,27 @@
       "temperature_2m_max_c": 27.1,
       "temperature_2m_min_c": 25.4,
       "wind_speed_10m_max_kmh": 18.7
+    }
+  },
+  {
+    "confidence": "medium",
+    "id": "daily-colaba-2026-08-12",
+    "location": {
+      "latitude": 18.9067,
+      "longitude": 72.8147,
+      "name": "Colaba",
+      "zone": "South Mumbai"
+    },
+    "observed_date": "2026-08-12",
+    "severity": "normal",
+    "source": "open_meteo_archive",
+    "type": "daily_rainfall",
+    "value": {
+      "precipitation_hours": 23.0,
+      "precipitation_sum_mm": 16.2,
+      "temperature_2m_max_c": 28.9,
+      "temperature_2m_min_c": 26.4,
+      "wind_speed_10m_max_kmh": 20.4
     }
   },
   {
@@ -3025,6 +4537,27 @@
   },
   {
     "confidence": "medium",
+    "id": "daily-colaba-2026-08-13",
+    "location": {
+      "latitude": 18.9067,
+      "longitude": 72.8147,
+      "name": "Colaba",
+      "zone": "South Mumbai"
+    },
+    "observed_date": "2026-08-13",
+    "severity": "normal",
+    "source": "open_meteo_archive",
+    "type": "daily_rainfall",
+    "value": {
+      "precipitation_hours": 22.0,
+      "precipitation_sum_mm": 16.5,
+      "temperature_2m_max_c": 28.3,
+      "temperature_2m_min_c": 26.1,
+      "wind_speed_10m_max_kmh": 24.0
+    }
+  },
+  {
+    "confidence": "medium",
     "id": "daily-powai-2026-08-13",
     "location": {
       "latitude": 19.1176,
@@ -3063,6 +4596,27 @@
       "temperature_2m_max_c": 28.3,
       "temperature_2m_min_c": 25.5,
       "wind_speed_10m_max_kmh": 17.8
+    }
+  },
+  {
+    "confidence": "medium",
+    "id": "daily-colaba-2026-08-14",
+    "location": {
+      "latitude": 18.9067,
+      "longitude": 72.8147,
+      "name": "Colaba",
+      "zone": "South Mumbai"
+    },
+    "observed_date": "2026-08-14",
+    "severity": "normal",
+    "source": "open_meteo_archive",
+    "type": "daily_rainfall",
+    "value": {
+      "precipitation_hours": 22.0,
+      "precipitation_sum_mm": 14.3,
+      "temperature_2m_max_c": 28.8,
+      "temperature_2m_min_c": 26.3,
+      "wind_speed_10m_max_kmh": 24.5
     }
   },
   {
@@ -3109,6 +4663,27 @@
   },
   {
     "confidence": "medium",
+    "id": "daily-colaba-2026-08-15",
+    "location": {
+      "latitude": 18.9067,
+      "longitude": 72.8147,
+      "name": "Colaba",
+      "zone": "South Mumbai"
+    },
+    "observed_date": "2026-08-15",
+    "severity": "watch",
+    "source": "open_meteo_archive",
+    "type": "daily_rainfall",
+    "value": {
+      "precipitation_hours": 24.0,
+      "precipitation_sum_mm": 31.9,
+      "temperature_2m_max_c": 27.9,
+      "temperature_2m_min_c": 25.4,
+      "wind_speed_10m_max_kmh": 21.7
+    }
+  },
+  {
+    "confidence": "medium",
     "id": "daily-powai-2026-08-15",
     "location": {
       "latitude": 19.1176,
@@ -3147,6 +4722,27 @@
       "temperature_2m_max_c": 28.4,
       "temperature_2m_min_c": 24.8,
       "wind_speed_10m_max_kmh": 16.2
+    }
+  },
+  {
+    "confidence": "medium",
+    "id": "daily-colaba-2026-08-16",
+    "location": {
+      "latitude": 18.9067,
+      "longitude": 72.8147,
+      "name": "Colaba",
+      "zone": "South Mumbai"
+    },
+    "observed_date": "2026-08-16",
+    "severity": "normal",
+    "source": "open_meteo_archive",
+    "type": "daily_rainfall",
+    "value": {
+      "precipitation_hours": 22.0,
+      "precipitation_sum_mm": 10.3,
+      "temperature_2m_max_c": 28.9,
+      "temperature_2m_min_c": 26.1,
+      "wind_speed_10m_max_kmh": 23.9
     }
   },
   {
@@ -3193,6 +4789,27 @@
   },
   {
     "confidence": "medium",
+    "id": "daily-colaba-2026-08-17",
+    "location": {
+      "latitude": 18.9067,
+      "longitude": 72.8147,
+      "name": "Colaba",
+      "zone": "South Mumbai"
+    },
+    "observed_date": "2026-08-17",
+    "severity": "normal",
+    "source": "open_meteo_archive",
+    "type": "daily_rainfall",
+    "value": {
+      "precipitation_hours": 19.0,
+      "precipitation_sum_mm": 8.9,
+      "temperature_2m_max_c": 28.9,
+      "temperature_2m_min_c": 26.5,
+      "wind_speed_10m_max_kmh": 27.6
+    }
+  },
+  {
+    "confidence": "medium",
     "id": "daily-powai-2026-08-17",
     "location": {
       "latitude": 19.1176,
@@ -3231,6 +4848,27 @@
       "temperature_2m_max_c": 29.4,
       "temperature_2m_min_c": 25.5,
       "wind_speed_10m_max_kmh": 18.6
+    }
+  },
+  {
+    "confidence": "medium",
+    "id": "daily-colaba-2026-08-18",
+    "location": {
+      "latitude": 18.9067,
+      "longitude": 72.8147,
+      "name": "Colaba",
+      "zone": "South Mumbai"
+    },
+    "observed_date": "2026-08-18",
+    "severity": "normal",
+    "source": "open_meteo_archive",
+    "type": "daily_rainfall",
+    "value": {
+      "precipitation_hours": 22.0,
+      "precipitation_sum_mm": 9.2,
+      "temperature_2m_max_c": 28.7,
+      "temperature_2m_min_c": 26.9,
+      "wind_speed_10m_max_kmh": 26.8
     }
   },
   {
@@ -3277,6 +4915,27 @@
   },
   {
     "confidence": "medium",
+    "id": "daily-colaba-2026-08-19",
+    "location": {
+      "latitude": 18.9067,
+      "longitude": 72.8147,
+      "name": "Colaba",
+      "zone": "South Mumbai"
+    },
+    "observed_date": "2026-08-19",
+    "severity": "normal",
+    "source": "open_meteo_archive",
+    "type": "daily_rainfall",
+    "value": {
+      "precipitation_hours": 16.0,
+      "precipitation_sum_mm": 5.4,
+      "temperature_2m_max_c": 28.8,
+      "temperature_2m_min_c": 26.5,
+      "wind_speed_10m_max_kmh": 25.5
+    }
+  },
+  {
+    "confidence": "medium",
     "id": "daily-powai-2026-08-19",
     "location": {
       "latitude": 19.1176,
@@ -3315,6 +4974,27 @@
       "temperature_2m_max_c": 29.1,
       "temperature_2m_min_c": 26.0,
       "wind_speed_10m_max_kmh": 18.1
+    }
+  },
+  {
+    "confidence": "medium",
+    "id": "daily-colaba-2026-08-20",
+    "location": {
+      "latitude": 18.9067,
+      "longitude": 72.8147,
+      "name": "Colaba",
+      "zone": "South Mumbai"
+    },
+    "observed_date": "2026-08-20",
+    "severity": "normal",
+    "source": "open_meteo_archive",
+    "type": "daily_rainfall",
+    "value": {
+      "precipitation_hours": 20.0,
+      "precipitation_sum_mm": 3.8,
+      "temperature_2m_max_c": 28.7,
+      "temperature_2m_min_c": 27.0,
+      "wind_speed_10m_max_kmh": 23.6
     }
   },
   {
@@ -3361,6 +5041,27 @@
   },
   {
     "confidence": "medium",
+    "id": "daily-colaba-2026-08-21",
+    "location": {
+      "latitude": 18.9067,
+      "longitude": 72.8147,
+      "name": "Colaba",
+      "zone": "South Mumbai"
+    },
+    "observed_date": "2026-08-21",
+    "severity": "normal",
+    "source": "open_meteo_archive",
+    "type": "daily_rainfall",
+    "value": {
+      "precipitation_hours": 20.0,
+      "precipitation_sum_mm": 9.0,
+      "temperature_2m_max_c": 28.4,
+      "temperature_2m_min_c": 25.7,
+      "wind_speed_10m_max_kmh": 26.7
+    }
+  },
+  {
+    "confidence": "medium",
     "id": "daily-powai-2026-08-21",
     "location": {
       "latitude": 19.1176,
@@ -3399,6 +5100,27 @@
       "temperature_2m_max_c": 28.9,
       "temperature_2m_min_c": 25.4,
       "wind_speed_10m_max_kmh": 19.6
+    }
+  },
+  {
+    "confidence": "medium",
+    "id": "daily-colaba-2026-08-22",
+    "location": {
+      "latitude": 18.9067,
+      "longitude": 72.8147,
+      "name": "Colaba",
+      "zone": "South Mumbai"
+    },
+    "observed_date": "2026-08-22",
+    "severity": "normal",
+    "source": "open_meteo_archive",
+    "type": "daily_rainfall",
+    "value": {
+      "precipitation_hours": 22.0,
+      "precipitation_sum_mm": 14.5,
+      "temperature_2m_max_c": 28.7,
+      "temperature_2m_min_c": 25.4,
+      "wind_speed_10m_max_kmh": 29.0
     }
   },
   {
@@ -3445,6 +5167,27 @@
   },
   {
     "confidence": "medium",
+    "id": "daily-colaba-2026-08-23",
+    "location": {
+      "latitude": 18.9067,
+      "longitude": 72.8147,
+      "name": "Colaba",
+      "zone": "South Mumbai"
+    },
+    "observed_date": "2026-08-23",
+    "severity": "normal",
+    "source": "open_meteo_archive",
+    "type": "daily_rainfall",
+    "value": {
+      "precipitation_hours": 21.0,
+      "precipitation_sum_mm": 7.3,
+      "temperature_2m_max_c": 28.9,
+      "temperature_2m_min_c": 26.8,
+      "wind_speed_10m_max_kmh": 23.9
+    }
+  },
+  {
+    "confidence": "medium",
     "id": "daily-powai-2026-08-23",
     "location": {
       "latitude": 19.1176,
@@ -3483,6 +5226,27 @@
       "temperature_2m_max_c": 29.3,
       "temperature_2m_min_c": 26.0,
       "wind_speed_10m_max_kmh": 17.0
+    }
+  },
+  {
+    "confidence": "medium",
+    "id": "daily-colaba-2026-08-24",
+    "location": {
+      "latitude": 18.9067,
+      "longitude": 72.8147,
+      "name": "Colaba",
+      "zone": "South Mumbai"
+    },
+    "observed_date": "2026-08-24",
+    "severity": "normal",
+    "source": "open_meteo_archive",
+    "type": "daily_rainfall",
+    "value": {
+      "precipitation_hours": 23.0,
+      "precipitation_sum_mm": 9.6,
+      "temperature_2m_max_c": 28.7,
+      "temperature_2m_min_c": 26.5,
+      "wind_speed_10m_max_kmh": 22.7
     }
   },
   {
@@ -3529,6 +5293,27 @@
   },
   {
     "confidence": "medium",
+    "id": "daily-colaba-2026-08-25",
+    "location": {
+      "latitude": 18.9067,
+      "longitude": 72.8147,
+      "name": "Colaba",
+      "zone": "South Mumbai"
+    },
+    "observed_date": "2026-08-25",
+    "severity": "normal",
+    "source": "open_meteo_archive",
+    "type": "daily_rainfall",
+    "value": {
+      "precipitation_hours": 22.0,
+      "precipitation_sum_mm": 8.9,
+      "temperature_2m_max_c": 28.6,
+      "temperature_2m_min_c": 26.3,
+      "wind_speed_10m_max_kmh": 20.2
+    }
+  },
+  {
+    "confidence": "medium",
     "id": "daily-powai-2026-08-25",
     "location": {
       "latitude": 19.1176,
@@ -3567,6 +5352,27 @@
       "temperature_2m_max_c": 29.4,
       "temperature_2m_min_c": 25.7,
       "wind_speed_10m_max_kmh": 15.3
+    }
+  },
+  {
+    "confidence": "medium",
+    "id": "daily-colaba-2026-08-26",
+    "location": {
+      "latitude": 18.9067,
+      "longitude": 72.8147,
+      "name": "Colaba",
+      "zone": "South Mumbai"
+    },
+    "observed_date": "2026-08-26",
+    "severity": "normal",
+    "source": "open_meteo_archive",
+    "type": "daily_rainfall",
+    "value": {
+      "precipitation_hours": 22.0,
+      "precipitation_sum_mm": 7.9,
+      "temperature_2m_max_c": 28.5,
+      "temperature_2m_min_c": 26.6,
+      "wind_speed_10m_max_kmh": 21.1
     }
   },
   {
@@ -3613,6 +5419,27 @@
   },
   {
     "confidence": "medium",
+    "id": "daily-colaba-2026-08-27",
+    "location": {
+      "latitude": 18.9067,
+      "longitude": 72.8147,
+      "name": "Colaba",
+      "zone": "South Mumbai"
+    },
+    "observed_date": "2026-08-27",
+    "severity": "normal",
+    "source": "open_meteo_archive",
+    "type": "daily_rainfall",
+    "value": {
+      "precipitation_hours": 22.0,
+      "precipitation_sum_mm": 10.1,
+      "temperature_2m_max_c": 28.5,
+      "temperature_2m_min_c": 26.7,
+      "wind_speed_10m_max_kmh": 24.3
+    }
+  },
+  {
+    "confidence": "medium",
     "id": "daily-powai-2026-08-27",
     "location": {
       "latitude": 19.1176,
@@ -3651,6 +5478,27 @@
       "temperature_2m_max_c": 29.6,
       "temperature_2m_min_c": 26.1,
       "wind_speed_10m_max_kmh": 17.8
+    }
+  },
+  {
+    "confidence": "medium",
+    "id": "daily-colaba-2026-08-28",
+    "location": {
+      "latitude": 18.9067,
+      "longitude": 72.8147,
+      "name": "Colaba",
+      "zone": "South Mumbai"
+    },
+    "observed_date": "2026-08-28",
+    "severity": "normal",
+    "source": "open_meteo_archive",
+    "type": "daily_rainfall",
+    "value": {
+      "precipitation_hours": 20.0,
+      "precipitation_sum_mm": 10.3,
+      "temperature_2m_max_c": 28.5,
+      "temperature_2m_min_c": 26.8,
+      "wind_speed_10m_max_kmh": 28.6
     }
   },
   {
@@ -3697,6 +5545,27 @@
   },
   {
     "confidence": "medium",
+    "id": "daily-colaba-2026-08-29",
+    "location": {
+      "latitude": 18.9067,
+      "longitude": 72.8147,
+      "name": "Colaba",
+      "zone": "South Mumbai"
+    },
+    "observed_date": "2026-08-29",
+    "severity": "normal",
+    "source": "open_meteo_archive",
+    "type": "daily_rainfall",
+    "value": {
+      "precipitation_hours": 19.0,
+      "precipitation_sum_mm": 8.8,
+      "temperature_2m_max_c": 28.5,
+      "temperature_2m_min_c": 27.0,
+      "wind_speed_10m_max_kmh": 30.4
+    }
+  },
+  {
+    "confidence": "medium",
     "id": "daily-powai-2026-08-29",
     "location": {
       "latitude": 19.1176,
@@ -3735,6 +5604,27 @@
       "temperature_2m_max_c": 28.9,
       "temperature_2m_min_c": 26.2,
       "wind_speed_10m_max_kmh": 20.9
+    }
+  },
+  {
+    "confidence": "medium",
+    "id": "daily-colaba-2026-08-30",
+    "location": {
+      "latitude": 18.9067,
+      "longitude": 72.8147,
+      "name": "Colaba",
+      "zone": "South Mumbai"
+    },
+    "observed_date": "2026-08-30",
+    "severity": "normal",
+    "source": "open_meteo_archive",
+    "type": "daily_rainfall",
+    "value": {
+      "precipitation_hours": 10.0,
+      "precipitation_sum_mm": 1.4,
+      "temperature_2m_max_c": 28.8,
+      "temperature_2m_min_c": 26.9,
+      "wind_speed_10m_max_kmh": 26.2
     }
   },
   {
@@ -3781,6 +5671,27 @@
   },
   {
     "confidence": "medium",
+    "id": "daily-colaba-2026-08-31",
+    "location": {
+      "latitude": 18.9067,
+      "longitude": 72.8147,
+      "name": "Colaba",
+      "zone": "South Mumbai"
+    },
+    "observed_date": "2026-08-31",
+    "severity": "normal",
+    "source": "open_meteo_archive",
+    "type": "daily_rainfall",
+    "value": {
+      "precipitation_hours": 22.0,
+      "precipitation_sum_mm": 11.9,
+      "temperature_2m_max_c": 28.4,
+      "temperature_2m_min_c": 26.0,
+      "wind_speed_10m_max_kmh": 25.3
+    }
+  },
+  {
+    "confidence": "medium",
     "id": "daily-powai-2026-08-31",
     "location": {
       "latitude": 19.1176,
@@ -3819,6 +5730,27 @@
       "temperature_2m_max_c": 29.1,
       "temperature_2m_min_c": 26.3,
       "wind_speed_10m_max_kmh": 18.4
+    }
+  },
+  {
+    "confidence": "medium",
+    "id": "daily-colaba-2026-09-01",
+    "location": {
+      "latitude": 18.9067,
+      "longitude": 72.8147,
+      "name": "Colaba",
+      "zone": "South Mumbai"
+    },
+    "observed_date": "2026-09-01",
+    "severity": "normal",
+    "source": "open_meteo_archive",
+    "type": "daily_rainfall",
+    "value": {
+      "precipitation_hours": 20.0,
+      "precipitation_sum_mm": 8.9,
+      "temperature_2m_max_c": 28.9,
+      "temperature_2m_min_c": 26.7,
+      "wind_speed_10m_max_kmh": 24.8
     }
   },
   {
@@ -3865,6 +5797,27 @@
   },
   {
     "confidence": "medium",
+    "id": "daily-colaba-2026-09-02",
+    "location": {
+      "latitude": 18.9067,
+      "longitude": 72.8147,
+      "name": "Colaba",
+      "zone": "South Mumbai"
+    },
+    "observed_date": "2026-09-02",
+    "severity": "normal",
+    "source": "open_meteo_archive",
+    "type": "daily_rainfall",
+    "value": {
+      "precipitation_hours": 23.0,
+      "precipitation_sum_mm": 9.3,
+      "temperature_2m_max_c": 28.1,
+      "temperature_2m_min_c": 25.5,
+      "wind_speed_10m_max_kmh": 18.7
+    }
+  },
+  {
+    "confidence": "medium",
     "id": "daily-powai-2026-09-02",
     "location": {
       "latitude": 19.1176,
@@ -3903,6 +5856,69 @@
       "temperature_2m_max_c": 28.2,
       "temperature_2m_min_c": 25.0,
       "wind_speed_10m_max_kmh": 14.1
+    }
+  },
+  {
+    "confidence": "medium",
+    "id": "daily-colaba-2026-09-03",
+    "location": {
+      "latitude": 18.9067,
+      "longitude": 72.8147,
+      "name": "Colaba",
+      "zone": "South Mumbai"
+    },
+    "observed_date": "2026-09-03",
+    "severity": "normal",
+    "source": "open_meteo_archive",
+    "type": "daily_rainfall",
+    "value": {
+      "precipitation_hours": 20.0,
+      "precipitation_sum_mm": 6.4,
+      "temperature_2m_max_c": 28.6,
+      "temperature_2m_min_c": 25.4,
+      "wind_speed_10m_max_kmh": 20.9
+    }
+  },
+  {
+    "confidence": "medium",
+    "id": "daily-powai-2026-09-03",
+    "location": {
+      "latitude": 19.1176,
+      "longitude": 72.906,
+      "name": "Powai",
+      "zone": "Eastern Suburbs"
+    },
+    "observed_date": "2026-09-03",
+    "severity": "normal",
+    "source": "open_meteo_archive",
+    "type": "daily_rainfall",
+    "value": {
+      "precipitation_hours": 19.0,
+      "precipitation_sum_mm": 3.7,
+      "temperature_2m_max_c": 30.0,
+      "temperature_2m_min_c": 24.2,
+      "wind_speed_10m_max_kmh": 13.7
+    }
+  },
+  {
+    "confidence": "medium",
+    "id": "daily-santacruz-2026-09-03",
+    "location": {
+      "latitude": 19.0896,
+      "longitude": 72.8656,
+      "name": "Santacruz",
+      "zone": "Western Suburbs"
+    },
+    "observed_date": "2026-09-03",
+    "severity": "normal",
+    "source": "open_meteo_archive",
+    "type": "daily_rainfall",
+    "value": {
+      "precipitation_hours": 19.0,
+      "precipitation_sum_mm": 5.6,
+      "temperature_2m_max_c": 29.4,
+      "temperature_2m_min_c": 25.2,
+      "wind_speed_10m_max_kmh": 16.2
     }
   }
 ]
