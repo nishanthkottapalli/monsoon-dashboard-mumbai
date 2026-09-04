@@ -8,6 +8,8 @@ collectors → normalized JSON → analyzer → briefing → static dashboard
 
 It is designed for GitHub Actions + GitHub Pages. GitHub Actions collects public data, normalises it into a single chronological JSON file, computes transparent impact scores, generates a public briefing, and publishes a static dashboard from `/docs`.
 
+[Live Link](https://nishanthkottapalli.github.io/monsoon-dashboard-mumbai/)
+
 ## Canonical data file
 
 The project intentionally maintains **one public JSON file**:
