@@ -1,15 +1,8 @@
 {
   "collector_status": "ok",
   "disclaimer": "Approximate non-official tide signal. Use official BMC/Mumbai Port tide tables for safety-critical decisions.",
-  "generated_at": "2026-09-12T10:08:40.882725+05:30",
+  "generated_at": "2026-09-12T17:41:55.292933+05:30",
   "high_tide_windows": [
-    {
-      "confidence": "low",
-      "risk_window_end": "2026-09-12T11:10:00+05:30",
-      "risk_window_start": "2026-09-12T07:10:00+05:30",
-      "source_type": "computed_estimate",
-      "time": "2026-09-12T09:10:00+05:30"
-    },
     {
       "confidence": "low",
       "risk_window_end": "2026-09-12T23:35:00+05:30",
