@@ -3,11 +3,11 @@
     "collector_status": "ok",
     "current": {
       "interval": 900,
-      "precipitation": 0.1,
-      "rain": 0.1,
-      "time": "2026-09-16T01:00",
-      "weather_code": 51,
-      "wind_speed_10m": 12.9
+      "precipitation": 0.0,
+      "rain": 0.0,
+      "time": "2026-09-16T04:15",
+      "weather_code": 1,
+      "wind_speed_10m": 15.5
     },
     "current_units": {
       "interval": "seconds",
@@ -21,13 +21,13 @@
       "precipitation_probability_max": [
         100,
         95,
-        100,
+        98,
+        90,
+        93,
         92,
-        92,
-        79,
-        51,
+        53,
         82,
-        90
+        88
       ],
       "precipitation_sum": [
         10.6,
@@ -82,7 +82,7 @@
       "wind_speed_10m_max": "km/h"
     },
     "elevation": 12.0,
-    "generationtime_ms": 0.4591941833496094,
+    "generationtime_ms": 5.124688148498535,
     "hourly": {
       "precipitation": [
         0.5,
@@ -1417,11 +1417,11 @@
     "collector_status": "ok",
     "current": {
       "interval": 900,
-      "precipitation": 0.1,
-      "rain": 0.1,
-      "time": "2026-09-16T01:00",
-      "weather_code": 51,
-      "wind_speed_10m": 10.2
+      "precipitation": 0.0,
+      "rain": 0.0,
+      "time": "2026-09-16T04:15",
+      "weather_code": 1,
+      "wind_speed_10m": 11.3
     },
     "current_units": {
       "interval": "seconds",
@@ -1435,13 +1435,13 @@
       "precipitation_probability_max": [
         100,
         95,
-        100,
+        98,
+        90,
+        93,
         92,
-        92,
-        79,
-        51,
+        53,
         82,
-        90
+        88
       ],
       "precipitation_sum": [
         10.3,
@@ -1496,7 +1496,7 @@
       "wind_speed_10m_max": "km/h"
     },
     "elevation": 6.0,
-    "generationtime_ms": 0.22935867309570312,
+    "generationtime_ms": 0.5668401718139648,
     "hourly": {
       "precipitation": [
         0.2,
@@ -2833,9 +2833,9 @@
       "interval": 900,
       "precipitation": 0.0,
       "rain": 0.0,
-      "time": "2026-09-16T01:00",
+      "time": "2026-09-16T04:15",
       "weather_code": 1,
-      "wind_speed_10m": 6.8
+      "wind_speed_10m": 6.3
     },
     "current_units": {
       "interval": "seconds",
@@ -2849,13 +2849,13 @@
       "precipitation_probability_max": [
         100,
         95,
-        100,
+        98,
+        90,
+        93,
         92,
-        92,
-        79,
-        51,
+        53,
         82,
-        90
+        88
       ],
       "precipitation_sum": [
         8.4,
@@ -2910,7 +2910,7 @@
       "wind_speed_10m_max": "km/h"
     },
     "elevation": 43.0,
-    "generationtime_ms": 0.22530555725097656,
+    "generationtime_ms": 4.629611968994141,
     "hourly": {
       "precipitation": [
         0.1,
