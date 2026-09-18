@@ -7669,8 +7669,8 @@
   },
   {
     "date": "2026-09-18",
-    "rainfall_mm_avg": 8.67,
-    "rainfall_mm_max": 10.1,
+    "rainfall_mm_avg": 9.0,
+    "rainfall_mm_max": 11.6,
     "severity": "normal",
     "stations": [
       {
@@ -7687,9 +7687,9 @@
         "source": "open_meteo_archive",
         "type": "daily_rainfall",
         "value": {
-          "precipitation_hours": 22.0,
-          "precipitation_sum_mm": 10.1,
-          "temperature_2m_max_c": 28.5,
+          "precipitation_hours": 23.0,
+          "precipitation_sum_mm": 11.6,
+          "temperature_2m_max_c": 28.6,
           "temperature_2m_min_c": 26.3,
           "wind_speed_10m_max_kmh": 17.7
         }
@@ -7708,8 +7708,8 @@
         "source": "open_meteo_archive",
         "type": "daily_rainfall",
         "value": {
-          "precipitation_hours": 18.0,
-          "precipitation_sum_mm": 8.8,
+          "precipitation_hours": 19.0,
+          "precipitation_sum_mm": 8.7,
           "temperature_2m_max_c": 30.2,
           "temperature_2m_min_c": 25.3,
           "wind_speed_10m_max_kmh": 12.8
@@ -7730,7 +7730,7 @@
         "type": "daily_rainfall",
         "value": {
           "precipitation_hours": 17.0,
-          "precipitation_sum_mm": 7.1,
+          "precipitation_sum_mm": 6.7,
           "temperature_2m_max_c": 29.2,
           "temperature_2m_min_c": 25.9,
           "wind_speed_10m_max_kmh": 12.8
