@@ -7740,7 +7740,7 @@
   },
   {
     "date": "2026-09-19",
-    "rainfall_mm_avg": 7.6,
+    "rainfall_mm_avg": 7.8,
     "rainfall_mm_max": 11.2,
     "severity": "normal",
     "stations": [
@@ -7758,9 +7758,9 @@
         "source": "open_meteo_archive",
         "type": "daily_rainfall",
         "value": {
-          "precipitation_hours": 10.0,
-          "precipitation_sum_mm": 4.1,
-          "temperature_2m_max_c": 28.5,
+          "precipitation_hours": 14.0,
+          "precipitation_sum_mm": 4.7,
+          "temperature_2m_max_c": 29.2,
           "temperature_2m_min_c": 25.8,
           "wind_speed_10m_max_kmh": 19.3
         }
