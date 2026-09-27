@@ -476,7 +476,7 @@
         25.3,
         25.9,
         24.7,
-        27.4
+        27.2
       ],
       "time": [
         "2026-06-02",
@@ -726,7 +726,7 @@
       "wind_speed_10m_max": "km/h"
     },
     "elevation": 12.0,
-    "generationtime_ms": 2.494692802429199,
+    "generationtime_ms": 3.5382509231567383,
     "latitude": 18.80492,
     "longitude": 72.92036,
     "station": {
@@ -1466,7 +1466,7 @@
       "wind_speed_10m_max": "km/h"
     },
     "elevation": 6.0,
-    "generationtime_ms": 2.482295036315918,
+    "generationtime_ms": 0.3336668014526367,
     "latitude": 19.086115,
     "longitude": 72.85291,
     "station": {
@@ -2206,7 +2206,7 @@
       "wind_speed_10m_max": "km/h"
     },
     "elevation": 43.0,
-    "generationtime_ms": 3.889918327331543,
+    "generationtime_ms": 1.1985301971435547,
     "latitude": 19.156414,
     "longitude": 72.9249,
     "station": {
