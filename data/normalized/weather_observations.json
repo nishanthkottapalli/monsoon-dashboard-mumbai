@@ -8396,7 +8396,7 @@
       "precipitation_sum_mm": 0.0,
       "temperature_2m_max_c": 32.8,
       "temperature_2m_min_c": 25.6,
-      "wind_speed_10m_max_kmh": 19.1
+      "wind_speed_10m_max_kmh": 19.3
     }
   },
   {
@@ -8438,7 +8438,7 @@
       "precipitation_sum_mm": 0.0,
       "temperature_2m_max_c": 38.1,
       "temperature_2m_min_c": 27.4,
-      "wind_speed_10m_max_kmh": 11.5
+      "wind_speed_10m_max_kmh": 13.9
     }
   }
 ]
