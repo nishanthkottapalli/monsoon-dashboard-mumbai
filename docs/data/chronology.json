@@ -1931,7 +1931,7 @@
             "name": "Colaba",
             "zone": "South Mumbai"
           },
-          "observed_at": "2026-10-15T01:30",
+          "observed_at": "2026-10-15T04:45",
           "severity": "normal",
           "source": "open_meteo_forecast",
           "type": "current_weather",
@@ -1939,7 +1939,7 @@
             "precipitation_mm": 0.0,
             "rain_mm": 0.0,
             "weather_code": 0,
-            "wind_speed_10m_kmh": 10.5
+            "wind_speed_10m_kmh": 11.4
           }
         },
         {
@@ -1950,7 +1950,7 @@
             "name": "Santacruz",
             "zone": "Western Suburbs"
           },
-          "observed_at": "2026-10-15T01:30",
+          "observed_at": "2026-10-15T04:45",
           "severity": "normal",
           "source": "open_meteo_forecast",
           "type": "current_weather",
@@ -1958,7 +1958,7 @@
             "precipitation_mm": 0.0,
             "rain_mm": 0.0,
             "weather_code": 0,
-            "wind_speed_10m_kmh": 6.4
+            "wind_speed_10m_kmh": 7.4
           }
         },
         {
@@ -1969,7 +1969,7 @@
             "name": "Powai",
             "zone": "Eastern Suburbs"
           },
-          "observed_at": "2026-10-15T01:30",
+          "observed_at": "2026-10-15T04:45",
           "severity": "normal",
           "source": "open_meteo_forecast",
           "type": "current_weather",
@@ -14171,7 +14171,7 @@
             "name": "Colaba",
             "zone": "South Mumbai"
           },
-          "observed_at": "2026-10-15T01:30",
+          "observed_at": "2026-10-15T04:45",
           "severity": "normal",
           "source": "open_meteo_forecast_hourly",
           "type": "rain_nowcast",
@@ -14182,7 +14182,7 @@
             "recent_3h_mm": 0.0,
             "recent_6h_mm": 0.0,
             "weather_code": 0,
-            "wind_speed_10m_kmh": 10.5
+            "wind_speed_10m_kmh": 11.4
           }
         },
         {
@@ -14193,7 +14193,7 @@
             "name": "Santacruz",
             "zone": "Western Suburbs"
           },
-          "observed_at": "2026-10-15T01:30",
+          "observed_at": "2026-10-15T04:45",
           "severity": "normal",
           "source": "open_meteo_forecast_hourly",
           "type": "rain_nowcast",
@@ -14204,7 +14204,7 @@
             "recent_3h_mm": 0.0,
             "recent_6h_mm": 0.0,
             "weather_code": 0,
-            "wind_speed_10m_kmh": 6.4
+            "wind_speed_10m_kmh": 7.4
           }
         },
         {
@@ -14215,7 +14215,7 @@
             "name": "Powai",
             "zone": "Eastern Suburbs"
           },
-          "observed_at": "2026-10-15T01:30",
+          "observed_at": "2026-10-15T04:45",
           "severity": "normal",
           "source": "open_meteo_forecast_hourly",
           "type": "rain_nowcast",
@@ -14245,7 +14245,7 @@
     "tide": {
       "confidence": "low",
       "disclaimer": "Approximate non-official tide signal. Use official BMC/Mumbai Port tide tables for safety-critical decisions.",
-      "generated_at": "2026-10-15T01:43:16.236716+05:30",
+      "generated_at": "2026-10-15T04:47:29.564431+05:30",
       "high_tide_windows": [
         {
           "confidence": "low",
@@ -14281,7 +14281,7 @@
     }
   },
   "disclaimer": "Experimental public-information dashboard. Not an official emergency, disaster-management, weather, traffic, railway or airport system.",
-  "generated_at": "2026-10-15T01:43:16.357383+05:30",
+  "generated_at": "2026-10-15T04:47:29.754012+05:30",
   "monsoon_start_date": "2026-06-02",
   "project": "mumbai-monsoon-dashboard",
   "schema_version": "1.0.0",
