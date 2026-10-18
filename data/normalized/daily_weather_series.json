@@ -9819,7 +9819,7 @@
         "value": {
           "precipitation_hours": 0.0,
           "precipitation_sum_mm": 0.0,
-          "temperature_2m_max_c": 31.0,
+          "temperature_2m_max_c": 31.1,
           "temperature_2m_min_c": 26.6,
           "wind_speed_10m_max_kmh": 16.4
         }
@@ -9842,7 +9842,7 @@
           "precipitation_sum_mm": 0.2,
           "temperature_2m_max_c": 36.9,
           "temperature_2m_min_c": 26.2,
-          "wind_speed_10m_max_kmh": 8.3
+          "wind_speed_10m_max_kmh": 9.1
         }
       },
       {
