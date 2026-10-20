@@ -864,7 +864,7 @@
       "wind_speed_10m_max": "km/h"
     },
     "elevation": 12.0,
-    "generationtime_ms": 1.807093620300293,
+    "generationtime_ms": 2.543807029724121,
     "latitude": 18.80492,
     "longitude": 72.92036,
     "station": {
@@ -1742,7 +1742,7 @@
       "wind_speed_10m_max": "km/h"
     },
     "elevation": 6.0,
-    "generationtime_ms": 5.231142044067383,
+    "generationtime_ms": 3.3730268478393555,
     "latitude": 19.086115,
     "longitude": 72.85291,
     "station": {
@@ -2620,7 +2620,7 @@
       "wind_speed_10m_max": "km/h"
     },
     "elevation": 43.0,
-    "generationtime_ms": 2.455472946166992,
+    "generationtime_ms": 2.4677515029907227,
     "latitude": 19.156414,
     "longitude": 72.9249,
     "station": {
