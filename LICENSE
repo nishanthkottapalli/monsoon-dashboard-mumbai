@@ -1,21 +1,37 @@
-MIT License
+# Proprietary Software and Content Notice
 
-Copyright (c) 2026 Nishanth K
+Copyright (c) 2026 Nishanth Murthy Kottapalli.
+All rights reserved.
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+Project context: Personal software and website repositories.
+Related website or account: nishanthkottapalli.com.
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+The source code, visual identity, logos, written content, and media in this repository may not be copied, redistributed, modified, or used without prior written permission from the copyright holder.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+## Scope and rights reserved
+
+This notice applies only to original material owned by the copyright holder identified above (the "Covered Material"). Separately identified third-party material, customer-owned material, and material carrying another licence are excluded.
+
+Except as permitted by applicable law, applicable hosting-platform terms, or a separate written licence from the relevant rights holder, no permission is granted to use, execute, reproduce, modify, distribute, sublicense, sell, or otherwise exploit the Covered Material. All rights not expressly granted are reserved.
+
+Public availability, repository membership, access credentials, delivery of a build, or deployment does not by itself grant a commercial licence or transfer ownership. Any rights arising under applicable hosting-platform terms remain unaffected.
+
+## Separate agreements
+
+Permissions granted under a valid separate written agreement remain governed by that agreement. This notice does not grant operational rights to PLAKC, PLAKC.SPACE, ROImantics, their customers, or any other person. It does not represent that any proposed master agreement has been signed.
+
+A change of repository account, organisation, domain, registrar, DNS operator, or service administrator does not by itself change copyright ownership. Existing third-party rights and contractual rights are unaffected.
+
+## Third-party and separately licensed material
+
+Third-party components retain their respective owners, notices and licences. This notice does not restrict permissions granted by those licences. Preserve required notices and comply with all applicable distribution and source-availability obligations.
+
+Any educational example with a separate explicit licence is governed by that licence for its designated scope. Free access to a page or demonstration alone does not grant reuse rights.
+
+## Trademarks and service access
+
+No trademark licence or entitlement to hosted services, accounts, credentials, customer data, support, or updates is granted by this notice.
+
+## Disclaimer
+
+To the extent permitted by applicable law, the Covered Material is provided "AS IS", without warranties of any kind, express or implied. Liability and warranties under a separately executed agreement remain governed by that agreement. Nothing here excludes rights or liabilities that cannot lawfully be excluded.
