@@ -8,15 +8,15 @@
         "name": "Colaba",
         "zone": "South Mumbai"
       },
-      "observed_at": "2026-10-31T20:00",
+      "observed_at": "2026-11-01T01:30",
       "severity": "normal",
       "source": "open_meteo_forecast",
       "type": "current_weather",
       "value": {
-        "precipitation_mm": 0.5,
-        "rain_mm": 0.1,
-        "weather_code": 95,
-        "wind_speed_10m_kmh": 4.4
+        "precipitation_mm": 0.0,
+        "rain_mm": 0.0,
+        "weather_code": 1,
+        "wind_speed_10m_kmh": 7.6
       }
     },
     {
@@ -27,7 +27,7 @@
         "name": "Santacruz",
         "zone": "Western Suburbs"
       },
-      "observed_at": "2026-10-31T20:00",
+      "observed_at": "2026-11-01T01:30",
       "severity": "normal",
       "source": "open_meteo_forecast",
       "type": "current_weather",
@@ -35,7 +35,7 @@
         "precipitation_mm": 0.0,
         "rain_mm": 0.0,
         "weather_code": 1,
-        "wind_speed_10m_kmh": 8.7
+        "wind_speed_10m_kmh": 2.6
       }
     },
     {
@@ -46,76 +46,19 @@
         "name": "Powai",
         "zone": "Eastern Suburbs"
       },
-      "observed_at": "2026-10-31T20:00",
+      "observed_at": "2026-11-01T01:30",
       "severity": "normal",
       "source": "open_meteo_forecast",
       "type": "current_weather",
       "value": {
         "precipitation_mm": 0.0,
         "rain_mm": 0.0,
-        "weather_code": 2,
-        "wind_speed_10m_kmh": 3.8
+        "weather_code": 3,
+        "wind_speed_10m_kmh": 2.1
       }
     }
   ],
   "daily": [
-    {
-      "confidence": "medium",
-      "forecast_date": "2026-10-29",
-      "location": {
-        "latitude": 18.9067,
-        "longitude": 72.8147,
-        "name": "Colaba",
-        "zone": "South Mumbai"
-      },
-      "severity": "normal",
-      "source": "open_meteo_forecast",
-      "type": "daily_forecast",
-      "value": {
-        "precipitation_probability_max_pct": 38,
-        "precipitation_sum_mm": 0.0,
-        "weather_code": 1,
-        "wind_speed_10m_max_kmh": 14.4
-      }
-    },
-    {
-      "confidence": "medium",
-      "forecast_date": "2026-10-29",
-      "location": {
-        "latitude": 19.1176,
-        "longitude": 72.906,
-        "name": "Powai",
-        "zone": "Eastern Suburbs"
-      },
-      "severity": "normal",
-      "source": "open_meteo_forecast",
-      "type": "daily_forecast",
-      "value": {
-        "precipitation_probability_max_pct": 38,
-        "precipitation_sum_mm": 1.4,
-        "weather_code": 53,
-        "wind_speed_10m_max_kmh": 11.3
-      }
-    },
-    {
-      "confidence": "medium",
-      "forecast_date": "2026-10-29",
-      "location": {
-        "latitude": 19.0896,
-        "longitude": 72.8656,
-        "name": "Santacruz",
-        "zone": "Western Suburbs"
-      },
-      "severity": "normal",
-      "source": "open_meteo_forecast",
-      "type": "daily_forecast",
-      "value": {
-        "precipitation_probability_max_pct": 38,
-        "precipitation_sum_mm": 1.3,
-        "weather_code": 53,
-        "wind_speed_10m_max_kmh": 11.5
-      }
-    },
     {
       "confidence": "medium",
       "forecast_date": "2026-10-30",
@@ -243,7 +186,7 @@
       "source": "open_meteo_forecast",
       "type": "daily_forecast",
       "value": {
-        "precipitation_probability_max_pct": 45,
+        "precipitation_probability_max_pct": 53,
         "precipitation_sum_mm": 0.2,
         "weather_code": 51,
         "wind_speed_10m_max_kmh": 14.1
@@ -262,7 +205,7 @@
       "source": "open_meteo_forecast",
       "type": "daily_forecast",
       "value": {
-        "precipitation_probability_max_pct": 45,
+        "precipitation_probability_max_pct": 53,
         "precipitation_sum_mm": 1.6,
         "weather_code": 51,
         "wind_speed_10m_max_kmh": 11.2
@@ -281,7 +224,7 @@
       "source": "open_meteo_forecast",
       "type": "daily_forecast",
       "value": {
-        "precipitation_probability_max_pct": 45,
+        "precipitation_probability_max_pct": 53,
         "precipitation_sum_mm": 0.6,
         "weather_code": 51,
         "wind_speed_10m_max_kmh": 12.5
@@ -300,7 +243,7 @@
       "source": "open_meteo_forecast",
       "type": "daily_forecast",
       "value": {
-        "precipitation_probability_max_pct": 88,
+        "precipitation_probability_max_pct": 48,
         "precipitation_sum_mm": 2.5,
         "weather_code": 95,
         "wind_speed_10m_max_kmh": 15.9
@@ -319,7 +262,7 @@
       "source": "open_meteo_forecast",
       "type": "daily_forecast",
       "value": {
-        "precipitation_probability_max_pct": 88,
+        "precipitation_probability_max_pct": 48,
         "precipitation_sum_mm": 4.4,
         "weather_code": 80,
         "wind_speed_10m_max_kmh": 7.8
@@ -338,7 +281,7 @@
       "source": "open_meteo_forecast",
       "type": "daily_forecast",
       "value": {
-        "precipitation_probability_max_pct": 88,
+        "precipitation_probability_max_pct": 48,
         "precipitation_sum_mm": 2.7,
         "weather_code": 80,
         "wind_speed_10m_max_kmh": 10.0
@@ -471,7 +414,7 @@
       "source": "open_meteo_forecast",
       "type": "daily_forecast",
       "value": {
-        "precipitation_probability_max_pct": 14,
+        "precipitation_probability_max_pct": 18,
         "precipitation_sum_mm": 0.0,
         "weather_code": 45,
         "wind_speed_10m_max_kmh": 16.9
@@ -490,7 +433,7 @@
       "source": "open_meteo_forecast",
       "type": "daily_forecast",
       "value": {
-        "precipitation_probability_max_pct": 14,
+        "precipitation_probability_max_pct": 18,
         "precipitation_sum_mm": 0.0,
         "weather_code": 1,
         "wind_speed_10m_max_kmh": 10.0
@@ -509,7 +452,7 @@
       "source": "open_meteo_forecast",
       "type": "daily_forecast",
       "value": {
-        "precipitation_probability_max_pct": 14,
+        "precipitation_probability_max_pct": 18,
         "precipitation_sum_mm": 0.3,
         "weather_code": 51,
         "wind_speed_10m_max_kmh": 11.6
@@ -571,1305 +514,66 @@
         "weather_code": 0,
         "wind_speed_10m_max_kmh": 12.9
       }
+    },
+    {
+      "confidence": "medium",
+      "forecast_date": "2026-11-07",
+      "location": {
+        "latitude": 18.9067,
+        "longitude": 72.8147,
+        "name": "Colaba",
+        "zone": "South Mumbai"
+      },
+      "severity": "normal",
+      "source": "open_meteo_forecast",
+      "type": "daily_forecast",
+      "value": {
+        "precipitation_probability_max_pct": 20,
+        "precipitation_sum_mm": 0.0,
+        "weather_code": 0,
+        "wind_speed_10m_max_kmh": 16.2
+      }
+    },
+    {
+      "confidence": "medium",
+      "forecast_date": "2026-11-07",
+      "location": {
+        "latitude": 19.1176,
+        "longitude": 72.906,
+        "name": "Powai",
+        "zone": "Eastern Suburbs"
+      },
+      "severity": "normal",
+      "source": "open_meteo_forecast",
+      "type": "daily_forecast",
+      "value": {
+        "precipitation_probability_max_pct": 20,
+        "precipitation_sum_mm": 0.0,
+        "weather_code": 0,
+        "wind_speed_10m_max_kmh": 9.1
+      }
+    },
+    {
+      "confidence": "medium",
+      "forecast_date": "2026-11-07",
+      "location": {
+        "latitude": 19.0896,
+        "longitude": 72.8656,
+        "name": "Santacruz",
+        "zone": "Western Suburbs"
+      },
+      "severity": "normal",
+      "source": "open_meteo_forecast",
+      "type": "daily_forecast",
+      "value": {
+        "precipitation_probability_max_pct": 20,
+        "precipitation_sum_mm": 0.0,
+        "weather_code": 0,
+        "wind_speed_10m_max_kmh": 12.6
+      }
     }
   ],
   "hourly": [
-    {
-      "confidence": "medium",
-      "location": {
-        "latitude": 18.9067,
-        "longitude": 72.8147,
-        "name": "Colaba",
-        "zone": "South Mumbai"
-      },
-      "observed_at": "2026-10-29T00:00",
-      "severity": "normal",
-      "source": "open_meteo_forecast_hourly",
-      "type": "hourly_rainfall",
-      "value": {
-        "rain_mm": 0.0,
-        "weather_code": 1,
-        "wind_speed_10m_kmh": 10.1
-      }
-    },
-    {
-      "confidence": "medium",
-      "location": {
-        "latitude": 19.1176,
-        "longitude": 72.906,
-        "name": "Powai",
-        "zone": "Eastern Suburbs"
-      },
-      "observed_at": "2026-10-29T00:00",
-      "severity": "normal",
-      "source": "open_meteo_forecast_hourly",
-      "type": "hourly_rainfall",
-      "value": {
-        "rain_mm": 0.0,
-        "weather_code": 0,
-        "wind_speed_10m_kmh": 8.0
-      }
-    },
-    {
-      "confidence": "medium",
-      "location": {
-        "latitude": 19.0896,
-        "longitude": 72.8656,
-        "name": "Santacruz",
-        "zone": "Western Suburbs"
-      },
-      "observed_at": "2026-10-29T00:00",
-      "severity": "normal",
-      "source": "open_meteo_forecast_hourly",
-      "type": "hourly_rainfall",
-      "value": {
-        "rain_mm": 0.0,
-        "weather_code": 0,
-        "wind_speed_10m_kmh": 9.4
-      }
-    },
-    {
-      "confidence": "medium",
-      "location": {
-        "latitude": 18.9067,
-        "longitude": 72.8147,
-        "name": "Colaba",
-        "zone": "South Mumbai"
-      },
-      "observed_at": "2026-10-29T01:00",
-      "severity": "normal",
-      "source": "open_meteo_forecast_hourly",
-      "type": "hourly_rainfall",
-      "value": {
-        "rain_mm": 0.0,
-        "weather_code": 0,
-        "wind_speed_10m_kmh": 10.2
-      }
-    },
-    {
-      "confidence": "medium",
-      "location": {
-        "latitude": 19.1176,
-        "longitude": 72.906,
-        "name": "Powai",
-        "zone": "Eastern Suburbs"
-      },
-      "observed_at": "2026-10-29T01:00",
-      "severity": "normal",
-      "source": "open_meteo_forecast_hourly",
-      "type": "hourly_rainfall",
-      "value": {
-        "rain_mm": 0.0,
-        "weather_code": 0,
-        "wind_speed_10m_kmh": 7.4
-      }
-    },
-    {
-      "confidence": "medium",
-      "location": {
-        "latitude": 19.0896,
-        "longitude": 72.8656,
-        "name": "Santacruz",
-        "zone": "Western Suburbs"
-      },
-      "observed_at": "2026-10-29T01:00",
-      "severity": "normal",
-      "source": "open_meteo_forecast_hourly",
-      "type": "hourly_rainfall",
-      "value": {
-        "rain_mm": 0.0,
-        "weather_code": 0,
-        "wind_speed_10m_kmh": 8.8
-      }
-    },
-    {
-      "confidence": "medium",
-      "location": {
-        "latitude": 18.9067,
-        "longitude": 72.8147,
-        "name": "Colaba",
-        "zone": "South Mumbai"
-      },
-      "observed_at": "2026-10-29T02:00",
-      "severity": "normal",
-      "source": "open_meteo_forecast_hourly",
-      "type": "hourly_rainfall",
-      "value": {
-        "rain_mm": 0.0,
-        "weather_code": 0,
-        "wind_speed_10m_kmh": 10.2
-      }
-    },
-    {
-      "confidence": "medium",
-      "location": {
-        "latitude": 19.1176,
-        "longitude": 72.906,
-        "name": "Powai",
-        "zone": "Eastern Suburbs"
-      },
-      "observed_at": "2026-10-29T02:00",
-      "severity": "normal",
-      "source": "open_meteo_forecast_hourly",
-      "type": "hourly_rainfall",
-      "value": {
-        "rain_mm": 0.0,
-        "weather_code": 0,
-        "wind_speed_10m_kmh": 7.7
-      }
-    },
-    {
-      "confidence": "medium",
-      "location": {
-        "latitude": 19.0896,
-        "longitude": 72.8656,
-        "name": "Santacruz",
-        "zone": "Western Suburbs"
-      },
-      "observed_at": "2026-10-29T02:00",
-      "severity": "normal",
-      "source": "open_meteo_forecast_hourly",
-      "type": "hourly_rainfall",
-      "value": {
-        "rain_mm": 0.0,
-        "weather_code": 0,
-        "wind_speed_10m_kmh": 8.6
-      }
-    },
-    {
-      "confidence": "medium",
-      "location": {
-        "latitude": 18.9067,
-        "longitude": 72.8147,
-        "name": "Colaba",
-        "zone": "South Mumbai"
-      },
-      "observed_at": "2026-10-29T03:00",
-      "severity": "normal",
-      "source": "open_meteo_forecast_hourly",
-      "type": "hourly_rainfall",
-      "value": {
-        "rain_mm": 0.0,
-        "weather_code": 0,
-        "wind_speed_10m_kmh": 10.2
-      }
-    },
-    {
-      "confidence": "medium",
-      "location": {
-        "latitude": 19.1176,
-        "longitude": 72.906,
-        "name": "Powai",
-        "zone": "Eastern Suburbs"
-      },
-      "observed_at": "2026-10-29T03:00",
-      "severity": "normal",
-      "source": "open_meteo_forecast_hourly",
-      "type": "hourly_rainfall",
-      "value": {
-        "rain_mm": 0.0,
-        "weather_code": 0,
-        "wind_speed_10m_kmh": 7.3
-      }
-    },
-    {
-      "confidence": "medium",
-      "location": {
-        "latitude": 19.0896,
-        "longitude": 72.8656,
-        "name": "Santacruz",
-        "zone": "Western Suburbs"
-      },
-      "observed_at": "2026-10-29T03:00",
-      "severity": "normal",
-      "source": "open_meteo_forecast_hourly",
-      "type": "hourly_rainfall",
-      "value": {
-        "rain_mm": 0.0,
-        "weather_code": 0,
-        "wind_speed_10m_kmh": 8.8
-      }
-    },
-    {
-      "confidence": "medium",
-      "location": {
-        "latitude": 18.9067,
-        "longitude": 72.8147,
-        "name": "Colaba",
-        "zone": "South Mumbai"
-      },
-      "observed_at": "2026-10-29T04:00",
-      "severity": "normal",
-      "source": "open_meteo_forecast_hourly",
-      "type": "hourly_rainfall",
-      "value": {
-        "rain_mm": 0.0,
-        "weather_code": 0,
-        "wind_speed_10m_kmh": 8.9
-      }
-    },
-    {
-      "confidence": "medium",
-      "location": {
-        "latitude": 19.1176,
-        "longitude": 72.906,
-        "name": "Powai",
-        "zone": "Eastern Suburbs"
-      },
-      "observed_at": "2026-10-29T04:00",
-      "severity": "normal",
-      "source": "open_meteo_forecast_hourly",
-      "type": "hourly_rainfall",
-      "value": {
-        "rain_mm": 0.0,
-        "weather_code": 0,
-        "wind_speed_10m_kmh": 6.8
-      }
-    },
-    {
-      "confidence": "medium",
-      "location": {
-        "latitude": 19.0896,
-        "longitude": 72.8656,
-        "name": "Santacruz",
-        "zone": "Western Suburbs"
-      },
-      "observed_at": "2026-10-29T04:00",
-      "severity": "normal",
-      "source": "open_meteo_forecast_hourly",
-      "type": "hourly_rainfall",
-      "value": {
-        "rain_mm": 0.0,
-        "weather_code": 0,
-        "wind_speed_10m_kmh": 8.9
-      }
-    },
-    {
-      "confidence": "medium",
-      "location": {
-        "latitude": 18.9067,
-        "longitude": 72.8147,
-        "name": "Colaba",
-        "zone": "South Mumbai"
-      },
-      "observed_at": "2026-10-29T05:00",
-      "severity": "normal",
-      "source": "open_meteo_forecast_hourly",
-      "type": "hourly_rainfall",
-      "value": {
-        "rain_mm": 0.0,
-        "weather_code": 0,
-        "wind_speed_10m_kmh": 8.2
-      }
-    },
-    {
-      "confidence": "medium",
-      "location": {
-        "latitude": 19.1176,
-        "longitude": 72.906,
-        "name": "Powai",
-        "zone": "Eastern Suburbs"
-      },
-      "observed_at": "2026-10-29T05:00",
-      "severity": "normal",
-      "source": "open_meteo_forecast_hourly",
-      "type": "hourly_rainfall",
-      "value": {
-        "rain_mm": 0.0,
-        "weather_code": 0,
-        "wind_speed_10m_kmh": 6.0
-      }
-    },
-    {
-      "confidence": "medium",
-      "location": {
-        "latitude": 19.0896,
-        "longitude": 72.8656,
-        "name": "Santacruz",
-        "zone": "Western Suburbs"
-      },
-      "observed_at": "2026-10-29T05:00",
-      "severity": "normal",
-      "source": "open_meteo_forecast_hourly",
-      "type": "hourly_rainfall",
-      "value": {
-        "rain_mm": 0.0,
-        "weather_code": 0,
-        "wind_speed_10m_kmh": 9.1
-      }
-    },
-    {
-      "confidence": "medium",
-      "location": {
-        "latitude": 18.9067,
-        "longitude": 72.8147,
-        "name": "Colaba",
-        "zone": "South Mumbai"
-      },
-      "observed_at": "2026-10-29T06:00",
-      "severity": "normal",
-      "source": "open_meteo_forecast_hourly",
-      "type": "hourly_rainfall",
-      "value": {
-        "rain_mm": 0.0,
-        "weather_code": 0,
-        "wind_speed_10m_kmh": 7.8
-      }
-    },
-    {
-      "confidence": "medium",
-      "location": {
-        "latitude": 19.1176,
-        "longitude": 72.906,
-        "name": "Powai",
-        "zone": "Eastern Suburbs"
-      },
-      "observed_at": "2026-10-29T06:00",
-      "severity": "normal",
-      "source": "open_meteo_forecast_hourly",
-      "type": "hourly_rainfall",
-      "value": {
-        "rain_mm": 0.0,
-        "weather_code": 0,
-        "wind_speed_10m_kmh": 5.2
-      }
-    },
-    {
-      "confidence": "medium",
-      "location": {
-        "latitude": 19.0896,
-        "longitude": 72.8656,
-        "name": "Santacruz",
-        "zone": "Western Suburbs"
-      },
-      "observed_at": "2026-10-29T06:00",
-      "severity": "normal",
-      "source": "open_meteo_forecast_hourly",
-      "type": "hourly_rainfall",
-      "value": {
-        "rain_mm": 0.0,
-        "weather_code": 0,
-        "wind_speed_10m_kmh": 7.3
-      }
-    },
-    {
-      "confidence": "medium",
-      "location": {
-        "latitude": 18.9067,
-        "longitude": 72.8147,
-        "name": "Colaba",
-        "zone": "South Mumbai"
-      },
-      "observed_at": "2026-10-29T07:00",
-      "severity": "normal",
-      "source": "open_meteo_forecast_hourly",
-      "type": "hourly_rainfall",
-      "value": {
-        "rain_mm": 0.0,
-        "weather_code": 0,
-        "wind_speed_10m_kmh": 7.4
-      }
-    },
-    {
-      "confidence": "medium",
-      "location": {
-        "latitude": 19.1176,
-        "longitude": 72.906,
-        "name": "Powai",
-        "zone": "Eastern Suburbs"
-      },
-      "observed_at": "2026-10-29T07:00",
-      "severity": "normal",
-      "source": "open_meteo_forecast_hourly",
-      "type": "hourly_rainfall",
-      "value": {
-        "rain_mm": 0.0,
-        "weather_code": 0,
-        "wind_speed_10m_kmh": 5.4
-      }
-    },
-    {
-      "confidence": "medium",
-      "location": {
-        "latitude": 19.0896,
-        "longitude": 72.8656,
-        "name": "Santacruz",
-        "zone": "Western Suburbs"
-      },
-      "observed_at": "2026-10-29T07:00",
-      "severity": "normal",
-      "source": "open_meteo_forecast_hourly",
-      "type": "hourly_rainfall",
-      "value": {
-        "rain_mm": 0.0,
-        "weather_code": 0,
-        "wind_speed_10m_kmh": 6.2
-      }
-    },
-    {
-      "confidence": "medium",
-      "location": {
-        "latitude": 18.9067,
-        "longitude": 72.8147,
-        "name": "Colaba",
-        "zone": "South Mumbai"
-      },
-      "observed_at": "2026-10-29T08:00",
-      "severity": "normal",
-      "source": "open_meteo_forecast_hourly",
-      "type": "hourly_rainfall",
-      "value": {
-        "rain_mm": 0.0,
-        "weather_code": 0,
-        "wind_speed_10m_kmh": 6.1
-      }
-    },
-    {
-      "confidence": "medium",
-      "location": {
-        "latitude": 19.1176,
-        "longitude": 72.906,
-        "name": "Powai",
-        "zone": "Eastern Suburbs"
-      },
-      "observed_at": "2026-10-29T08:00",
-      "severity": "normal",
-      "source": "open_meteo_forecast_hourly",
-      "type": "hourly_rainfall",
-      "value": {
-        "rain_mm": 0.0,
-        "weather_code": 0,
-        "wind_speed_10m_kmh": 4.4
-      }
-    },
-    {
-      "confidence": "medium",
-      "location": {
-        "latitude": 19.0896,
-        "longitude": 72.8656,
-        "name": "Santacruz",
-        "zone": "Western Suburbs"
-      },
-      "observed_at": "2026-10-29T08:00",
-      "severity": "normal",
-      "source": "open_meteo_forecast_hourly",
-      "type": "hourly_rainfall",
-      "value": {
-        "rain_mm": 0.0,
-        "weather_code": 0,
-        "wind_speed_10m_kmh": 5.6
-      }
-    },
-    {
-      "confidence": "medium",
-      "location": {
-        "latitude": 18.9067,
-        "longitude": 72.8147,
-        "name": "Colaba",
-        "zone": "South Mumbai"
-      },
-      "observed_at": "2026-10-29T09:00",
-      "severity": "normal",
-      "source": "open_meteo_forecast_hourly",
-      "type": "hourly_rainfall",
-      "value": {
-        "rain_mm": 0.0,
-        "weather_code": 0,
-        "wind_speed_10m_kmh": 7.1
-      }
-    },
-    {
-      "confidence": "medium",
-      "location": {
-        "latitude": 19.1176,
-        "longitude": 72.906,
-        "name": "Powai",
-        "zone": "Eastern Suburbs"
-      },
-      "observed_at": "2026-10-29T09:00",
-      "severity": "normal",
-      "source": "open_meteo_forecast_hourly",
-      "type": "hourly_rainfall",
-      "value": {
-        "rain_mm": 0.0,
-        "weather_code": 0,
-        "wind_speed_10m_kmh": 5.0
-      }
-    },
-    {
-      "confidence": "medium",
-      "location": {
-        "latitude": 19.0896,
-        "longitude": 72.8656,
-        "name": "Santacruz",
-        "zone": "Western Suburbs"
-      },
-      "observed_at": "2026-10-29T09:00",
-      "severity": "normal",
-      "source": "open_meteo_forecast_hourly",
-      "type": "hourly_rainfall",
-      "value": {
-        "rain_mm": 0.0,
-        "weather_code": 0,
-        "wind_speed_10m_kmh": 5.2
-      }
-    },
-    {
-      "confidence": "medium",
-      "location": {
-        "latitude": 18.9067,
-        "longitude": 72.8147,
-        "name": "Colaba",
-        "zone": "South Mumbai"
-      },
-      "observed_at": "2026-10-29T10:00",
-      "severity": "normal",
-      "source": "open_meteo_forecast_hourly",
-      "type": "hourly_rainfall",
-      "value": {
-        "rain_mm": 0.0,
-        "weather_code": 0,
-        "wind_speed_10m_kmh": 5.4
-      }
-    },
-    {
-      "confidence": "medium",
-      "location": {
-        "latitude": 19.1176,
-        "longitude": 72.906,
-        "name": "Powai",
-        "zone": "Eastern Suburbs"
-      },
-      "observed_at": "2026-10-29T10:00",
-      "severity": "normal",
-      "source": "open_meteo_forecast_hourly",
-      "type": "hourly_rainfall",
-      "value": {
-        "rain_mm": 0.0,
-        "weather_code": 0,
-        "wind_speed_10m_kmh": 2.9
-      }
-    },
-    {
-      "confidence": "medium",
-      "location": {
-        "latitude": 19.0896,
-        "longitude": 72.8656,
-        "name": "Santacruz",
-        "zone": "Western Suburbs"
-      },
-      "observed_at": "2026-10-29T10:00",
-      "severity": "normal",
-      "source": "open_meteo_forecast_hourly",
-      "type": "hourly_rainfall",
-      "value": {
-        "rain_mm": 0.0,
-        "weather_code": 0,
-        "wind_speed_10m_kmh": 2.8
-      }
-    },
-    {
-      "confidence": "medium",
-      "location": {
-        "latitude": 18.9067,
-        "longitude": 72.8147,
-        "name": "Colaba",
-        "zone": "South Mumbai"
-      },
-      "observed_at": "2026-10-29T11:00",
-      "severity": "normal",
-      "source": "open_meteo_forecast_hourly",
-      "type": "hourly_rainfall",
-      "value": {
-        "rain_mm": 0.0,
-        "weather_code": 0,
-        "wind_speed_10m_kmh": 4.8
-      }
-    },
-    {
-      "confidence": "medium",
-      "location": {
-        "latitude": 19.1176,
-        "longitude": 72.906,
-        "name": "Powai",
-        "zone": "Eastern Suburbs"
-      },
-      "observed_at": "2026-10-29T11:00",
-      "severity": "normal",
-      "source": "open_meteo_forecast_hourly",
-      "type": "hourly_rainfall",
-      "value": {
-        "rain_mm": 0.0,
-        "weather_code": 0,
-        "wind_speed_10m_kmh": 2.2
-      }
-    },
-    {
-      "confidence": "medium",
-      "location": {
-        "latitude": 19.0896,
-        "longitude": 72.8656,
-        "name": "Santacruz",
-        "zone": "Western Suburbs"
-      },
-      "observed_at": "2026-10-29T11:00",
-      "severity": "normal",
-      "source": "open_meteo_forecast_hourly",
-      "type": "hourly_rainfall",
-      "value": {
-        "rain_mm": 0.0,
-        "weather_code": 1,
-        "wind_speed_10m_kmh": 5.7
-      }
-    },
-    {
-      "confidence": "medium",
-      "location": {
-        "latitude": 18.9067,
-        "longitude": 72.8147,
-        "name": "Colaba",
-        "zone": "South Mumbai"
-      },
-      "observed_at": "2026-10-29T12:00",
-      "severity": "normal",
-      "source": "open_meteo_forecast_hourly",
-      "type": "hourly_rainfall",
-      "value": {
-        "rain_mm": 0.0,
-        "weather_code": 0,
-        "wind_speed_10m_kmh": 14.4
-      }
-    },
-    {
-      "confidence": "medium",
-      "location": {
-        "latitude": 19.1176,
-        "longitude": 72.906,
-        "name": "Powai",
-        "zone": "Eastern Suburbs"
-      },
-      "observed_at": "2026-10-29T12:00",
-      "severity": "normal",
-      "source": "open_meteo_forecast_hourly",
-      "type": "hourly_rainfall",
-      "value": {
-        "rain_mm": 0.0,
-        "weather_code": 1,
-        "wind_speed_10m_kmh": 3.6
-      }
-    },
-    {
-      "confidence": "medium",
-      "location": {
-        "latitude": 19.0896,
-        "longitude": 72.8656,
-        "name": "Santacruz",
-        "zone": "Western Suburbs"
-      },
-      "observed_at": "2026-10-29T12:00",
-      "severity": "normal",
-      "source": "open_meteo_forecast_hourly",
-      "type": "hourly_rainfall",
-      "value": {
-        "rain_mm": 0.2,
-        "weather_code": 51,
-        "wind_speed_10m_kmh": 8.4
-      }
-    },
-    {
-      "confidence": "medium",
-      "location": {
-        "latitude": 18.9067,
-        "longitude": 72.8147,
-        "name": "Colaba",
-        "zone": "South Mumbai"
-      },
-      "observed_at": "2026-10-29T13:00",
-      "severity": "normal",
-      "source": "open_meteo_forecast_hourly",
-      "type": "hourly_rainfall",
-      "value": {
-        "rain_mm": 0.0,
-        "weather_code": 0,
-        "wind_speed_10m_kmh": 13.9
-      }
-    },
-    {
-      "confidence": "medium",
-      "location": {
-        "latitude": 19.1176,
-        "longitude": 72.906,
-        "name": "Powai",
-        "zone": "Eastern Suburbs"
-      },
-      "observed_at": "2026-10-29T13:00",
-      "severity": "normal",
-      "source": "open_meteo_forecast_hourly",
-      "type": "hourly_rainfall",
-      "value": {
-        "rain_mm": 0.2,
-        "weather_code": 51,
-        "wind_speed_10m_kmh": 8.2
-      }
-    },
-    {
-      "confidence": "medium",
-      "location": {
-        "latitude": 19.0896,
-        "longitude": 72.8656,
-        "name": "Santacruz",
-        "zone": "Western Suburbs"
-      },
-      "observed_at": "2026-10-29T13:00",
-      "severity": "normal",
-      "source": "open_meteo_forecast_hourly",
-      "type": "hourly_rainfall",
-      "value": {
-        "rain_mm": 0.4,
-        "weather_code": 51,
-        "wind_speed_10m_kmh": 11.4
-      }
-    },
-    {
-      "confidence": "medium",
-      "location": {
-        "latitude": 18.9067,
-        "longitude": 72.8147,
-        "name": "Colaba",
-        "zone": "South Mumbai"
-      },
-      "observed_at": "2026-10-29T14:00",
-      "severity": "normal",
-      "source": "open_meteo_forecast_hourly",
-      "type": "hourly_rainfall",
-      "value": {
-        "rain_mm": 0.0,
-        "weather_code": 0,
-        "wind_speed_10m_kmh": 12.3
-      }
-    },
-    {
-      "confidence": "medium",
-      "location": {
-        "latitude": 19.1176,
-        "longitude": 72.906,
-        "name": "Powai",
-        "zone": "Eastern Suburbs"
-      },
-      "observed_at": "2026-10-29T14:00",
-      "severity": "normal",
-      "source": "open_meteo_forecast_hourly",
-      "type": "hourly_rainfall",
-      "value": {
-        "rain_mm": 0.7,
-        "weather_code": 53,
-        "wind_speed_10m_kmh": 10.0
-      }
-    },
-    {
-      "confidence": "medium",
-      "location": {
-        "latitude": 19.0896,
-        "longitude": 72.8656,
-        "name": "Santacruz",
-        "zone": "Western Suburbs"
-      },
-      "observed_at": "2026-10-29T14:00",
-      "severity": "normal",
-      "source": "open_meteo_forecast_hourly",
-      "type": "hourly_rainfall",
-      "value": {
-        "rain_mm": 0.5,
-        "weather_code": 53,
-        "wind_speed_10m_kmh": 10.7
-      }
-    },
-    {
-      "confidence": "medium",
-      "location": {
-        "latitude": 18.9067,
-        "longitude": 72.8147,
-        "name": "Colaba",
-        "zone": "South Mumbai"
-      },
-      "observed_at": "2026-10-29T15:00",
-      "severity": "normal",
-      "source": "open_meteo_forecast_hourly",
-      "type": "hourly_rainfall",
-      "value": {
-        "rain_mm": 0.0,
-        "weather_code": 0,
-        "wind_speed_10m_kmh": 14.1
-      }
-    },
-    {
-      "confidence": "medium",
-      "location": {
-        "latitude": 19.1176,
-        "longitude": 72.906,
-        "name": "Powai",
-        "zone": "Eastern Suburbs"
-      },
-      "observed_at": "2026-10-29T15:00",
-      "severity": "normal",
-      "source": "open_meteo_forecast_hourly",
-      "type": "hourly_rainfall",
-      "value": {
-        "rain_mm": 0.4,
-        "weather_code": 51,
-        "wind_speed_10m_kmh": 10.8
-      }
-    },
-    {
-      "confidence": "medium",
-      "location": {
-        "latitude": 19.0896,
-        "longitude": 72.8656,
-        "name": "Santacruz",
-        "zone": "Western Suburbs"
-      },
-      "observed_at": "2026-10-29T15:00",
-      "severity": "normal",
-      "source": "open_meteo_forecast_hourly",
-      "type": "hourly_rainfall",
-      "value": {
-        "rain_mm": 0.2,
-        "weather_code": 51,
-        "wind_speed_10m_kmh": 10.1
-      }
-    },
-    {
-      "confidence": "medium",
-      "location": {
-        "latitude": 18.9067,
-        "longitude": 72.8147,
-        "name": "Colaba",
-        "zone": "South Mumbai"
-      },
-      "observed_at": "2026-10-29T16:00",
-      "severity": "normal",
-      "source": "open_meteo_forecast_hourly",
-      "type": "hourly_rainfall",
-      "value": {
-        "rain_mm": 0.0,
-        "weather_code": 0,
-        "wind_speed_10m_kmh": 13.8
-      }
-    },
-    {
-      "confidence": "medium",
-      "location": {
-        "latitude": 19.1176,
-        "longitude": 72.906,
-        "name": "Powai",
-        "zone": "Eastern Suburbs"
-      },
-      "observed_at": "2026-10-29T16:00",
-      "severity": "normal",
-      "source": "open_meteo_forecast_hourly",
-      "type": "hourly_rainfall",
-      "value": {
-        "rain_mm": 0.1,
-        "weather_code": 51,
-        "wind_speed_10m_kmh": 11.3
-      }
-    },
-    {
-      "confidence": "medium",
-      "location": {
-        "latitude": 19.0896,
-        "longitude": 72.8656,
-        "name": "Santacruz",
-        "zone": "Western Suburbs"
-      },
-      "observed_at": "2026-10-29T16:00",
-      "severity": "normal",
-      "source": "open_meteo_forecast_hourly",
-      "type": "hourly_rainfall",
-      "value": {
-        "rain_mm": 0.0,
-        "weather_code": 1,
-        "wind_speed_10m_kmh": 11.5
-      }
-    },
-    {
-      "confidence": "medium",
-      "location": {
-        "latitude": 18.9067,
-        "longitude": 72.8147,
-        "name": "Colaba",
-        "zone": "South Mumbai"
-      },
-      "observed_at": "2026-10-29T17:00",
-      "severity": "normal",
-      "source": "open_meteo_forecast_hourly",
-      "type": "hourly_rainfall",
-      "value": {
-        "rain_mm": 0.0,
-        "weather_code": 1,
-        "wind_speed_10m_kmh": 12.6
-      }
-    },
-    {
-      "confidence": "medium",
-      "location": {
-        "latitude": 19.1176,
-        "longitude": 72.906,
-        "name": "Powai",
-        "zone": "Eastern Suburbs"
-      },
-      "observed_at": "2026-10-29T17:00",
-      "severity": "normal",
-      "source": "open_meteo_forecast_hourly",
-      "type": "hourly_rainfall",
-      "value": {
-        "rain_mm": 0.0,
-        "weather_code": 0,
-        "wind_speed_10m_kmh": 10.1
-      }
-    },
-    {
-      "confidence": "medium",
-      "location": {
-        "latitude": 19.0896,
-        "longitude": 72.8656,
-        "name": "Santacruz",
-        "zone": "Western Suburbs"
-      },
-      "observed_at": "2026-10-29T17:00",
-      "severity": "normal",
-      "source": "open_meteo_forecast_hourly",
-      "type": "hourly_rainfall",
-      "value": {
-        "rain_mm": 0.0,
-        "weather_code": 0,
-        "wind_speed_10m_kmh": 10.4
-      }
-    },
-    {
-      "confidence": "medium",
-      "location": {
-        "latitude": 18.9067,
-        "longitude": 72.8147,
-        "name": "Colaba",
-        "zone": "South Mumbai"
-      },
-      "observed_at": "2026-10-29T18:00",
-      "severity": "normal",
-      "source": "open_meteo_forecast_hourly",
-      "type": "hourly_rainfall",
-      "value": {
-        "rain_mm": 0.0,
-        "weather_code": 0,
-        "wind_speed_10m_kmh": 12.5
-      }
-    },
-    {
-      "confidence": "medium",
-      "location": {
-        "latitude": 19.1176,
-        "longitude": 72.906,
-        "name": "Powai",
-        "zone": "Eastern Suburbs"
-      },
-      "observed_at": "2026-10-29T18:00",
-      "severity": "normal",
-      "source": "open_meteo_forecast_hourly",
-      "type": "hourly_rainfall",
-      "value": {
-        "rain_mm": 0.0,
-        "weather_code": 1,
-        "wind_speed_10m_kmh": 7.9
-      }
-    },
-    {
-      "confidence": "medium",
-      "location": {
-        "latitude": 19.0896,
-        "longitude": 72.8656,
-        "name": "Santacruz",
-        "zone": "Western Suburbs"
-      },
-      "observed_at": "2026-10-29T18:00",
-      "severity": "normal",
-      "source": "open_meteo_forecast_hourly",
-      "type": "hourly_rainfall",
-      "value": {
-        "rain_mm": 0.0,
-        "weather_code": 0,
-        "wind_speed_10m_kmh": 9.3
-      }
-    },
-    {
-      "confidence": "medium",
-      "location": {
-        "latitude": 18.9067,
-        "longitude": 72.8147,
-        "name": "Colaba",
-        "zone": "South Mumbai"
-      },
-      "observed_at": "2026-10-29T19:00",
-      "severity": "normal",
-      "source": "open_meteo_forecast_hourly",
-      "type": "hourly_rainfall",
-      "value": {
-        "rain_mm": 0.0,
-        "weather_code": 0,
-        "wind_speed_10m_kmh": 10.0
-      }
-    },
-    {
-      "confidence": "medium",
-      "location": {
-        "latitude": 19.1176,
-        "longitude": 72.906,
-        "name": "Powai",
-        "zone": "Eastern Suburbs"
-      },
-      "observed_at": "2026-10-29T19:00",
-      "severity": "normal",
-      "source": "open_meteo_forecast_hourly",
-      "type": "hourly_rainfall",
-      "value": {
-        "rain_mm": 0.0,
-        "weather_code": 0,
-        "wind_speed_10m_kmh": 5.1
-      }
-    },
-    {
-      "confidence": "medium",
-      "location": {
-        "latitude": 19.0896,
-        "longitude": 72.8656,
-        "name": "Santacruz",
-        "zone": "Western Suburbs"
-      },
-      "observed_at": "2026-10-29T19:00",
-      "severity": "normal",
-      "source": "open_meteo_forecast_hourly",
-      "type": "hourly_rainfall",
-      "value": {
-        "rain_mm": 0.0,
-        "weather_code": 0,
-        "wind_speed_10m_kmh": 7.3
-      }
-    },
-    {
-      "confidence": "medium",
-      "location": {
-        "latitude": 18.9067,
-        "longitude": 72.8147,
-        "name": "Colaba",
-        "zone": "South Mumbai"
-      },
-      "observed_at": "2026-10-29T20:00",
-      "severity": "normal",
-      "source": "open_meteo_forecast_hourly",
-      "type": "hourly_rainfall",
-      "value": {
-        "rain_mm": 0.0,
-        "weather_code": 0,
-        "wind_speed_10m_kmh": 8.4
-      }
-    },
-    {
-      "confidence": "medium",
-      "location": {
-        "latitude": 19.1176,
-        "longitude": 72.906,
-        "name": "Powai",
-        "zone": "Eastern Suburbs"
-      },
-      "observed_at": "2026-10-29T20:00",
-      "severity": "normal",
-      "source": "open_meteo_forecast_hourly",
-      "type": "hourly_rainfall",
-      "value": {
-        "rain_mm": 0.0,
-        "weather_code": 0,
-        "wind_speed_10m_kmh": 2.8
-      }
-    },
-    {
-      "confidence": "medium",
-      "location": {
-        "latitude": 19.0896,
-        "longitude": 72.8656,
-        "name": "Santacruz",
-        "zone": "Western Suburbs"
-      },
-      "observed_at": "2026-10-29T20:00",
-      "severity": "normal",
-      "source": "open_meteo_forecast_hourly",
-      "type": "hourly_rainfall",
-      "value": {
-        "rain_mm": 0.0,
-        "weather_code": 0,
-        "wind_speed_10m_kmh": 6.0
-      }
-    },
-    {
-      "confidence": "medium",
-      "location": {
-        "latitude": 18.9067,
-        "longitude": 72.8147,
-        "name": "Colaba",
-        "zone": "South Mumbai"
-      },
-      "observed_at": "2026-10-29T21:00",
-      "severity": "normal",
-      "source": "open_meteo_forecast_hourly",
-      "type": "hourly_rainfall",
-      "value": {
-        "rain_mm": 0.0,
-        "weather_code": 0,
-        "wind_speed_10m_kmh": 6.2
-      }
-    },
-    {
-      "confidence": "medium",
-      "location": {
-        "latitude": 19.1176,
-        "longitude": 72.906,
-        "name": "Powai",
-        "zone": "Eastern Suburbs"
-      },
-      "observed_at": "2026-10-29T21:00",
-      "severity": "normal",
-      "source": "open_meteo_forecast_hourly",
-      "type": "hourly_rainfall",
-      "value": {
-        "rain_mm": 0.0,
-        "weather_code": 0,
-        "wind_speed_10m_kmh": 2.1
-      }
-    },
-    {
-      "confidence": "medium",
-      "location": {
-        "latitude": 19.0896,
-        "longitude": 72.8656,
-        "name": "Santacruz",
-        "zone": "Western Suburbs"
-      },
-      "observed_at": "2026-10-29T21:00",
-      "severity": "normal",
-      "source": "open_meteo_forecast_hourly",
-      "type": "hourly_rainfall",
-      "value": {
-        "rain_mm": 0.0,
-        "weather_code": 0,
-        "wind_speed_10m_kmh": 3.7
-      }
-    },
-    {
-      "confidence": "medium",
-      "location": {
-        "latitude": 18.9067,
-        "longitude": 72.8147,
-        "name": "Colaba",
-        "zone": "South Mumbai"
-      },
-      "observed_at": "2026-10-29T22:00",
-      "severity": "normal",
-      "source": "open_meteo_forecast_hourly",
-      "type": "hourly_rainfall",
-      "value": {
-        "rain_mm": 0.0,
-        "weather_code": 0,
-        "wind_speed_10m_kmh": 2.3
-      }
-    },
-    {
-      "confidence": "medium",
-      "location": {
-        "latitude": 19.1176,
-        "longitude": 72.906,
-        "name": "Powai",
-        "zone": "Eastern Suburbs"
-      },
-      "observed_at": "2026-10-29T22:00",
-      "severity": "normal",
-      "source": "open_meteo_forecast_hourly",
-      "type": "hourly_rainfall",
-      "value": {
-        "rain_mm": 0.0,
-        "weather_code": 0,
-        "wind_speed_10m_kmh": 1.1
-      }
-    },
-    {
-      "confidence": "medium",
-      "location": {
-        "latitude": 19.0896,
-        "longitude": 72.8656,
-        "name": "Santacruz",
-        "zone": "Western Suburbs"
-      },
-      "observed_at": "2026-10-29T22:00",
-      "severity": "normal",
-      "source": "open_meteo_forecast_hourly",
-      "type": "hourly_rainfall",
-      "value": {
-        "rain_mm": 0.0,
-        "weather_code": 0,
-        "wind_speed_10m_kmh": 2.0
-      }
-    },
-    {
-      "confidence": "medium",
-      "location": {
-        "latitude": 18.9067,
-        "longitude": 72.8147,
-        "name": "Colaba",
-        "zone": "South Mumbai"
-      },
-      "observed_at": "2026-10-29T23:00",
-      "severity": "normal",
-      "source": "open_meteo_forecast_hourly",
-      "type": "hourly_rainfall",
-      "value": {
-        "rain_mm": 0.0,
-        "weather_code": 0,
-        "wind_speed_10m_kmh": 4.6
-      }
-    },
-    {
-      "confidence": "medium",
-      "location": {
-        "latitude": 19.1176,
-        "longitude": 72.906,
-        "name": "Powai",
-        "zone": "Eastern Suburbs"
-      },
-      "observed_at": "2026-10-29T23:00",
-      "severity": "normal",
-      "source": "open_meteo_forecast_hourly",
-      "type": "hourly_rainfall",
-      "value": {
-        "rain_mm": 0.0,
-        "weather_code": 0,
-        "wind_speed_10m_kmh": 0.4
-      }
-    },
-    {
-      "confidence": "medium",
-      "location": {
-        "latitude": 19.0896,
-        "longitude": 72.8656,
-        "name": "Santacruz",
-        "zone": "Western Suburbs"
-      },
-      "observed_at": "2026-10-29T23:00",
-      "severity": "normal",
-      "source": "open_meteo_forecast_hourly",
-      "type": "hourly_rainfall",
-      "value": {
-        "rain_mm": 0.0,
-        "weather_code": 0,
-        "wind_speed_10m_kmh": 1.4
-      }
-    },
     {
       "confidence": "medium",
       "location": {
@@ -12237,6 +10941,1302 @@
         "weather_code": 0,
         "wind_speed_10m_kmh": 9.5
       }
+    },
+    {
+      "confidence": "medium",
+      "location": {
+        "latitude": 18.9067,
+        "longitude": 72.8147,
+        "name": "Colaba",
+        "zone": "South Mumbai"
+      },
+      "observed_at": "2026-11-07T00:00",
+      "severity": "normal",
+      "source": "open_meteo_forecast_hourly",
+      "type": "hourly_rainfall",
+      "value": {
+        "rain_mm": 0.0,
+        "weather_code": 0,
+        "wind_speed_10m_kmh": 9.8
+      }
+    },
+    {
+      "confidence": "medium",
+      "location": {
+        "latitude": 19.1176,
+        "longitude": 72.906,
+        "name": "Powai",
+        "zone": "Eastern Suburbs"
+      },
+      "observed_at": "2026-11-07T00:00",
+      "severity": "normal",
+      "source": "open_meteo_forecast_hourly",
+      "type": "hourly_rainfall",
+      "value": {
+        "rain_mm": 0.0,
+        "weather_code": 0,
+        "wind_speed_10m_kmh": 5.2
+      }
+    },
+    {
+      "confidence": "medium",
+      "location": {
+        "latitude": 19.0896,
+        "longitude": 72.8656,
+        "name": "Santacruz",
+        "zone": "Western Suburbs"
+      },
+      "observed_at": "2026-11-07T00:00",
+      "severity": "normal",
+      "source": "open_meteo_forecast_hourly",
+      "type": "hourly_rainfall",
+      "value": {
+        "rain_mm": 0.0,
+        "weather_code": 0,
+        "wind_speed_10m_kmh": 9.1
+      }
+    },
+    {
+      "confidence": "medium",
+      "location": {
+        "latitude": 18.9067,
+        "longitude": 72.8147,
+        "name": "Colaba",
+        "zone": "South Mumbai"
+      },
+      "observed_at": "2026-11-07T01:00",
+      "severity": "normal",
+      "source": "open_meteo_forecast_hourly",
+      "type": "hourly_rainfall",
+      "value": {
+        "rain_mm": 0.0,
+        "weather_code": 0,
+        "wind_speed_10m_kmh": 10.3
+      }
+    },
+    {
+      "confidence": "medium",
+      "location": {
+        "latitude": 19.1176,
+        "longitude": 72.906,
+        "name": "Powai",
+        "zone": "Eastern Suburbs"
+      },
+      "observed_at": "2026-11-07T01:00",
+      "severity": "normal",
+      "source": "open_meteo_forecast_hourly",
+      "type": "hourly_rainfall",
+      "value": {
+        "rain_mm": 0.0,
+        "weather_code": 0,
+        "wind_speed_10m_kmh": 5.4
+      }
+    },
+    {
+      "confidence": "medium",
+      "location": {
+        "latitude": 19.0896,
+        "longitude": 72.8656,
+        "name": "Santacruz",
+        "zone": "Western Suburbs"
+      },
+      "observed_at": "2026-11-07T01:00",
+      "severity": "normal",
+      "source": "open_meteo_forecast_hourly",
+      "type": "hourly_rainfall",
+      "value": {
+        "rain_mm": 0.0,
+        "weather_code": 0,
+        "wind_speed_10m_kmh": 8.5
+      }
+    },
+    {
+      "confidence": "medium",
+      "location": {
+        "latitude": 18.9067,
+        "longitude": 72.8147,
+        "name": "Colaba",
+        "zone": "South Mumbai"
+      },
+      "observed_at": "2026-11-07T02:00",
+      "severity": "normal",
+      "source": "open_meteo_forecast_hourly",
+      "type": "hourly_rainfall",
+      "value": {
+        "rain_mm": 0.0,
+        "weather_code": 0,
+        "wind_speed_10m_kmh": 10.7
+      }
+    },
+    {
+      "confidence": "medium",
+      "location": {
+        "latitude": 19.1176,
+        "longitude": 72.906,
+        "name": "Powai",
+        "zone": "Eastern Suburbs"
+      },
+      "observed_at": "2026-11-07T02:00",
+      "severity": "normal",
+      "source": "open_meteo_forecast_hourly",
+      "type": "hourly_rainfall",
+      "value": {
+        "rain_mm": 0.0,
+        "weather_code": 0,
+        "wind_speed_10m_kmh": 5.8
+      }
+    },
+    {
+      "confidence": "medium",
+      "location": {
+        "latitude": 19.0896,
+        "longitude": 72.8656,
+        "name": "Santacruz",
+        "zone": "Western Suburbs"
+      },
+      "observed_at": "2026-11-07T02:00",
+      "severity": "normal",
+      "source": "open_meteo_forecast_hourly",
+      "type": "hourly_rainfall",
+      "value": {
+        "rain_mm": 0.0,
+        "weather_code": 0,
+        "wind_speed_10m_kmh": 8.1
+      }
+    },
+    {
+      "confidence": "medium",
+      "location": {
+        "latitude": 18.9067,
+        "longitude": 72.8147,
+        "name": "Colaba",
+        "zone": "South Mumbai"
+      },
+      "observed_at": "2026-11-07T03:00",
+      "severity": "normal",
+      "source": "open_meteo_forecast_hourly",
+      "type": "hourly_rainfall",
+      "value": {
+        "rain_mm": 0.0,
+        "weather_code": 0,
+        "wind_speed_10m_kmh": 10.8
+      }
+    },
+    {
+      "confidence": "medium",
+      "location": {
+        "latitude": 19.1176,
+        "longitude": 72.906,
+        "name": "Powai",
+        "zone": "Eastern Suburbs"
+      },
+      "observed_at": "2026-11-07T03:00",
+      "severity": "normal",
+      "source": "open_meteo_forecast_hourly",
+      "type": "hourly_rainfall",
+      "value": {
+        "rain_mm": 0.0,
+        "weather_code": 0,
+        "wind_speed_10m_kmh": 6.6
+      }
+    },
+    {
+      "confidence": "medium",
+      "location": {
+        "latitude": 19.0896,
+        "longitude": 72.8656,
+        "name": "Santacruz",
+        "zone": "Western Suburbs"
+      },
+      "observed_at": "2026-11-07T03:00",
+      "severity": "normal",
+      "source": "open_meteo_forecast_hourly",
+      "type": "hourly_rainfall",
+      "value": {
+        "rain_mm": 0.0,
+        "weather_code": 0,
+        "wind_speed_10m_kmh": 7.9
+      }
+    },
+    {
+      "confidence": "medium",
+      "location": {
+        "latitude": 18.9067,
+        "longitude": 72.8147,
+        "name": "Colaba",
+        "zone": "South Mumbai"
+      },
+      "observed_at": "2026-11-07T04:00",
+      "severity": "normal",
+      "source": "open_meteo_forecast_hourly",
+      "type": "hourly_rainfall",
+      "value": {
+        "rain_mm": 0.0,
+        "weather_code": 0,
+        "wind_speed_10m_kmh": 11.1
+      }
+    },
+    {
+      "confidence": "medium",
+      "location": {
+        "latitude": 19.1176,
+        "longitude": 72.906,
+        "name": "Powai",
+        "zone": "Eastern Suburbs"
+      },
+      "observed_at": "2026-11-07T04:00",
+      "severity": "normal",
+      "source": "open_meteo_forecast_hourly",
+      "type": "hourly_rainfall",
+      "value": {
+        "rain_mm": 0.0,
+        "weather_code": 0,
+        "wind_speed_10m_kmh": 7.5
+      }
+    },
+    {
+      "confidence": "medium",
+      "location": {
+        "latitude": 19.0896,
+        "longitude": 72.8656,
+        "name": "Santacruz",
+        "zone": "Western Suburbs"
+      },
+      "observed_at": "2026-11-07T04:00",
+      "severity": "normal",
+      "source": "open_meteo_forecast_hourly",
+      "type": "hourly_rainfall",
+      "value": {
+        "rain_mm": 0.0,
+        "weather_code": 0,
+        "wind_speed_10m_kmh": 7.8
+      }
+    },
+    {
+      "confidence": "medium",
+      "location": {
+        "latitude": 18.9067,
+        "longitude": 72.8147,
+        "name": "Colaba",
+        "zone": "South Mumbai"
+      },
+      "observed_at": "2026-11-07T05:00",
+      "severity": "normal",
+      "source": "open_meteo_forecast_hourly",
+      "type": "hourly_rainfall",
+      "value": {
+        "rain_mm": 0.0,
+        "weather_code": 0,
+        "wind_speed_10m_kmh": 11.4
+      }
+    },
+    {
+      "confidence": "medium",
+      "location": {
+        "latitude": 19.1176,
+        "longitude": 72.906,
+        "name": "Powai",
+        "zone": "Eastern Suburbs"
+      },
+      "observed_at": "2026-11-07T05:00",
+      "severity": "normal",
+      "source": "open_meteo_forecast_hourly",
+      "type": "hourly_rainfall",
+      "value": {
+        "rain_mm": 0.0,
+        "weather_code": 0,
+        "wind_speed_10m_kmh": 8.0
+      }
+    },
+    {
+      "confidence": "medium",
+      "location": {
+        "latitude": 19.0896,
+        "longitude": 72.8656,
+        "name": "Santacruz",
+        "zone": "Western Suburbs"
+      },
+      "observed_at": "2026-11-07T05:00",
+      "severity": "normal",
+      "source": "open_meteo_forecast_hourly",
+      "type": "hourly_rainfall",
+      "value": {
+        "rain_mm": 0.0,
+        "weather_code": 0,
+        "wind_speed_10m_kmh": 7.9
+      }
+    },
+    {
+      "confidence": "medium",
+      "location": {
+        "latitude": 18.9067,
+        "longitude": 72.8147,
+        "name": "Colaba",
+        "zone": "South Mumbai"
+      },
+      "observed_at": "2026-11-07T06:00",
+      "severity": "normal",
+      "source": "open_meteo_forecast_hourly",
+      "type": "hourly_rainfall",
+      "value": {
+        "rain_mm": 0.0,
+        "weather_code": 0,
+        "wind_speed_10m_kmh": 12.2
+      }
+    },
+    {
+      "confidence": "medium",
+      "location": {
+        "latitude": 19.1176,
+        "longitude": 72.906,
+        "name": "Powai",
+        "zone": "Eastern Suburbs"
+      },
+      "observed_at": "2026-11-07T06:00",
+      "severity": "normal",
+      "source": "open_meteo_forecast_hourly",
+      "type": "hourly_rainfall",
+      "value": {
+        "rain_mm": 0.0,
+        "weather_code": 0,
+        "wind_speed_10m_kmh": 8.4
+      }
+    },
+    {
+      "confidence": "medium",
+      "location": {
+        "latitude": 19.0896,
+        "longitude": 72.8656,
+        "name": "Santacruz",
+        "zone": "Western Suburbs"
+      },
+      "observed_at": "2026-11-07T06:00",
+      "severity": "normal",
+      "source": "open_meteo_forecast_hourly",
+      "type": "hourly_rainfall",
+      "value": {
+        "rain_mm": 0.0,
+        "weather_code": 0,
+        "wind_speed_10m_kmh": 7.8
+      }
+    },
+    {
+      "confidence": "medium",
+      "location": {
+        "latitude": 18.9067,
+        "longitude": 72.8147,
+        "name": "Colaba",
+        "zone": "South Mumbai"
+      },
+      "observed_at": "2026-11-07T07:00",
+      "severity": "normal",
+      "source": "open_meteo_forecast_hourly",
+      "type": "hourly_rainfall",
+      "value": {
+        "rain_mm": 0.0,
+        "weather_code": 0,
+        "wind_speed_10m_kmh": 13.5
+      }
+    },
+    {
+      "confidence": "medium",
+      "location": {
+        "latitude": 19.1176,
+        "longitude": 72.906,
+        "name": "Powai",
+        "zone": "Eastern Suburbs"
+      },
+      "observed_at": "2026-11-07T07:00",
+      "severity": "normal",
+      "source": "open_meteo_forecast_hourly",
+      "type": "hourly_rainfall",
+      "value": {
+        "rain_mm": 0.0,
+        "weather_code": 0,
+        "wind_speed_10m_kmh": 8.8
+      }
+    },
+    {
+      "confidence": "medium",
+      "location": {
+        "latitude": 19.0896,
+        "longitude": 72.8656,
+        "name": "Santacruz",
+        "zone": "Western Suburbs"
+      },
+      "observed_at": "2026-11-07T07:00",
+      "severity": "normal",
+      "source": "open_meteo_forecast_hourly",
+      "type": "hourly_rainfall",
+      "value": {
+        "rain_mm": 0.0,
+        "weather_code": 0,
+        "wind_speed_10m_kmh": 7.6
+      }
+    },
+    {
+      "confidence": "medium",
+      "location": {
+        "latitude": 18.9067,
+        "longitude": 72.8147,
+        "name": "Colaba",
+        "zone": "South Mumbai"
+      },
+      "observed_at": "2026-11-07T08:00",
+      "severity": "normal",
+      "source": "open_meteo_forecast_hourly",
+      "type": "hourly_rainfall",
+      "value": {
+        "rain_mm": 0.0,
+        "weather_code": 0,
+        "wind_speed_10m_kmh": 15.0
+      }
+    },
+    {
+      "confidence": "medium",
+      "location": {
+        "latitude": 19.1176,
+        "longitude": 72.906,
+        "name": "Powai",
+        "zone": "Eastern Suburbs"
+      },
+      "observed_at": "2026-11-07T08:00",
+      "severity": "normal",
+      "source": "open_meteo_forecast_hourly",
+      "type": "hourly_rainfall",
+      "value": {
+        "rain_mm": 0.0,
+        "weather_code": 0,
+        "wind_speed_10m_kmh": 9.1
+      }
+    },
+    {
+      "confidence": "medium",
+      "location": {
+        "latitude": 19.0896,
+        "longitude": 72.8656,
+        "name": "Santacruz",
+        "zone": "Western Suburbs"
+      },
+      "observed_at": "2026-11-07T08:00",
+      "severity": "normal",
+      "source": "open_meteo_forecast_hourly",
+      "type": "hourly_rainfall",
+      "value": {
+        "rain_mm": 0.0,
+        "weather_code": 0,
+        "wind_speed_10m_kmh": 7.3
+      }
+    },
+    {
+      "confidence": "medium",
+      "location": {
+        "latitude": 18.9067,
+        "longitude": 72.8147,
+        "name": "Colaba",
+        "zone": "South Mumbai"
+      },
+      "observed_at": "2026-11-07T09:00",
+      "severity": "normal",
+      "source": "open_meteo_forecast_hourly",
+      "type": "hourly_rainfall",
+      "value": {
+        "rain_mm": 0.0,
+        "weather_code": 0,
+        "wind_speed_10m_kmh": 15.9
+      }
+    },
+    {
+      "confidence": "medium",
+      "location": {
+        "latitude": 19.1176,
+        "longitude": 72.906,
+        "name": "Powai",
+        "zone": "Eastern Suburbs"
+      },
+      "observed_at": "2026-11-07T09:00",
+      "severity": "normal",
+      "source": "open_meteo_forecast_hourly",
+      "type": "hourly_rainfall",
+      "value": {
+        "rain_mm": 0.0,
+        "weather_code": 0,
+        "wind_speed_10m_kmh": 9.1
+      }
+    },
+    {
+      "confidence": "medium",
+      "location": {
+        "latitude": 19.0896,
+        "longitude": 72.8656,
+        "name": "Santacruz",
+        "zone": "Western Suburbs"
+      },
+      "observed_at": "2026-11-07T09:00",
+      "severity": "normal",
+      "source": "open_meteo_forecast_hourly",
+      "type": "hourly_rainfall",
+      "value": {
+        "rain_mm": 0.0,
+        "weather_code": 0,
+        "wind_speed_10m_kmh": 6.8
+      }
+    },
+    {
+      "confidence": "medium",
+      "location": {
+        "latitude": 18.9067,
+        "longitude": 72.8147,
+        "name": "Colaba",
+        "zone": "South Mumbai"
+      },
+      "observed_at": "2026-11-07T10:00",
+      "severity": "normal",
+      "source": "open_meteo_forecast_hourly",
+      "type": "hourly_rainfall",
+      "value": {
+        "rain_mm": 0.0,
+        "weather_code": 0,
+        "wind_speed_10m_kmh": 16.2
+      }
+    },
+    {
+      "confidence": "medium",
+      "location": {
+        "latitude": 19.1176,
+        "longitude": 72.906,
+        "name": "Powai",
+        "zone": "Eastern Suburbs"
+      },
+      "observed_at": "2026-11-07T10:00",
+      "severity": "normal",
+      "source": "open_meteo_forecast_hourly",
+      "type": "hourly_rainfall",
+      "value": {
+        "rain_mm": 0.0,
+        "weather_code": 0,
+        "wind_speed_10m_kmh": 8.9
+      }
+    },
+    {
+      "confidence": "medium",
+      "location": {
+        "latitude": 19.0896,
+        "longitude": 72.8656,
+        "name": "Santacruz",
+        "zone": "Western Suburbs"
+      },
+      "observed_at": "2026-11-07T10:00",
+      "severity": "normal",
+      "source": "open_meteo_forecast_hourly",
+      "type": "hourly_rainfall",
+      "value": {
+        "rain_mm": 0.0,
+        "weather_code": 0,
+        "wind_speed_10m_kmh": 6.1
+      }
+    },
+    {
+      "confidence": "medium",
+      "location": {
+        "latitude": 18.9067,
+        "longitude": 72.8147,
+        "name": "Colaba",
+        "zone": "South Mumbai"
+      },
+      "observed_at": "2026-11-07T11:00",
+      "severity": "normal",
+      "source": "open_meteo_forecast_hourly",
+      "type": "hourly_rainfall",
+      "value": {
+        "rain_mm": 0.0,
+        "weather_code": 0,
+        "wind_speed_10m_kmh": 15.4
+      }
+    },
+    {
+      "confidence": "medium",
+      "location": {
+        "latitude": 19.1176,
+        "longitude": 72.906,
+        "name": "Powai",
+        "zone": "Eastern Suburbs"
+      },
+      "observed_at": "2026-11-07T11:00",
+      "severity": "normal",
+      "source": "open_meteo_forecast_hourly",
+      "type": "hourly_rainfall",
+      "value": {
+        "rain_mm": 0.0,
+        "weather_code": 0,
+        "wind_speed_10m_kmh": 8.2
+      }
+    },
+    {
+      "confidence": "medium",
+      "location": {
+        "latitude": 19.0896,
+        "longitude": 72.8656,
+        "name": "Santacruz",
+        "zone": "Western Suburbs"
+      },
+      "observed_at": "2026-11-07T11:00",
+      "severity": "normal",
+      "source": "open_meteo_forecast_hourly",
+      "type": "hourly_rainfall",
+      "value": {
+        "rain_mm": 0.0,
+        "weather_code": 0,
+        "wind_speed_10m_kmh": 4.9
+      }
+    },
+    {
+      "confidence": "medium",
+      "location": {
+        "latitude": 18.9067,
+        "longitude": 72.8147,
+        "name": "Colaba",
+        "zone": "South Mumbai"
+      },
+      "observed_at": "2026-11-07T12:00",
+      "severity": "normal",
+      "source": "open_meteo_forecast_hourly",
+      "type": "hourly_rainfall",
+      "value": {
+        "rain_mm": 0.0,
+        "weather_code": 0,
+        "wind_speed_10m_kmh": 12.5
+      }
+    },
+    {
+      "confidence": "medium",
+      "location": {
+        "latitude": 19.1176,
+        "longitude": 72.906,
+        "name": "Powai",
+        "zone": "Eastern Suburbs"
+      },
+      "observed_at": "2026-11-07T12:00",
+      "severity": "normal",
+      "source": "open_meteo_forecast_hourly",
+      "type": "hourly_rainfall",
+      "value": {
+        "rain_mm": 0.0,
+        "weather_code": 0,
+        "wind_speed_10m_kmh": 6.6
+      }
+    },
+    {
+      "confidence": "medium",
+      "location": {
+        "latitude": 19.0896,
+        "longitude": 72.8656,
+        "name": "Santacruz",
+        "zone": "Western Suburbs"
+      },
+      "observed_at": "2026-11-07T12:00",
+      "severity": "normal",
+      "source": "open_meteo_forecast_hourly",
+      "type": "hourly_rainfall",
+      "value": {
+        "rain_mm": 0.0,
+        "weather_code": 0,
+        "wind_speed_10m_kmh": 2.7
+      }
+    },
+    {
+      "confidence": "medium",
+      "location": {
+        "latitude": 18.9067,
+        "longitude": 72.8147,
+        "name": "Colaba",
+        "zone": "South Mumbai"
+      },
+      "observed_at": "2026-11-07T13:00",
+      "severity": "normal",
+      "source": "open_meteo_forecast_hourly",
+      "type": "hourly_rainfall",
+      "value": {
+        "rain_mm": 0.0,
+        "weather_code": 0,
+        "wind_speed_10m_kmh": 8.1
+      }
+    },
+    {
+      "confidence": "medium",
+      "location": {
+        "latitude": 19.1176,
+        "longitude": 72.906,
+        "name": "Powai",
+        "zone": "Eastern Suburbs"
+      },
+      "observed_at": "2026-11-07T13:00",
+      "severity": "normal",
+      "source": "open_meteo_forecast_hourly",
+      "type": "hourly_rainfall",
+      "value": {
+        "rain_mm": 0.0,
+        "weather_code": 0,
+        "wind_speed_10m_kmh": 4.6
+      }
+    },
+    {
+      "confidence": "medium",
+      "location": {
+        "latitude": 19.0896,
+        "longitude": 72.8656,
+        "name": "Santacruz",
+        "zone": "Western Suburbs"
+      },
+      "observed_at": "2026-11-07T13:00",
+      "severity": "normal",
+      "source": "open_meteo_forecast_hourly",
+      "type": "hourly_rainfall",
+      "value": {
+        "rain_mm": 0.0,
+        "weather_code": 0,
+        "wind_speed_10m_kmh": 1.5
+      }
+    },
+    {
+      "confidence": "medium",
+      "location": {
+        "latitude": 18.9067,
+        "longitude": 72.8147,
+        "name": "Colaba",
+        "zone": "South Mumbai"
+      },
+      "observed_at": "2026-11-07T14:00",
+      "severity": "normal",
+      "source": "open_meteo_forecast_hourly",
+      "type": "hourly_rainfall",
+      "value": {
+        "rain_mm": 0.0,
+        "weather_code": 0,
+        "wind_speed_10m_kmh": 5.9
+      }
+    },
+    {
+      "confidence": "medium",
+      "location": {
+        "latitude": 19.1176,
+        "longitude": 72.906,
+        "name": "Powai",
+        "zone": "Eastern Suburbs"
+      },
+      "observed_at": "2026-11-07T14:00",
+      "severity": "normal",
+      "source": "open_meteo_forecast_hourly",
+      "type": "hourly_rainfall",
+      "value": {
+        "rain_mm": 0.0,
+        "weather_code": 0,
+        "wind_speed_10m_kmh": 3.6
+      }
+    },
+    {
+      "confidence": "medium",
+      "location": {
+        "latitude": 19.0896,
+        "longitude": 72.8656,
+        "name": "Santacruz",
+        "zone": "Western Suburbs"
+      },
+      "observed_at": "2026-11-07T14:00",
+      "severity": "normal",
+      "source": "open_meteo_forecast_hourly",
+      "type": "hourly_rainfall",
+      "value": {
+        "rain_mm": 0.0,
+        "weather_code": 0,
+        "wind_speed_10m_kmh": 5.0
+      }
+    },
+    {
+      "confidence": "medium",
+      "location": {
+        "latitude": 18.9067,
+        "longitude": 72.8147,
+        "name": "Colaba",
+        "zone": "South Mumbai"
+      },
+      "observed_at": "2026-11-07T15:00",
+      "severity": "normal",
+      "source": "open_meteo_forecast_hourly",
+      "type": "hourly_rainfall",
+      "value": {
+        "rain_mm": 0.0,
+        "weather_code": 0,
+        "wind_speed_10m_kmh": 8.8
+      }
+    },
+    {
+      "confidence": "medium",
+      "location": {
+        "latitude": 19.1176,
+        "longitude": 72.906,
+        "name": "Powai",
+        "zone": "Eastern Suburbs"
+      },
+      "observed_at": "2026-11-07T15:00",
+      "severity": "normal",
+      "source": "open_meteo_forecast_hourly",
+      "type": "hourly_rainfall",
+      "value": {
+        "rain_mm": 0.0,
+        "weather_code": 0,
+        "wind_speed_10m_kmh": 4.8
+      }
+    },
+    {
+      "confidence": "medium",
+      "location": {
+        "latitude": 19.0896,
+        "longitude": 72.8656,
+        "name": "Santacruz",
+        "zone": "Western Suburbs"
+      },
+      "observed_at": "2026-11-07T15:00",
+      "severity": "normal",
+      "source": "open_meteo_forecast_hourly",
+      "type": "hourly_rainfall",
+      "value": {
+        "rain_mm": 0.0,
+        "weather_code": 0,
+        "wind_speed_10m_kmh": 8.5
+      }
+    },
+    {
+      "confidence": "medium",
+      "location": {
+        "latitude": 18.9067,
+        "longitude": 72.8147,
+        "name": "Colaba",
+        "zone": "South Mumbai"
+      },
+      "observed_at": "2026-11-07T16:00",
+      "severity": "normal",
+      "source": "open_meteo_forecast_hourly",
+      "type": "hourly_rainfall",
+      "value": {
+        "rain_mm": 0.0,
+        "weather_code": 0,
+        "wind_speed_10m_kmh": 12.9
+      }
+    },
+    {
+      "confidence": "medium",
+      "location": {
+        "latitude": 19.1176,
+        "longitude": 72.906,
+        "name": "Powai",
+        "zone": "Eastern Suburbs"
+      },
+      "observed_at": "2026-11-07T16:00",
+      "severity": "normal",
+      "source": "open_meteo_forecast_hourly",
+      "type": "hourly_rainfall",
+      "value": {
+        "rain_mm": 0.0,
+        "weather_code": 0,
+        "wind_speed_10m_kmh": 6.6
+      }
+    },
+    {
+      "confidence": "medium",
+      "location": {
+        "latitude": 19.0896,
+        "longitude": 72.8656,
+        "name": "Santacruz",
+        "zone": "Western Suburbs"
+      },
+      "observed_at": "2026-11-07T16:00",
+      "severity": "normal",
+      "source": "open_meteo_forecast_hourly",
+      "type": "hourly_rainfall",
+      "value": {
+        "rain_mm": 0.0,
+        "weather_code": 0,
+        "wind_speed_10m_kmh": 11.3
+      }
+    },
+    {
+      "confidence": "medium",
+      "location": {
+        "latitude": 18.9067,
+        "longitude": 72.8147,
+        "name": "Colaba",
+        "zone": "South Mumbai"
+      },
+      "observed_at": "2026-11-07T17:00",
+      "severity": "normal",
+      "source": "open_meteo_forecast_hourly",
+      "type": "hourly_rainfall",
+      "value": {
+        "rain_mm": 0.0,
+        "weather_code": 0,
+        "wind_speed_10m_kmh": 15.2
+      }
+    },
+    {
+      "confidence": "medium",
+      "location": {
+        "latitude": 19.1176,
+        "longitude": 72.906,
+        "name": "Powai",
+        "zone": "Eastern Suburbs"
+      },
+      "observed_at": "2026-11-07T17:00",
+      "severity": "normal",
+      "source": "open_meteo_forecast_hourly",
+      "type": "hourly_rainfall",
+      "value": {
+        "rain_mm": 0.0,
+        "weather_code": 0,
+        "wind_speed_10m_kmh": 7.5
+      }
+    },
+    {
+      "confidence": "medium",
+      "location": {
+        "latitude": 19.0896,
+        "longitude": 72.8656,
+        "name": "Santacruz",
+        "zone": "Western Suburbs"
+      },
+      "observed_at": "2026-11-07T17:00",
+      "severity": "normal",
+      "source": "open_meteo_forecast_hourly",
+      "type": "hourly_rainfall",
+      "value": {
+        "rain_mm": 0.0,
+        "weather_code": 0,
+        "wind_speed_10m_kmh": 12.6
+      }
+    },
+    {
+      "confidence": "medium",
+      "location": {
+        "latitude": 18.9067,
+        "longitude": 72.8147,
+        "name": "Colaba",
+        "zone": "South Mumbai"
+      },
+      "observed_at": "2026-11-07T18:00",
+      "severity": "normal",
+      "source": "open_meteo_forecast_hourly",
+      "type": "hourly_rainfall",
+      "value": {
+        "rain_mm": 0.0,
+        "weather_code": 0,
+        "wind_speed_10m_kmh": 15.0
+      }
+    },
+    {
+      "confidence": "medium",
+      "location": {
+        "latitude": 19.1176,
+        "longitude": 72.906,
+        "name": "Powai",
+        "zone": "Eastern Suburbs"
+      },
+      "observed_at": "2026-11-07T18:00",
+      "severity": "normal",
+      "source": "open_meteo_forecast_hourly",
+      "type": "hourly_rainfall",
+      "value": {
+        "rain_mm": 0.0,
+        "weather_code": 0,
+        "wind_speed_10m_kmh": 7.1
+      }
+    },
+    {
+      "confidence": "medium",
+      "location": {
+        "latitude": 19.0896,
+        "longitude": 72.8656,
+        "name": "Santacruz",
+        "zone": "Western Suburbs"
+      },
+      "observed_at": "2026-11-07T18:00",
+      "severity": "normal",
+      "source": "open_meteo_forecast_hourly",
+      "type": "hourly_rainfall",
+      "value": {
+        "rain_mm": 0.0,
+        "weather_code": 0,
+        "wind_speed_10m_kmh": 12.1
+      }
+    },
+    {
+      "confidence": "medium",
+      "location": {
+        "latitude": 18.9067,
+        "longitude": 72.8147,
+        "name": "Colaba",
+        "zone": "South Mumbai"
+      },
+      "observed_at": "2026-11-07T19:00",
+      "severity": "normal",
+      "source": "open_meteo_forecast_hourly",
+      "type": "hourly_rainfall",
+      "value": {
+        "rain_mm": 0.0,
+        "weather_code": 0,
+        "wind_speed_10m_kmh": 13.2
+      }
+    },
+    {
+      "confidence": "medium",
+      "location": {
+        "latitude": 19.1176,
+        "longitude": 72.906,
+        "name": "Powai",
+        "zone": "Eastern Suburbs"
+      },
+      "observed_at": "2026-11-07T19:00",
+      "severity": "normal",
+      "source": "open_meteo_forecast_hourly",
+      "type": "hourly_rainfall",
+      "value": {
+        "rain_mm": 0.0,
+        "weather_code": 0,
+        "wind_speed_10m_kmh": 5.8
+      }
+    },
+    {
+      "confidence": "medium",
+      "location": {
+        "latitude": 19.0896,
+        "longitude": 72.8656,
+        "name": "Santacruz",
+        "zone": "Western Suburbs"
+      },
+      "observed_at": "2026-11-07T19:00",
+      "severity": "normal",
+      "source": "open_meteo_forecast_hourly",
+      "type": "hourly_rainfall",
+      "value": {
+        "rain_mm": 0.0,
+        "weather_code": 0,
+        "wind_speed_10m_kmh": 10.3
+      }
+    },
+    {
+      "confidence": "medium",
+      "location": {
+        "latitude": 18.9067,
+        "longitude": 72.8147,
+        "name": "Colaba",
+        "zone": "South Mumbai"
+      },
+      "observed_at": "2026-11-07T20:00",
+      "severity": "normal",
+      "source": "open_meteo_forecast_hourly",
+      "type": "hourly_rainfall",
+      "value": {
+        "rain_mm": 0.0,
+        "weather_code": 0,
+        "wind_speed_10m_kmh": 11.0
+      }
+    },
+    {
+      "confidence": "medium",
+      "location": {
+        "latitude": 19.1176,
+        "longitude": 72.906,
+        "name": "Powai",
+        "zone": "Eastern Suburbs"
+      },
+      "observed_at": "2026-11-07T20:00",
+      "severity": "normal",
+      "source": "open_meteo_forecast_hourly",
+      "type": "hourly_rainfall",
+      "value": {
+        "rain_mm": 0.0,
+        "weather_code": 0,
+        "wind_speed_10m_kmh": 3.9
+      }
+    },
+    {
+      "confidence": "medium",
+      "location": {
+        "latitude": 19.0896,
+        "longitude": 72.8656,
+        "name": "Santacruz",
+        "zone": "Western Suburbs"
+      },
+      "observed_at": "2026-11-07T20:00",
+      "severity": "normal",
+      "source": "open_meteo_forecast_hourly",
+      "type": "hourly_rainfall",
+      "value": {
+        "rain_mm": 0.0,
+        "weather_code": 0,
+        "wind_speed_10m_kmh": 7.6
+      }
+    },
+    {
+      "confidence": "medium",
+      "location": {
+        "latitude": 18.9067,
+        "longitude": 72.8147,
+        "name": "Colaba",
+        "zone": "South Mumbai"
+      },
+      "observed_at": "2026-11-07T21:00",
+      "severity": "normal",
+      "source": "open_meteo_forecast_hourly",
+      "type": "hourly_rainfall",
+      "value": {
+        "rain_mm": 0.0,
+        "weather_code": 0,
+        "wind_speed_10m_kmh": 9.7
+      }
+    },
+    {
+      "confidence": "medium",
+      "location": {
+        "latitude": 19.1176,
+        "longitude": 72.906,
+        "name": "Powai",
+        "zone": "Eastern Suburbs"
+      },
+      "observed_at": "2026-11-07T21:00",
+      "severity": "normal",
+      "source": "open_meteo_forecast_hourly",
+      "type": "hourly_rainfall",
+      "value": {
+        "rain_mm": 0.0,
+        "weather_code": 0,
+        "wind_speed_10m_kmh": 2.5
+      }
+    },
+    {
+      "confidence": "medium",
+      "location": {
+        "latitude": 19.0896,
+        "longitude": 72.8656,
+        "name": "Santacruz",
+        "zone": "Western Suburbs"
+      },
+      "observed_at": "2026-11-07T21:00",
+      "severity": "normal",
+      "source": "open_meteo_forecast_hourly",
+      "type": "hourly_rainfall",
+      "value": {
+        "rain_mm": 0.0,
+        "weather_code": 0,
+        "wind_speed_10m_kmh": 5.2
+      }
+    },
+    {
+      "confidence": "medium",
+      "location": {
+        "latitude": 18.9067,
+        "longitude": 72.8147,
+        "name": "Colaba",
+        "zone": "South Mumbai"
+      },
+      "observed_at": "2026-11-07T22:00",
+      "severity": "normal",
+      "source": "open_meteo_forecast_hourly",
+      "type": "hourly_rainfall",
+      "value": {
+        "rain_mm": 0.0,
+        "weather_code": 0,
+        "wind_speed_10m_kmh": 10.0
+      }
+    },
+    {
+      "confidence": "medium",
+      "location": {
+        "latitude": 19.1176,
+        "longitude": 72.906,
+        "name": "Powai",
+        "zone": "Eastern Suburbs"
+      },
+      "observed_at": "2026-11-07T22:00",
+      "severity": "normal",
+      "source": "open_meteo_forecast_hourly",
+      "type": "hourly_rainfall",
+      "value": {
+        "rain_mm": 0.0,
+        "weather_code": 0,
+        "wind_speed_10m_kmh": 2.7
+      }
+    },
+    {
+      "confidence": "medium",
+      "location": {
+        "latitude": 19.0896,
+        "longitude": 72.8656,
+        "name": "Santacruz",
+        "zone": "Western Suburbs"
+      },
+      "observed_at": "2026-11-07T22:00",
+      "severity": "normal",
+      "source": "open_meteo_forecast_hourly",
+      "type": "hourly_rainfall",
+      "value": {
+        "rain_mm": 0.0,
+        "weather_code": 0,
+        "wind_speed_10m_kmh": 3.8
+      }
+    },
+    {
+      "confidence": "medium",
+      "location": {
+        "latitude": 18.9067,
+        "longitude": 72.8147,
+        "name": "Colaba",
+        "zone": "South Mumbai"
+      },
+      "observed_at": "2026-11-07T23:00",
+      "severity": "normal",
+      "source": "open_meteo_forecast_hourly",
+      "type": "hourly_rainfall",
+      "value": {
+        "rain_mm": 0.0,
+        "weather_code": 0,
+        "wind_speed_10m_kmh": 11.0
+      }
+    },
+    {
+      "confidence": "medium",
+      "location": {
+        "latitude": 19.1176,
+        "longitude": 72.906,
+        "name": "Powai",
+        "zone": "Eastern Suburbs"
+      },
+      "observed_at": "2026-11-07T23:00",
+      "severity": "normal",
+      "source": "open_meteo_forecast_hourly",
+      "type": "hourly_rainfall",
+      "value": {
+        "rain_mm": 0.0,
+        "weather_code": 0,
+        "wind_speed_10m_kmh": 3.6
+      }
+    },
+    {
+      "confidence": "medium",
+      "location": {
+        "latitude": 19.0896,
+        "longitude": 72.8656,
+        "name": "Santacruz",
+        "zone": "Western Suburbs"
+      },
+      "observed_at": "2026-11-07T23:00",
+      "severity": "normal",
+      "source": "open_meteo_forecast_hourly",
+      "type": "hourly_rainfall",
+      "value": {
+        "rain_mm": 0.0,
+        "weather_code": 0,
+        "wind_speed_10m_kmh": 4.1
+      }
     }
   ],
   "nowcast": [
@@ -12248,18 +12248,18 @@
         "name": "Colaba",
         "zone": "South Mumbai"
       },
-      "observed_at": "2026-10-31T20:00",
-      "severity": "watch",
+      "observed_at": "2026-11-01T01:30",
+      "severity": "normal",
       "source": "open_meteo_forecast_hourly",
       "type": "rain_nowcast",
       "value": {
-        "current_hour_mm": 1.9,
-        "intensity_equivalent_mm": 45.6,
-        "recent_12h_mm": 2.0,
-        "recent_3h_mm": 1.9,
-        "recent_6h_mm": 2.0,
-        "weather_code": 95,
-        "wind_speed_10m_kmh": 4.4
+        "current_hour_mm": 0.0,
+        "intensity_equivalent_mm": 10.4,
+        "recent_12h_mm": 2.7,
+        "recent_3h_mm": 0.0,
+        "recent_6h_mm": 2.6,
+        "weather_code": 1,
+        "wind_speed_10m_kmh": 7.6
       }
     },
     {
@@ -12270,18 +12270,18 @@
         "name": "Santacruz",
         "zone": "Western Suburbs"
       },
-      "observed_at": "2026-10-31T20:00",
+      "observed_at": "2026-11-01T01:30",
       "severity": "normal",
       "source": "open_meteo_forecast_hourly",
       "type": "rain_nowcast",
       "value": {
         "current_hour_mm": 0.0,
-        "intensity_equivalent_mm": 0.0,
-        "recent_12h_mm": 0.0,
+        "intensity_equivalent_mm": 0.4,
+        "recent_12h_mm": 0.1,
         "recent_3h_mm": 0.0,
-        "recent_6h_mm": 0.0,
+        "recent_6h_mm": 0.1,
         "weather_code": 1,
-        "wind_speed_10m_kmh": 8.7
+        "wind_speed_10m_kmh": 2.6
       }
     },
     {
@@ -12292,7 +12292,7 @@
         "name": "Powai",
         "zone": "Eastern Suburbs"
       },
-      "observed_at": "2026-10-31T20:00",
+      "observed_at": "2026-11-01T01:30",
       "severity": "normal",
       "source": "open_meteo_forecast_hourly",
       "type": "rain_nowcast",
@@ -12302,8 +12302,8 @@
         "recent_12h_mm": 0.0,
         "recent_3h_mm": 0.0,
         "recent_6h_mm": 0.0,
-        "weather_code": 2,
-        "wind_speed_10m_kmh": 3.8
+        "weather_code": 3,
+        "wind_speed_10m_kmh": 2.1
       }
     }
   ]
