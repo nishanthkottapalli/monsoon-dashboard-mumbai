@@ -2320,15 +2320,8 @@
     "tide": {
       "confidence": "low",
       "disclaimer": "Approximate non-official tide signal. Use official BMC/Mumbai Port tide tables for safety-critical decisions.",
-      "generated_at": "2026-11-23T06:26:41.102523+05:30",
+      "generated_at": "2026-11-23T20:15:04.969112+05:30",
       "high_tide_windows": [
-        {
-          "confidence": "low",
-          "risk_window_end": "2026-11-23T09:05:00+05:30",
-          "risk_window_start": "2026-11-23T05:05:00+05:30",
-          "source_type": "computed_estimate",
-          "time": "2026-11-23T07:05:00+05:30"
-        },
         {
           "confidence": "low",
           "risk_window_end": "2026-11-23T21:30:00+05:30",
@@ -2342,6 +2335,20 @@
           "risk_window_start": "2026-11-24T05:55:00+05:30",
           "source_type": "computed_estimate",
           "time": "2026-11-24T07:55:00+05:30"
+        },
+        {
+          "confidence": "low",
+          "risk_window_end": "2026-11-24T22:20:00+05:30",
+          "risk_window_start": "2026-11-24T18:20:00+05:30",
+          "source_type": "computed_estimate",
+          "time": "2026-11-24T20:20:00+05:30"
+        },
+        {
+          "confidence": "low",
+          "risk_window_end": "2026-11-25T10:45:00+05:30",
+          "risk_window_start": "2026-11-25T06:45:00+05:30",
+          "source_type": "computed_estimate",
+          "time": "2026-11-25T08:45:00+05:30"
         }
       ],
       "source": "computed_semidiurnal_tide_estimate",
@@ -2349,7 +2356,7 @@
     }
   },
   "disclaimer": "Experimental public-information dashboard. Not an official emergency, disaster-management, weather, traffic, railway or airport system.",
-  "generated_at": "2026-11-23T06:26:41.294104+05:30",
+  "generated_at": "2026-11-23T20:15:05.082635+05:30",
   "monsoon_start_date": "2026-06-02",
   "project": "mumbai-monsoon-dashboard",
   "schema_version": "1.0.0",
